@@ -1,0 +1,36 @@
+
+
+body {
+    background: #e6e6e6;
+    font-family: sans-serif;
+}
+
+$cell_height: 40px;
+
+.calendar {
+    overflow: auto;
+    border: 1px solid #dadada;
+    background: white;
+
+    .calendar_scrolling {
+        height: 200px;
+    }
+
+    .calendar_row {
+        position: relative;
+        height: $cell_height;
+        border-bottom: 1px solid black;
+    }
+
+    .jam_cell {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: red;
+        color: white;
+        line-height: $cell_height;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+}
+
