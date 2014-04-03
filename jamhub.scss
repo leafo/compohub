@@ -1,4 +1,10 @@
 
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    transition: $args;
+}
 
 body {
     background: #e6e6e6;
@@ -32,13 +38,37 @@ body {
 
 $cell_height: 40px;
 
-.calendar {
+.jam_browser {
     margin: 0 20px;
-    overflow: auto;
-    background: white;
+}
+
+.scrollbar_outer {
+    position: relative;
+    height: 10px;
+    margin-top: 6px;
+
+    .scrollbar {
+        position: absolute;
+        background: #B8B8B8;
+        top: 0;
+        bottom: 0;
+        border-radius: 24px;
+        opacity: 0;
+        @include transition(opacity 0.6s ease);
+
+        &.visible {
+            opacity: 1;
+        }
+    }
+}
+
+.calendar {
+    overflow: hidden;
 
     .calendar_scrolling {
-        height: 200px;
+        height: 250px;
+        position: relative;
+        background: white;
     }
 
     .calendar_row {
@@ -57,5 +87,55 @@ $cell_height: 40px;
         box-sizing: border-box;
         padding: 0 20px;
     }
+
+    .calendar_rows, .day_markers {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .day_markers {
+        z-index: 1;
+
+        .day_marker {
+            border-left: 1px solid #dadada;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+
+            .day_ordinal, .day_name {
+                text-align: center;
+                position: absolute;
+                left: 0;
+                right: 0;
+                height: 28px;
+                line-height: 28px;
+            }
+
+            .day_ordinal {
+                top: 0;
+                border-bottom: 1px solid #dadada;
+                color: #666;
+                font-weight: bold;
+            }
+
+            .day_name {
+                bottom: 0;
+                border-top: 1px solid #dadada;
+                font-size: 13px;
+                text-transform: uppercase;
+                color: #777;
+            }
+        }
+    }
+
+    .calendar_rows {
+        z-index: 2;
+        top: 30px;
+        bottom: 30px;
+    }
+
 }
 

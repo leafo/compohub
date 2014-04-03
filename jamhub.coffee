@@ -53,17 +53,44 @@ class J.Hub
   constructor: (el) ->
     window.hub = @
     @el = $ el
+
     $.get(@url).done (res) =>
       if typeof res == "string"
         res = JSON.parse(res)
 
       @render_jams(res)
+      @render_day_markers()
+
+      @setup_scrollbar()
       @scroll_to_date new Date()
+
+  setup_scrollbar: ->
+    scrollbar_outer = $("""
+    <div class="scrollbar_outer">
+      <div class="scrollbar"></div>
+    </div>
+    """).appendTo(@el)
+
+    @scrollbar = scrollbar_outer.find(".scrollbar")
+    setTimeout (=> @scrollbar.addClass "visible"), 0
+
+    update_scroll = =>
+      left = @calendar.scrollLeft()
+      width = @calendar.width()
+      inner_width = @scroller.width()
+
+      @scrollbar.css {
+        left: "#{Math.floor (left / inner_width) * width}px"
+        right: "#{Math.floor ((inner_width - (left + width)) / inner_width) * width}px"
+      }
+
+    @calendar.on "scroll", update_scroll
+    update_scroll()
 
   # centers on date
   scroll_to_date: (date) ->
-    @el.animate {
-      scrollLeft: @x_scale date - (@el.width() / 2 / @x_ratio())
+    @calendar.animate {
+      scrollLeft: @x_scale date - (@calendar.width() / 2 / @x_ratio())
     }, 600, "easeInOutQuad"
 
   # pixels per ms
@@ -82,8 +109,37 @@ class J.Hub
 
     jam.color
 
+  render_day_markers: ->
+    day_length = 1000 * 60 * 60 * 24
+
+    days_el = $("<div class='day_markers'></div>")
+      .appendTo(@scroller)
+
+    curr = +@start_date()
+    end = +@end_date()
+    while curr < end
+      date = moment curr
+      marker = $("""
+      <div class='day_marker'>
+        <div class='day_ordinal'>#{date.format "Do"}</div>
+        <div class='day_name'>#{date.format "ddd"}</div>
+      </div>
+      """)
+        .css({
+          width: "#{@day_width}px"
+          left: "#{@x_scale curr}px"
+        })
+        .appendTo(days_el)
+
+      curr += day_length
+
   render_jams: (data) ->
-    @el.empty()
+    @calendar = @el.find(".calendar")
+    unless @calendar.length
+      @calendar = $("<div class='calendar'></div>").appendTo(@el)
+
+    @calendar.empty()
+
     jams = @find_visible_jams data
     stacked = @stack_jams jams
 
@@ -92,11 +148,14 @@ class J.Hub
 
     @scroller = $("<div class='calendar_scrolling'></div>")
       .width(outer_width)
-      .appendTo(@el)
+      .appendTo(@calendar)
+
+    rows_el = $("<div class='calendar_rows'></div>")
+      .appendTo(@scroller)
 
     for row in stacked
       row_el = $("<div class='calendar_row'></div>")
-        .appendTo(@scroller)
+        .appendTo(rows_el)
 
       for jam in row
         left = @x_scale jam.start_date()
