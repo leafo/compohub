@@ -1,32 +1,8 @@
 window.J = {}
 
-jams_data = {
-  one_off: [
-    {
-      name: "Leaf Jam"
-      start_date: "2014-04-02"
-      end_date: "2014-04-05"
-    }
-
-    {
-      name: "Another Leaf Jam"
-      start_date: "2014-04-03"
-      end_date: "2014-04-08"
-    }
-
-    {
-      name: "Cool Leaf Jam"
-      start_date: "2014-04-06"
-      end_date: "2014-04-09"
-    }
-
-    {
-      name: "Cool Jam"
-      start_date: "2013-04-02"
-      end_date: "2013-04-05"
-    }
-  ]
-}
+$.easing.easeInOutQuad = (x, t, b, c, d) ->
+  return c/2*t*t + b if ((t/=d/2) < 1)
+  return -c/2 * ((--t)*(t-2) - 1) + b
 
 parse_jam_timestamp = (timestamp) ->
   patterns = [
@@ -70,24 +46,45 @@ class Jam
     @_end_date
 
 class J.Hub
-  deafult_color: [0, 100, 100]
+  url: "jams.json"
+  default_color: [149, 52, 58]
   day_width: 100
 
   constructor: (el) ->
     window.hub = @
     @el = $ el
-    @render_jams()
-    @scroll_to_date new Date()
+    $.get(@url).done (res) =>
+      if typeof res == "string"
+        res = JSON.parse(res)
 
+      @render_jams(res)
+      @scroll_to_date new Date()
+
+  # centers on date
   scroll_to_date: (date) ->
-    @el.scrollLeft @x_scale date
+    @el.animate {
+      scrollLeft: @x_scale date - (@el.width() / 2 / @x_ratio())
+    }, 600, "easeInOutQuad"
 
+  # pixels per ms
+  x_ratio: ->
+    @scroller.width() / (@end_date() - @start_date())
+
+  # date to x coordiante
   x_scale: (date) ->
-    Math.floor (date - +@start_date()) / (@end_date() - @start_date()) * @scroller.width()
+    Math.floor (date - +@start_date()) * @x_ratio()
 
-  render_jams: ->
+  jam_color: (jam) ->
+    unless jam.color
+      @default_color[0] += 27
+      [h,s,l] = @default_color
+      jam.color = "hsl(#{h}, #{s}%, #{l}%)"
+
+    jam.color
+
+  render_jams: (data) ->
     @el.empty()
-    jams = @find_visible_jams jams_data
+    jams = @find_visible_jams data
     stacked = @stack_jams jams
 
     total_days = (@end_date() - @start_date()) / (1000 * 60 * 60 * 24)
@@ -105,14 +102,10 @@ class J.Hub
         left = @x_scale jam.start_date()
         width = @x_scale(jam.end_date()) - left
 
-        console.log jam.data.name, {
-          left: left
-          width: width
-        }
-
         jam_el = jam.render()
           .appendTo(row_el)
           .css({
+            backgroundColor: @jam_color(jam)
             left: "#{left}px"
             width: "#{width}px"
           })

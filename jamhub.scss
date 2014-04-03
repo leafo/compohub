@@ -2,14 +2,39 @@
 
 body {
     background: #e6e6e6;
-    font-family: sans-serif;
+    font-family: lato, sans-serif;
+    margin: 0;
+}
+
+.header {
+    height: 300px;
+    text-align: center;
+    background: #5DCC92;
+    margin-bottom: 20px;
+    color: white;
+    overflow: hidden;
+
+    h1 {
+        margin: 0;
+        margin-top: 100px;
+        font-weight: 200;
+        font-size: 80px;
+        line-height: 1.0;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 0.10em;
+    }
 }
 
 $cell_height: 40px;
 
 .calendar {
+    margin: 0 20px;
     overflow: auto;
-    border: 1px solid #dadada;
     background: white;
 
     .calendar_scrolling {
@@ -19,14 +44,14 @@ $cell_height: 40px;
     .calendar_row {
         position: relative;
         height: $cell_height;
-        border-bottom: 1px solid black;
+        margin: 3px 0;
     }
 
     .jam_cell {
         position: absolute;
         top: 0;
         bottom: 0;
-        background: red;
+        background: #A8A8A8;
         color: white;
         line-height: $cell_height;
         box-sizing: border-box;
