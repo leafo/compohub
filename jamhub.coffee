@@ -60,6 +60,7 @@ class J.Hub
 
       @render_jams(res)
       @render_day_markers()
+      @render_month_markers()
 
       @setup_scrollbar()
       @scroll_to_date new Date()
@@ -101,6 +102,9 @@ class J.Hub
   x_scale: (date) ->
     Math.floor (date - +@start_date()) * @x_ratio()
 
+  x_scale_truncated: (date) ->
+    Math.min @scroller.width(), Math.max 0, @x_scale(date)
+
   jam_color: (jam) ->
     unless jam.color
       @default_color[0] += 27
@@ -109,29 +113,59 @@ class J.Hub
 
     jam.color
 
+  render_month_markers: ->
+    markers = $("<div class='month_markers'></div>")
+      .appendTo(@scroller)
+
+    curr = moment(@start_date())
+      .date(1).hours(0).minutes(0).seconds(0).milliseconds(0)
+
+    end = +@end_date()
+    while +curr.toDate() < end
+      curr_end = curr.clone().add("month", 1)
+
+      left = @x_scale_truncated curr.toDate()
+      right = @x_scale_truncated curr_end.toDate()
+
+      marker = $("""
+        <div class="month_marker">#{curr.format("MMMM")}</div>
+      """)
+        .css({
+          left: "#{left}px"
+          width: "#{right - left}px"
+        })
+        .appendTo(markers)
+
+      curr = curr_end
+
   render_day_markers: ->
     day_length = 1000 * 60 * 60 * 24
 
-    days_el = $("<div class='day_markers'></div>")
+    markers = $("<div class='day_markers'></div>")
       .appendTo(@scroller)
 
-    curr = +@start_date()
+    curr = moment @start_date()
+
     end = +@end_date()
-    while curr < end
-      date = moment curr
+    while +curr.toDate() < end
+      curr_end = curr.clone().add("day", 1)
+
+      left = @x_scale_truncated curr.toDate()
+      right = @x_scale_truncated curr_end.toDate()
+
       marker = $("""
       <div class='day_marker'>
-        <div class='day_ordinal'>#{date.format "Do"}</div>
-        <div class='day_name'>#{date.format "ddd"}</div>
+        <div class='day_ordinal'>#{curr.format "Do"}</div>
+        <div class='day_name'>#{curr.format "ddd"}</div>
       </div>
       """)
         .css({
-          width: "#{@day_width}px"
-          left: "#{@x_scale curr}px"
+          width: "#{right - left}px"
+          left: "#{left}px"
         })
-        .appendTo(days_el)
+        .appendTo(markers)
 
-      curr += day_length
+      curr = curr_end
 
   render_jams: (data) ->
     @calendar = @el.find(".calendar")
@@ -206,7 +240,7 @@ class J.Hub
     rows
 
   _today: ->
-    moment().utc().hours(0).minutes(0).seconds(0).milliseconds(0)
+    moment().hours(0).minutes(0).seconds(0).milliseconds(0)
 
   start_date: ->
     @_today().subtract("month", 1).toDate()

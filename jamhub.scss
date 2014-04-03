@@ -1,4 +1,7 @@
 
+$cell_height: 40px;
+$label_height: 40px;
+
 @mixin transition($args...) {
     -webkit-transition: $args;
     -moz-transition: $args;
@@ -6,14 +9,26 @@
     transition: $args;
 }
 
+@mixin unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+@mixin border_box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
 body {
     background: #e6e6e6;
     font-family: lato, sans-serif;
     margin: 0;
+    color: #333;
 }
 
 .header {
-    height: 300px;
+    height: 200px;
     text-align: center;
     background: #5DCC92;
     margin-bottom: 20px;
@@ -22,7 +37,7 @@ body {
 
     h1 {
         margin: 0;
-        margin-top: 100px;
+        margin-top: 52px;
         font-weight: 200;
         font-size: 80px;
         line-height: 1.0;
@@ -36,7 +51,6 @@ body {
     }
 }
 
-$cell_height: 40px;
 
 .jam_browser {
     margin: 0 20px;
@@ -66,7 +80,7 @@ $cell_height: 40px;
     overflow: hidden;
 
     .calendar_scrolling {
-        height: 250px;
+        height: 280px;
         position: relative;
         background: white;
     }
@@ -78,13 +92,13 @@ $cell_height: 40px;
     }
 
     .jam_cell {
+        @include border_box;
         position: absolute;
         top: 0;
         bottom: 0;
         background: #A8A8A8;
         color: white;
         line-height: $cell_height;
-        box-sizing: border-box;
         padding: 0 20px;
     }
 
@@ -100,18 +114,19 @@ $cell_height: 40px;
         z-index: 1;
 
         .day_marker {
+            @include border_box;
             border-left: 1px solid #dadada;
             position: absolute;
-            top: 0;
+            top: $label_height;
             bottom: 0;
 
             .day_ordinal, .day_name {
-                text-align: center;
                 position: absolute;
                 left: 0;
                 right: 0;
-                height: 28px;
-                line-height: 28px;
+                height: $label_height;
+                line-height: $label_height;
+                padding-left: 20px;
             }
 
             .day_ordinal {
@@ -133,9 +148,29 @@ $cell_height: 40px;
 
     .calendar_rows {
         z-index: 2;
-        top: 30px;
+        top: $label_height * 2 + 2px;
         bottom: 30px;
     }
 
+    .month_markers {
+        height: 20px;
+        background: black;
+        position: relative;
+        z-index: 5;
+
+        .month_marker {
+            @include border_box;
+            background: #B8B8B8;
+            border-left: 1px solid darken(#B8B8B8, 10%);
+            color: #444;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            padding: 0 20px;
+            height: $label_height;
+            line-height: $label_height;
+        }
+    }
 }
 
