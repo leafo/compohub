@@ -63,6 +63,7 @@ class J.Hub
       @render_month_markers()
 
       @setup_scrollbar()
+      @setup_fixed_labels()
       @scroll_to_date new Date()
 
   setup_scrollbar: ->
@@ -87,6 +88,25 @@ class J.Hub
 
     @calendar.on "scroll", update_scroll
     update_scroll()
+
+  setup_fixed_labels: ->
+    update_labels = =>
+      viewport_left = @calendar.scrollLeft()
+      viewport_right = viewport_left + @calendar.width()
+
+      @fixed_labels ||= ($(el) for el in @calendar.find ".fixed_label")
+
+      for label in @fixed_labels
+        parent = label.parent()
+        left = parent.position().left
+        right = left + parent.width()
+        visible = right >= viewport_left && left <= viewport_right
+        parent.toggleClass "visible", visible
+
+
+
+    @calendar.on "scroll", update_labels
+
 
   # centers on date
   scroll_to_date: (date) ->
@@ -128,7 +148,11 @@ class J.Hub
       right = @x_scale_truncated curr_end.toDate()
 
       marker = $("""
-        <div class="month_marker">#{curr.format("MMMM")}</div>
+        <div class="month_marker">
+          <span class="fixed_label">
+            #{curr.format("MMMM")}
+          </span>
+        </div>
       """)
         .css({
           left: "#{left}px"

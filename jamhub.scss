@@ -77,7 +77,7 @@ body {
 }
 
 .calendar {
-    overflow: hidden;
+    overflow: auto;
 
     .calendar_scrolling {
         height: 280px;
@@ -119,6 +119,10 @@ body {
             position: absolute;
             top: $label_height;
             bottom: 0;
+
+            &:first-child {
+                border-left: 0;
+            }
 
             .day_ordinal, .day_name {
                 position: absolute;
@@ -170,7 +174,14 @@ body {
             padding: 0 20px;
             height: $label_height;
             line-height: $label_height;
+
+            &:first-child {
+                border-left: 0;
+            }
         }
     }
 }
 
+.fixed_label {
+    background: red;
+}
