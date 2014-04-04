@@ -65,6 +65,7 @@ class J.Hub
       @render_jams(res)
       @render_day_markers()
       @render_month_markers()
+      @render_elapsed_time()
 
       @setup_scrollbar()
       @setup_fixed_labels()
@@ -146,6 +147,11 @@ class J.Hub
       jam.color = "hsl(#{h}, #{s}%, #{l}%)"
 
     jam.color
+
+  render_elapsed_time: ->
+    el = $("""<div class="elapsed_time"></div>""")
+      .css("width", @x_scale(new Date))
+      .appendTo @scroller
 
   render_month_markers: ->
     markers = $("<div class='month_markers'></div>")

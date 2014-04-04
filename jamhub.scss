@@ -77,7 +77,7 @@ body {
 }
 
 .calendar {
-    overflow: auto;
+    overflow: hidden;
 
     .calendar_scrolling {
         height: 280px;
@@ -109,6 +109,17 @@ body {
         bottom: 0;
         left: 0;
     }
+
+	.elapsed_time {
+		@include border_box;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 50%;
+		background: #F5F5F5;
+		border-right: 5px solid #E9E9E9;
+	}
 
     .day_markers {
         z-index: 1;
