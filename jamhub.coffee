@@ -26,8 +26,12 @@ class Jam
     @end_date() - @start_date()
 
   render: ->
-    el = $("<div class='jam_cell'></div>")
-      .text(@data.name)
+    $("""
+      <div class='jam_cell'>
+        <span class="fixed_label"></span>
+      </div>
+    """)
+      .find(".fixed_label").text(@data.name).end()
 
   collides_with: (range_start, range_end) ->
     return false if +@start_date() > +range_end
@@ -103,10 +107,20 @@ class J.Hub
         visible = right >= viewport_left && left <= viewport_right
         parent.toggleClass "visible", visible
 
+        label_width = label.outerWidth()
 
+        margin_left = viewport_left - left
+
+        margin_left = if margin_left > 0
+          max_right = (right - left) - label_width
+          margin_left = Math.min margin_left, max_right
+          "#{margin_left}px"
+        else
+          ""
+
+        label.css "marginLeft", margin_left
 
     @calendar.on "scroll", update_labels
-
 
   # centers on date
   scroll_to_date: (date) ->

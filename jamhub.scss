@@ -112,6 +112,7 @@ body {
 
     .day_markers {
         z-index: 1;
+		@include unselectable;
 
         .day_marker {
             @include border_box;
@@ -157,6 +158,7 @@ body {
     }
 
     .month_markers {
+		@include unselectable;
         height: 20px;
         background: black;
         position: relative;
@@ -171,9 +173,9 @@ body {
             position: absolute;
             top: 0;
             bottom: 0;
-            padding: 0 20px;
             height: $label_height;
-            line-height: $label_height;
+			line-height: $label_height;
+			padding: 0 20px;
 
             &:first-child {
                 border-left: 0;
@@ -182,6 +184,3 @@ body {
     }
 }
 
-.fixed_label {
-    background: red;
-}
