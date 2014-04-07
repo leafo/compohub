@@ -71,6 +71,8 @@ class J.Hub
       @setup_fixed_labels()
       @scroll_to_date new Date()
 
+      @setup_dragging @calendar
+
   setup_scrollbar: ->
     scrollbar_outer = $("""
     <div class="scrollbar_outer">
@@ -93,6 +95,36 @@ class J.Hub
 
     @calendar.on "scroll", update_scroll
     update_scroll()
+
+  move_calendar: (dx, dy) ->
+    @calendar.scrollLeft @calendar.scrollLeft() + dx
+
+  setup_dragging: (el) ->
+    body = $ document.body
+
+    mouse_x = 0
+    mouse_y = 0
+
+    drag_move = (e) =>
+      dx = e.pageX - mouse_x
+      dy = e.pageY - mouse_y
+
+      mouse_x += dx
+      mouse_y += dy
+      @move_calendar dx, dy
+
+    drag_stop = (e) =>
+      body
+        .removeClass("dragging")
+        .off("mousemove", drag_move)
+
+    el.on "mousedown", (e) =>
+      body.addClass "dragging"
+      mouse_x = e.pageX
+      mouse_y = e.pageY
+
+      body.one "mouseup", drag_stop
+      body.on "mousemove", drag_move
 
   setup_fixed_labels: ->
     update_labels = =>
