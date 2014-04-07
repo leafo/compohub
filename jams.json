@@ -3,31 +3,41 @@
     {
       "name": "Leaf Jam",
       "start_date": "2014-04-02",
-      "end_date": "2014-04-05"
+      "end_date": "2014-04-05",
+      "link": "http://leafo.net",
+      "description": "Here is another jam description. Here is another jam description."
     },
 
     {
       "name": "Another Leaf Jam",
       "start_date": "2014-04-03",
-      "end_date": "2014-04-08"
+      "end_date": "2014-04-08",
+      "link": "http://leafo.net",
+      "description": "Here is another jam description. Here is another jam description."
     },
 
     {
       "name": "Cool Leaf Jam",
       "start_date": "2014-04-06",
-      "end_date": "2014-04-09"
+      "end_date": "2014-04-09",
+      "link": "http://leafo.net",
+      "description": "This is the description of the jam. This is not an ideal way to edit a description, I need something that lets me embed markdown. Maybe I'll 'build' the json file with a script with descriptions provieded in markdown."
     },
 
     {
       "name": "Cool Jam",
       "start_date": "2013-04-02",
-      "end_date": "2013-04-05"
+      "end_date": "2013-04-05",
+      "link": "http://leafo.net",
+      "description": "Here is another jam description. Here is another jam description."
     },
 
     {
       "name": "Can't stop jammin",
       "start_date": "2014-03-30",
-      "end_date": "2014-04-02"
+      "end_date": "2014-04-02",
+      "link": "http://leafo.net",
+      "description": "Here is another jam description. Here is another jam description."
     }
 
   ]
