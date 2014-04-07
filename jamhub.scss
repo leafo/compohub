@@ -236,6 +236,28 @@ a {
     overflow: hidden;
     margin-bottom: 24px;
 
+    &.has_image {
+        overflow: hidden;
+
+        h3, p {
+            margin-right: 240px;
+        }
+
+        .progress_outer {
+            clear: both;
+        }
+
+        .cover_image {
+            float: right;
+            background: #aaa;
+            width: 200px;
+            height: 160px;
+            margin: 24px 20px 24px 0;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
+
     h3 {
         font-weight: normal;
         font-size: 26px;

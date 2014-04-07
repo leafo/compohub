@@ -21,7 +21,13 @@ parse_jam_timestamp = (timestamp) ->
 
 class Jam
   box_tpl: _.template """
-    <div class="jam_box">
+    <div class="jam_box<% if (image) { %> has_image<% }%>">
+      <% if (image) { %>
+        <a href="<%- link %>">
+          <div class="cover_image" style="background-image: url(<%- image %>)"></div>
+        </a>
+      <% } %>
+
       <h3>
         <% if (link) { %>
           <a href="<%- link %>"><%- name %></a>
@@ -29,6 +35,7 @@ class Jam
           <%- name %>
         <% }%>
       </h3>
+
       <% if (link) { %>
         <p class="jam_link">
            <a href="<%- link %>"><%- link %></a>
@@ -75,6 +82,7 @@ class Jam
 
   render: ->
     $ @box_tpl $.extend {
+      image: false
       time_data: @render_time_data()
     }, @data
 
