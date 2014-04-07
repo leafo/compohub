@@ -20,12 +20,52 @@ parse_jam_timestamp = (timestamp) ->
   d.isValid() && d.toDate()
 
 class Jam
+  box_tpl: _.template """
+    <div class="jam_box">
+      <h3>
+        <% if (link) { %>
+          <a href="<%- link %>"><%- name %></a>
+        <% } else { %>
+          <%- name %>
+        <% }%>
+      </h3>
+      <% if (link) { %>
+        <p class="jam_link">
+           <a href="<%- link %>"><%- link %></a>
+        </p>
+      <% }%>
+      <p><%- description %></p>
+      <%= time_data %>
+    </div>
+  """
+
+  in_progress_tpl: _.template """
+    <div class="progress_outer">
+      <div class="time_labels">
+        <div class="left_label"><%- start_label %></div>
+        <div class="right_label"><%- end_label %></div>
+      </div>
+
+      <div class="progress">
+        <div class="progress_inner" style="width: <%= percent_complete  %>%"></div>
+      </div>
+
+      <div class="remaining_label"><%- remaining_label %> left</div>
+    </div>
+  """
+
+  time_tpl: _.template """
+    <div class="time_data">
+      <p><%- time_label %></p>
+    </div>
+  """
+
   constructor: (@data) ->
 
   length: ->
     @end_date() - @start_date()
 
-  render: ->
+  render_for_calendar: ->
     $("""
       <div class='jam_cell'>
         <span class="fixed_label"></span>
@@ -33,10 +73,54 @@ class Jam
     """)
       .find(".fixed_label").text(@data.name).end()
 
+  render: ->
+    $ @box_tpl $.extend {
+      time_data: @render_time_data()
+    }, @data
+
+  render_time_data: ->
+    if @in_progress()
+      progress = (new Date() - @start_date()) / (@end_date() - @start_date())
+      @in_progress_tpl {
+        percent_complete: Math.floor progress * 100
+        start_label: @date_format @start_date()
+        end_label: @date_format @end_date()
+        remaining_label: moment(@end_date()).fromNow true
+      }
+    else if @before_start()
+      @time_tpl {
+        time_label: "Ended #{moment(@start_date()).fromNow true} ago"
+      }
+    else if @after_end()
+      @time_tpl {
+        time_label: "Starts in #{moment(@end_date()).fromNow true}"
+      }
+
+  date_format: (date) ->
+    ago = moment(new Date).subtract(1, "month").toDate()
+    future = moment(new Date).add(1, "month").toDate()
+
+    if date < ago || date > future
+      moment(date).format("l LT")
+    else
+      moment(date).format("ddd Do, LT")
+
   collides_with: (range_start, range_end) ->
     return false if +@start_date() > +range_end
     return false if +@end_date() < +range_start
     true
+
+  in_progress: ->
+    now = +new Date()
+    now >= +@start_date() && now <= +@end_date()
+
+  before_start: ->
+    now = +new Date()
+    now < +@start_date()
+
+  after_end: ->
+    now = +new Date()
+    now > +@end_date()
 
   start_date: ->
     unless @_start_date
@@ -58,6 +142,7 @@ class J.Hub
     window.hub = @
     @el = $ el
 
+
     $.get(@url).done (res) =>
       if typeof res == "string"
         res = JSON.parse(res)
@@ -72,6 +157,10 @@ class J.Hub
       @scroll_to_date new Date()
 
       @setup_dragging @calendar
+
+      list = $ ".jam_list"
+      for jam in @jams
+        list.append jam.render()
 
   setup_scrollbar: ->
     scrollbar_outer = $("""
@@ -97,7 +186,7 @@ class J.Hub
     update_scroll()
 
   move_calendar: (dx, dy) ->
-    @calendar.scrollLeft @calendar.scrollLeft() + dx
+    @calendar.scrollLeft @calendar.scrollLeft() - dx
 
   setup_dragging: (el) ->
     body = $ document.body
@@ -250,8 +339,8 @@ class J.Hub
 
     @calendar.empty()
 
-    jams = @find_visible_jams data
-    stacked = @stack_jams jams
+    @jams = @find_visible_jams data
+    stacked = @stack_jams @jams
 
     total_days = (@end_date() - @start_date()) / (1000 * 60 * 60 * 24)
     outer_width = @day_width * total_days
@@ -271,7 +360,7 @@ class J.Hub
         left = @x_scale jam.start_date()
         width = @x_scale(jam.end_date()) - left
 
-        jam_el = jam.render()
+        jam_el = jam.render_for_calendar()
           .appendTo(row_el)
           .css({
             backgroundColor: @jam_color(jam)
