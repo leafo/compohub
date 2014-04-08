@@ -67,18 +67,23 @@ class Jam
     </div>
   """
 
+  calendar_template: _.template """
+    <div class='jam_cell'>
+      <span class="fixed_label">
+        <a href="#"><%- name %></a>
+      </span>
+    </div>
+  """
+
   constructor: (@data) ->
 
   length: ->
     @end_date() - @start_date()
 
   render_for_calendar: ->
-    $("""
-      <div class='jam_cell'>
-        <span class="fixed_label"></span>
-      </div>
-    """)
-      .find(".fixed_label").text(@data.name).end()
+    $(@calendar_template {
+      name: @data.name
+    }).data "jam", @
 
   render: ->
     $ @box_tpl $.extend {
@@ -149,7 +154,7 @@ class J.Hub
   constructor: (el) ->
     window.hub = @
     @el = $ el
-
+    @setup_events()
 
     $.get(@url).done (res) =>
       if typeof res == "string"
@@ -169,6 +174,12 @@ class J.Hub
       list = $ ".jam_list"
       for jam in @jams
         list.append jam.render()
+
+  setup_events: ->
+    @el.on "click", ".jam_cell a", (e) =>
+      target = $(e.currentTarget).closest ".jam_cell"
+      console.log "click", target.data "jam"
+      e.preventDefault()
 
   setup_scrollbar: ->
     scrollbar_outer = $("""
@@ -216,6 +227,8 @@ class J.Hub
         .off("mousemove", drag_move)
 
     el.on "mousedown", (e) =>
+      return if $(e.target).closest("a").length
+
       body.addClass "dragging"
       mouse_x = e.pageX
       mouse_y = e.pageY
