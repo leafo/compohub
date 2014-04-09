@@ -418,8 +418,8 @@ class J.Hub
         .appendTo(rows_el)
 
       for jam in row
-        left = @x_scale jam.start_date()
-        width = @x_scale(jam.end_date()) - left
+        left = @x_scale_truncated jam.start_date()
+        width = @x_scale_truncated(jam.end_date()) - left
 
         jam_el = jam.render_for_calendar()
           .appendTo(row_el)
@@ -428,6 +428,9 @@ class J.Hub
             left: "#{left}px"
             width: "#{width}px"
           })
+
+        if jam_el.find(".fixed_label").width() > jam_el.width()
+          jam_el.addClass "small_text"
 
   find_visible_jams: (data) ->
     range_start = @start_date()
