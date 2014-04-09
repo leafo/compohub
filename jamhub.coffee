@@ -39,7 +39,6 @@ $.fn.draggable = (opts={}) ->
     html.on "mousemove", drag_move
     opts.start?()
 
-
 J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
   patterns = [
     "YYYY-MM-DD HH:mm:ss Z"
@@ -253,6 +252,23 @@ class J.Hub
       move: (dx, dy) =>
         @move_calendar dx, dy
     }
+
+    @el.find(".scrollbar").draggable {
+      move: (dx, dy) =>
+        scale = @scroller.width() / @calendar.width()
+        @move_calendar dx * -scale, dy
+    }
+
+    @el.on "click", ".scrollbar_outer", (e) =>
+      return if $(e.target).is ".scrollbar"
+      left = $(e.currentTarget).find(".scrollbar").offset().left
+      left_mouse = e.pageX
+      width = Math.floor @scroller.width() / 10
+
+      if left_mouse < left
+        @move_calendar width, 0
+      else
+        @move_calendar -width, 0
 
   setup_fixed_labels: ->
     @update_labels = =>

@@ -79,6 +79,7 @@ a {
 }
 
 .scrollbar_outer {
+    @include unselectable;
     position: relative;
     height: 10px;
     margin-top: 6px;
@@ -91,6 +92,10 @@ a {
         border-radius: 24px;
         opacity: 0;
         @include transition(opacity 0.6s ease);
+
+        &:hover {
+            background: lighten(#B8B8B8, 3%);
+        }
 
         &.visible {
             opacity: 1;
