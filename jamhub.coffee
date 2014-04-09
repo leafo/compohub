@@ -4,6 +4,42 @@ $.easing.easeInOutQuad = (x, t, b, c, d) ->
   return c/2*t*t + b if ((t/=d/2) < 1)
   return -c/2 * ((--t)*(t-2) - 1) + b
 
+$.fn.draggable = (opts={}) ->
+  # TODO: add touchstart, etc
+  body = $ document.body
+  html = $ "html"
+
+  mouse_x = 0
+  mouse_y = 0
+
+  drag_stop = (e) =>
+    body.removeClass("dragging")
+    html.off("mousemove", drag_move)
+    opts.stop?()
+
+  drag_move = (e) =>
+    dx = e.pageX - mouse_x
+    dy = e.pageY - mouse_y
+
+    mouse_x += dx
+    mouse_y += dy
+
+    opts.move? dx, dy
+
+  # start, stop, move
+  @on "mousedown", (e) =>
+    return if body.is ".dragging"
+    return if opts.skip_drag? e
+
+    body.addClass "dragging"
+    mouse_x = e.pageX
+    mouse_y = e.pageY
+
+    html.one "mouseup", drag_stop
+    html.on "mousemove", drag_move
+    opts.start?()
+
+
 J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
   patterns = [
     "YYYY-MM-DD HH:mm:ss Z"
@@ -170,7 +206,7 @@ class J.Hub
       @setup_fixed_labels()
       @scroll_to_date new Date()
 
-      @setup_dragging @calendar
+      @setup_dragging()
 
       list = $ ".jam_list"
       for jam in @jams
@@ -210,34 +246,13 @@ class J.Hub
     @update_labels?()
 
   setup_dragging: (el) ->
-    body = $ document.body
-    html = $ "html"
+    @calendar.draggable {
+      skip_drag: (e) =>
+        return true if $(e.target).closest("a").length
 
-    mouse_x = 0
-    mouse_y = 0
-
-    drag_move = (e) =>
-      dx = e.pageX - mouse_x
-      dy = e.pageY - mouse_y
-
-      mouse_x += dx
-      mouse_y += dy
-      @move_calendar dx, dy
-
-    drag_stop = (e) =>
-      body.removeClass("dragging")
-      html.off("mousemove", drag_move)
-
-    el.on "mousedown", (e) =>
-      return if body.is ".dragging"
-      return if $(e.target).closest("a").length
-
-      body.addClass "dragging"
-      mouse_x = e.pageX
-      mouse_y = e.pageY
-
-      html.one "mouseup", drag_stop
-      html.on "mousemove", drag_move
+      move: (dx, dy) =>
+        @move_calendar dx, dy
+    }
 
   setup_fixed_labels: ->
     @update_labels = =>
