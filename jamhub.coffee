@@ -369,6 +369,7 @@ class J.Hub
 
     @scroller = $("<div class='calendar_scrolling'></div>")
       .width(outer_width)
+      .height(40*3 + 6 + stacked.length * (40+3))
       .appendTo(@calendar)
 
     rows_el = $("<div class='calendar_rows'></div>")
@@ -396,7 +397,6 @@ class J.Hub
 
     for jam in data.jams
       jam = new Jam jam
-      console.log jam
       continue unless jam.collides_with range_start, range_end
       jam
 

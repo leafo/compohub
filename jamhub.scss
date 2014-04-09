@@ -103,7 +103,7 @@ a {
     cursor: move;
 
     .calendar_scrolling {
-        height: 280px;
+        height: 250px;
         position: relative;
         background: white;
     }
@@ -116,6 +116,7 @@ a {
 
     .jam_cell {
         @include border_box;
+        @include single_line;
         position: absolute;
         top: 0;
         bottom: 0;
