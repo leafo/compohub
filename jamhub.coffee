@@ -207,6 +207,7 @@ class J.Hub
 
   move_calendar: (dx, dy) ->
     @calendar.scrollLeft @calendar.scrollLeft() - dx
+    @update_labels?()
 
   setup_dragging: (el) ->
     body = $ document.body
@@ -238,7 +239,7 @@ class J.Hub
       body.on "mousemove", drag_move
 
   setup_fixed_labels: ->
-    update_labels = =>
+    @update_labels = =>
       viewport_left = @calendar.scrollLeft()
       viewport_right = viewport_left + @calendar.width()
 
@@ -264,13 +265,18 @@ class J.Hub
 
         label.css "marginLeft", margin_left
 
-    @calendar.on "scroll", update_labels
+    @update_labels()
 
   # centers on date
   scroll_to_date: (date) ->
     @calendar.animate {
       scrollLeft: @x_scale date - (@calendar.width() / 2 / @x_ratio())
-    }, 600, "easeInOutQuad"
+    }, {
+      duration: 600
+      easing: "easeInOutQuad"
+      progress: =>
+        @update_labels?()
+    }
 
   # pixels per ms
   x_ratio: ->
