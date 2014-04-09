@@ -211,6 +211,7 @@ class J.Hub
 
   setup_dragging: (el) ->
     body = $ document.body
+    html = $ "html"
 
     mouse_x = 0
     mouse_y = 0
@@ -224,19 +225,19 @@ class J.Hub
       @move_calendar dx, dy
 
     drag_stop = (e) =>
-      body
-        .removeClass("dragging")
-        .off("mousemove", drag_move)
+      body.removeClass("dragging")
+      html.off("mousemove", drag_move)
 
     el.on "mousedown", (e) =>
+      return if body.is ".dragging"
       return if $(e.target).closest("a").length
 
       body.addClass "dragging"
       mouse_x = e.pageX
       mouse_y = e.pageY
 
-      body.one "mouseup", drag_stop
-      body.on "mousemove", drag_move
+      html.one "mouseup", drag_stop
+      html.on "mousemove", drag_move
 
   setup_fixed_labels: ->
     @update_labels = =>
