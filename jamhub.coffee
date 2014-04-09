@@ -4,8 +4,9 @@ $.easing.easeInOutQuad = (x, t, b, c, d) ->
   return c/2*t*t + b if ((t/=d/2) < 1)
   return -c/2 * ((--t)*(t-2) - 1) + b
 
-parse_jam_timestamp = (timestamp) ->
+J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
   patterns = [
+    "YYYY-MM-DD HH:mm:ss Z"
     "YYYY-MM-DD HH:mm Z"
     "YYYY-MM-DD Z"
   ]
@@ -23,22 +24,22 @@ class Jam
   box_tpl: _.template """
     <div class="jam_box<% if (image) { %> has_image<% }%>">
       <% if (image) { %>
-        <a href="<%- link %>">
+        <a href="<%- url %>">
           <div class="cover_image" style="background-image: url(<%- image %>)"></div>
         </a>
       <% } %>
 
       <h3>
-        <% if (link) { %>
-          <a href="<%- link %>"><%- name %></a>
+        <% if (url) { %>
+          <a href="<%- url %>"><%- name %></a>
         <% } else { %>
           <%- name %>
         <% }%>
       </h3>
 
-      <% if (link) { %>
+      <% if (url) { %>
         <p class="jam_link">
-           <a href="<%- link %>"><%- link %></a>
+           <a href="<%- url %>"><%- url %></a>
         </p>
       <% }%>
       <p><%- description %></p>
@@ -147,7 +148,7 @@ class Jam
     @_end_date
 
 class J.Hub
-  url: "jams.json"
+  url: "jams.all.json"
   default_color: [149, 52, 58]
   day_width: 100
 
@@ -389,12 +390,13 @@ class J.Hub
             width: "#{width}px"
           })
 
-  find_visible_jams: (jams) ->
+  find_visible_jams: (data) ->
     range_start = @start_date()
     range_end = @end_date()
 
-    for jam in jams.one_off
+    for jam in data.jams
       jam = new Jam jam
+      console.log jam
       continue unless jam.collides_with range_start, range_end
       jam
 
