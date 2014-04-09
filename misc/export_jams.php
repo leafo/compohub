@@ -59,6 +59,16 @@ function parse_themes($str) {
 
 $parents = categories_by_id();
 
+function format_time($time, $event) {
+	if ($event["accurate"]) {
+		$time_format = "Y-m-d h:i:s O";
+	} else {
+		$time_format = "Y-m-d";
+	}
+
+	return date($time_format, $time);
+}
+
 $res = $mysqli->query("SELECT * FROM gdc2_events where deleted = 0 order by id asc");
 $events = array();
 while ($row	= $res->fetch_assoc()) {
@@ -72,17 +82,16 @@ while ($row	= $res->fetch_assoc()) {
 		$current_parent = isset($current_parent["parent_obj"]) ? $current_parent["parent_obj"] : false;
 	}
 
-	$time_format = "Y-m-d h:i:s O";
-
 	if (!empty($row["theme"])) {
 		$themes = parse_themes($row["theme"]);
 	}
 
 	$event = array(
 		"name" => find_first_value($row, "name"),
-		"start_date" => date($time_format, $row["start"]),
-		"end_date" => date($time_format, $row["end"]),
+		"start_date" => format_time($row["start"], $row),
+		"end_date" => format_time($row["end"], $row),
 		"description" => find_first_value($row, "description"),
+		"local" => (bool)$row["local_time"],
 		"tags" => $tags,
 		"themes" => $themes,
 		"url" => find_first_value($row, "url")
