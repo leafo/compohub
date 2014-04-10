@@ -20,11 +20,6 @@ function slugify($text) {
 function categories_by_id($out=array()) {
 	global $mysqli;
 	$res = $mysqli->query("select * from gdc2_categories");
-	
-	if (!$res) {
-		echo $mysqli->error;
-		return $out;
-	}
 
 	while ($row = $res->fetch_assoc()) {
 		$out[$row["id"]] = $row;
@@ -96,10 +91,6 @@ while ($row	= $res->fetch_assoc()) {
 		"themes" => $themes,
 		"url" => find_first_value($row, "url")
 	);
-
-	if (empty($event["url"])) {
-		exit("no url " . print_r($row, true));
-	}
 
 	$events[] = $event;
 }
