@@ -413,5 +413,39 @@ a {
             }
         }
     }
+
+    .jam_tags {
+        margin: 24px 20px;
+        text-align: right;
+
+        .jam_tag {
+            position: relative;
+            background: darken($link_color, 5%);
+            color: white;
+            display: inline-block;
+            padding: 0px 10px 0 8px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px;
+            margin-left: 22px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $link_color;
+                &:before {
+                    border-color:transparent $link_color transparent transparent;
+                }
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: -12px;
+                border-color:transparent darken($link_color, 5%) transparent transparent;
+                border-style: solid;
+                border-width: 12px 12px 12px 0;
+            }
+        }
+    }
 }
 

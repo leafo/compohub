@@ -114,6 +114,13 @@ class J.Jam
       <% }%>
       <p><%- description %></p>
       <%= time_data %>
+      <% if (tags && tags.length)  {%>
+        <div class="jam_tags">
+          <% _.each(tags, function(tag) {%>
+            <span class="jam_tag"><%- tag %></span>
+          <% }) %>
+        </div>
+      <% } %>
     </div>
   """
 
