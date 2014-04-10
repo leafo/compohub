@@ -319,13 +319,13 @@ class J.Hub
   x_scale_truncated: (date) ->
     Math.min @scroller.width(), Math.max 0, @x_scale(date)
 
-  jam_color: (jam) ->
+  jam_color: (jam, dh=0, ds=0, dl=0) ->
     unless jam.color
       @default_color[0] += 27
-      [h,s,l] = @default_color
-      jam.color = "hsl(#{h}, #{s}%, #{l}%)"
+      jam.color = [@default_color[0], @default_color[1], @default_color[2]]
 
-    jam.color
+    [h,s,l] = jam.color
+    "hsl(#{h + dh}, #{s + ds}%, #{l + dl}%)"
 
   render_elapsed_time: ->
     el = $("""<div class="elapsed_time"></div>""")
@@ -423,6 +423,7 @@ class J.Hub
           .appendTo(row_el)
           .css({
             backgroundColor: @jam_color(jam)
+            textShadow: "1px 1px 1px #{@jam_color(jam, 0, 0, -10)}"
             left: "#{left}px"
             width: "#{width}px"
           })
