@@ -251,7 +251,14 @@ class J.List
     @el.append "<h2>Upcoming</h2>"
 
     jams.sort (a,b) ->
-      b.start_date() - a.start_date()
+      a.start_date() - b.start_date()
+
+    # remove dupes
+    seen = {}
+    jams = for jam in jams
+      continue if seen[jam.data.name]
+      seen[jam.data.name] = true
+      jam
 
     for jam in jams
       @el.append jam.render()
