@@ -131,6 +131,10 @@ a {
         line-height: $cell_height;
         padding: 0 20px;
 
+        &.after_end {
+            opacity: 0.75;
+        }
+
         &.small_text {
             font-size: 14px;
         }
@@ -161,6 +165,7 @@ a {
 		width: 50%;
 		background: #F5F5F5;
 		border-right: 5px solid #E9E9E9;
+        box-shadow: 0 0 0 1px #DEDEDE;
 	}
 
     .day_markers {
@@ -306,6 +311,10 @@ a {
 
     .time_data {
         color: #777;
+
+        strong {
+            color: #888;
+        }
     }
 
     .progress_outer {

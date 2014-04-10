@@ -152,7 +152,9 @@ class J.Jam
     @end_date() - @start_date()
 
   render_for_calendar: ->
-    $(@calendar_template @data).data "jam", @
+    $(@calendar_template @data)
+      .data("jam", @)
+      .toggleClass("after_end", @after_end())
 
   render: ->
     $ @box_tpl $.extend {
@@ -170,8 +172,12 @@ class J.Jam
         remaining_label: moment(@end_date()).fromNow true
       }
     else if @before_start()
+      relative = moment(@start_date()).fromNow true
+      begin = @date_format @start_date(), "start"
+      end = @date_format @end_date(), "end"
+
       @time_tpl {
-        time_label: "Starts in #{moment(@start_date()).fromNow true}"
+        time_label: "Starts in #{relative} &middot; <strong>#{begin}</strong> to <strong>#{end}</strong>"
       }
     else if @after_end()
       @time_tpl {
@@ -218,6 +224,8 @@ class J.Jam
   end_date: ->
     unless @_end_date
       [@_end_date, @_end_date_loose] = J.parse_jam_timestamp @data.end_date
+      if @_end_date_loose
+        moment(@_end_date).hours(23).minutes(59).seconds(59)
 
     @_end_date
 
@@ -265,7 +273,7 @@ class J.List
 
 class J.Calendar
   default_color: [149, 52, 58]
-  day_width: 100
+  day_width: 120
 
   constructor: (el) ->
     J.calendar = @
@@ -404,6 +412,7 @@ class J.Calendar
       jam.color = [@default_color[0], @default_color[1], @default_color[2]]
 
     [h,s,l] = jam.color
+    s /= 6 if jam.after_end()
     "hsl(#{h + dh}, #{s + ds}%, #{l + dl}%)"
 
   render_elapsed_time: ->
@@ -544,4 +553,4 @@ class J.Calendar
     @_today().subtract("month", 1).toDate()
 
   end_date: ->
-    @_today().add("month", 1).toDate()
+    @_today().add("month", 2).toDate()
