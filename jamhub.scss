@@ -97,6 +97,7 @@ a {
 
     h2 {
         margin: 0;
+        margin-top: 8px;
         font-size: 16px;
         font-weight: normal;
         letter-spacing: 0.10em;
@@ -289,6 +290,10 @@ a {
     overflow: hidden;
     margin-bottom: 24px;
 
+    &.current_jam {
+        margin-top: 48px;
+    }
+
     &.has_image {
         overflow: hidden;
 
@@ -428,14 +433,15 @@ a {
             line-height: 24px;
             font-size: 14px;
             margin-left: 22px;
-            cursor: pointer;
 
-            &:hover {
-                background-color: $link_color;
-                &:before {
-                    border-color:transparent $link_color transparent transparent;
-                }
-            }
+            // cursor: pointer;
+
+            // &:hover {
+            //     background-color: $link_color;
+            //     &:before {
+            //         border-color:transparent $link_color transparent transparent;
+            //     }
+            // }
 
             &:before {
                 content: "";

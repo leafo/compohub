@@ -279,6 +279,23 @@ class J.List
     for jam in jams
       @el.append jam.render()
 
+  show_jam: (jam) ->
+    new_jam = jam.render()
+      .addClass("current_jam")
+
+    if @current
+      @current.fadeOut =>
+        @el.find(".current_jam").remove()
+        new_jam.prependTo(@el)
+          .hide()
+          .fadeIn()
+    else
+      new_jam.prependTo(@el)
+        .hide()
+        .slideDown()
+
+    @current = new_jam
+
 class J.Calendar
   default_color: [149, 52, 58]
   day_width: 120
@@ -302,12 +319,13 @@ class J.Calendar
 
       @setup_dragging()
 
-      new J.List $ ".jam_list"
+      @list = new J.List $ ".jam_list"
 
   setup_events: ->
     @el.on "click", ".jam_cell a", (e) =>
       target = $(e.currentTarget).closest ".jam_cell"
-      console.log "click", target.data "jam"
+      jam = target.data "jam"
+      @list.show_jam jam
       e.preventDefault()
 
   setup_scrollbar: ->
