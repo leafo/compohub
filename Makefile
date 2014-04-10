@@ -8,4 +8,4 @@ json:
 	php misc/export_jams.php 2014 > jams/2014.json
 
 deploy:
-	rsync -RrvuzL index.html *.js *.css jams/ font/ leaf@leafo.net:www/jamhub
+	rsync -RrvuzL index.html *.js *.css jams/ font/ leaf@leafo.net:www/compohub
