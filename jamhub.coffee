@@ -43,7 +43,7 @@ J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
   patterns = [
     "YYYY-MM-DD HH:mm:ss Z"
     "YYYY-MM-DD HH:mm Z"
-    "YYYY-MM-DD Z"
+    "YYYY-MM-DD"
   ]
 
   for p in patterns
@@ -117,9 +117,7 @@ class Jam
     @end_date() - @start_date()
 
   render_for_calendar: ->
-    $(@calendar_template {
-      name: @data.name
-    }).data "jam", @
+    $(@calendar_template @data).data "jam", @
 
   render: ->
     $ @box_tpl $.extend {
