@@ -164,10 +164,11 @@ class J.Jam
       .toggleClass("after_end", @after_end())
 
   render: ->
-    $ @box_tpl $.extend {
-      image: false
+    tags = [].concat(@data.themes || []).concat(@data.tags || [])
+    $ @box_tpl $.extend { image: false }, @data, {
+      tags: tags
       time_data: @render_time_data()
-    }, @data
+    }
 
   render_time_data: ->
     if @in_progress()

@@ -67,7 +67,9 @@ function format_time($time, $event) {
 $res = $mysqli->query("SELECT * FROM gdc2_events where deleted = 0 order by id asc");
 $events = array();
 while ($row	= $res->fetch_assoc()) {
+	$themes = null;
 	$tags = array();
+
 	$parent = isset($parents[$row["parent"]]) ? $parents[$row["parent"]] : false; 
 	$row["parent_obj"] = $parent;
 
@@ -87,10 +89,16 @@ while ($row	= $res->fetch_assoc()) {
 		"end_date" => format_time($row["end"], $row),
 		"description" => find_first_value($row, "description"),
 		"local" => (bool)$row["local_time"],
-		"tags" => $tags,
-		"themes" => $themes,
 		"url" => find_first_value($row, "url")
 	);
+
+	if (!empty($tags)) {
+		$event["tags"] = $tags;
+	}
+
+	if (!empty($themes)) {
+		$event["themes"] = $themes;
+	}
 
 	$events[] = $event;
 }
