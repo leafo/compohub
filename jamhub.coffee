@@ -13,8 +13,9 @@ $.fn.draggable = (opts={}) ->
   mouse_y = 0
 
   drag_stop = (e) =>
-    body.removeClass("dragging")
-    html.off("mousemove", drag_move)
+    body.removeClass "dragging"
+    @removeClass "dragging"
+    html.off "mousemove", drag_move
     opts.stop?()
 
   drag_move = (e) =>
@@ -32,6 +33,7 @@ $.fn.draggable = (opts={}) ->
     return if opts.skip_drag? e
 
     body.addClass "dragging"
+    @addClass "dragging"
     mouse_x = e.pageX
     mouse_y = e.pageY
 
@@ -55,7 +57,35 @@ J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
 
   d.isValid() && d.toDate()
 
-class Jam
+
+class J.Jams
+  @url: "jams.all.json"
+
+  @fetch: (fn) ->
+    @_deferred ||= $.get(@url).then (res) =>
+      if typeof res == "string"
+        res = JSON.parse(res)
+      new J.Jams res
+
+    @_deferred.done fn
+
+  constructor: (data) ->
+    @jams = for jam_data in data.jams
+      new J.Jam jam_data
+
+  truncate: (time) ->
+    @jams = _.reject @jams, (jam) => jam.end_date() < time
+
+  find_in_progress: ->
+    _.filter @jams, (jam) => jam.in_progress()
+
+  find_in_before_start: ->
+    _.filter @jams, (jam) => jam.before_start()
+
+  find_in_range: (start, end) ->
+    _.filter @jams, (jam) => jam.collides_with start, end
+
+class J.Jam
   box_tpl: _.template """
     <div class="jam_box<% if (image) { %> has_image<% }%>">
       <% if (image) { %>
@@ -180,21 +210,42 @@ class Jam
 
     @_end_date
 
-class J.Hub
-  url: "jams.all.json"
+class J.List
+  constructor: (el) ->
+    J.list = @
+    @el = $ el
+
+    J.Jams.fetch (@jams) =>
+      @render_in_progress()
+
+  render_in_progress: ->
+    @el.append "<h2>Jams in progress</h2>"
+    jams = @jams.find_in_progress()
+    jams.sort (a,b) ->
+      a_remaining = +new Date() - +a.start_date()
+      b_remaining = +new Date() - +b.start_date()
+      a_remaining - b_remaining
+
+    for jam in jams
+      @el.append jam.render()
+
+  render_upcoming: ->
+    @el.append "<h2>Upcoming</h2>"
+
+
+class J.Calendar
   default_color: [149, 52, 58]
   day_width: 100
 
   constructor: (el) ->
-    window.hub = @
+    J.calendar = @
     @el = $ el
     @setup_events()
 
-    $.get(@url).done (res) =>
-      if typeof res == "string"
-        res = JSON.parse(res)
+    J.Jams.fetch (@jams) =>
+      @jams.truncate @start_date()
 
-      @render_jams(res)
+      @render_jams()
       @render_day_markers()
       @render_month_markers()
       @render_elapsed_time()
@@ -205,9 +256,7 @@ class J.Hub
 
       @setup_dragging()
 
-      list = $ ".jam_list"
-      for jam in @jams
-        list.append jam.render()
+      new J.List $ ".jam_list"
 
   setup_events: ->
     @el.on "click", ".jam_cell a", (e) =>
@@ -390,15 +439,15 @@ class J.Hub
 
       curr = curr_end
 
-  render_jams: (data) ->
+  render_jams: ->
     @calendar = @el.find(".calendar")
     unless @calendar.length
       @calendar = $("<div class='calendar'></div>").appendTo(@el)
 
     @calendar.empty()
 
-    @jams = @find_visible_jams data
-    stacked = @stack_jams @jams
+    jams = @jams.find_in_range @start_date(), @end_date()
+    stacked = @stack_jams jams
 
     total_days = (@end_date() - @start_date()) / (1000 * 60 * 60 * 24)
     outer_width = @day_width * total_days
@@ -430,15 +479,6 @@ class J.Hub
 
         if jam_el.find(".fixed_label").width() > jam_el.width()
           jam_el.addClass "small_text"
-
-  find_visible_jams: (data) ->
-    range_start = @start_date()
-    range_end = @end_date()
-
-    for jam in data.jams
-      jam = new Jam jam
-      continue unless jam.collides_with range_start, range_end
-      jam
 
   sort_by_length: (jams) ->
     jams.sort (a,b) ->
