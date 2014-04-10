@@ -41,21 +41,26 @@ $.fn.draggable = (opts={}) ->
     html.on "mousemove", drag_move
     opts.start?()
 
-J.parse_jam_timestamp = parse_jam_timestamp = (timestamp) ->
+J.parse_jam_timestamp = do ->
   patterns = [
     "YYYY-MM-DD HH:mm:ss Z"
     "YYYY-MM-DD HH:mm Z"
     "YYYY-MM-DD"
   ]
 
-  for p in patterns
-    d = moment timestamp, p, true
-    break if d.isValid()
+  loose_patterns = {
+    "YYYY-MM-DD": true
+  }
 
-    d = moment "#{timestamp} +0000", p, true
-    break if d.isValid()
+  (timestamp) ->
+    for p in patterns
+      d = moment timestamp, p, true
+      break if d.isValid()
 
-  d.isValid() && d.toDate()
+      d = moment "#{timestamp} +0000", p, true
+      break if d.isValid()
+
+    [d.isValid() && d.toDate(), loose_patterns[p]]
 
 
 class J.Jams
@@ -129,7 +134,7 @@ class J.Jam
 
   time_tpl: _.template """
     <div class="time_data">
-      <p><%- time_label %></p>
+      <p><%= time_label %></p>
     </div>
   """
 
@@ -160,27 +165,33 @@ class J.Jam
       progress = (new Date() - @start_date()) / (@end_date() - @start_date())
       @in_progress_tpl {
         percent_complete: Math.floor progress * 100
-        start_label: @date_format @start_date()
-        end_label: @date_format @end_date()
+        start_label: @date_format @start_date(), "start"
+        end_label: @date_format @end_date(), "end"
         remaining_label: moment(@end_date()).fromNow true
       }
     else if @before_start()
       @time_tpl {
-        time_label: "Ended #{moment(@start_date()).fromNow true} ago"
+        time_label: "Starts in #{moment(@start_date()).fromNow true}"
       }
     else if @after_end()
       @time_tpl {
-        time_label: "Starts in #{moment(@end_date()).fromNow true}"
+        time_label: "Ended #{moment(@end_date()).fromNow true} ago"
       }
 
-  date_format: (date) ->
-    ago = moment(new Date).subtract(1, "month").toDate()
-    future = moment(new Date).add(1, "month").toDate()
+  date_format: (date, name) ->
+    is_distant = moment(date).month() != moment(new Date).month()
+    is_loose = @["_#{name}_date_loose"]
 
-    if date < ago || date > future
-      moment(date).format("l LT")
+    f = null
+    if is_distant
+      f = "l"
+      f = f + " LT" unless is_loose
+      moment(date).format(f)
     else
-      moment(date).format("ddd Do, LT")
+      f = "ddd Do"
+      f = f + ", LT" unless is_loose
+
+    moment(date).format(f)
 
   collides_with: (range_start, range_end) ->
     return false if +@start_date() > +range_end
@@ -201,12 +212,12 @@ class J.Jam
 
   start_date: ->
     unless @_start_date
-      @_start_date = parse_jam_timestamp @data.start_date
+      [@_start_date, @_start_date_loose] = J.parse_jam_timestamp @data.start_date
     @_start_date
 
   end_date: ->
     unless @_end_date
-      @_end_date = parse_jam_timestamp @data.end_date
+      [@_end_date, @_end_date_loose] = J.parse_jam_timestamp @data.end_date
 
     @_end_date
 
@@ -217,10 +228,13 @@ class J.List
 
     J.Jams.fetch (@jams) =>
       @render_in_progress()
+      @render_upcoming()
 
   render_in_progress: ->
-    @el.append "<h2>Jams in progress</h2>"
     jams = @jams.find_in_progress()
+    return unless jams.length
+
+    @el.append "<h2>Jams in progress</h2>"
     jams.sort (a,b) ->
       a_remaining = +new Date() - +a.start_date()
       b_remaining = +new Date() - +b.start_date()
@@ -230,8 +244,17 @@ class J.List
       @el.append jam.render()
 
   render_upcoming: ->
+    jams = @jams.find_in_before_start()
+
+    return unless jams.length
+
     @el.append "<h2>Upcoming</h2>"
 
+    jams.sort (a,b) ->
+      b.start_date() - a.start_date()
+
+    for jam in jams
+      @el.append jam.render()
 
 class J.Calendar
   default_color: [149, 52, 58]
