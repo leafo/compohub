@@ -1,0 +1,343 @@
+{
+    "jams": [
+        {
+            "name": "Experimental Gameplay Project - November",
+            "start_date": "2011-11-01",
+            "end_date": "2011-11-30",
+            "description": "An event that is running all the time! On the first day of each month a new theme is announced and then you have 7 days to make a game based on that theme. No voting, everybody is a winner.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com",
+            "tags": [
+                "experimental-gameplay-project"
+            ],
+            "themes": [
+                "upgrade"
+            ]
+        },
+        {
+            "name": "The Fourth Super Friendship Club Pageant",
+            "start_date": "2012-01-01",
+            "end_date": "2012-01-31",
+            "description": "Super Friendship Club arranges pageants (game development competitions) every 2 months.",
+            "local": false,
+            "url": "http:\/\/superfriendshipclub.com",
+            "tags": [
+                "super-friendship-club"
+            ],
+            "themes": [
+                "universe"
+            ]
+        },
+        {
+            "name": "Ludum Dare #22",
+            "start_date": "2011-12-17 02:00:00 +0000",
+            "end_date": "2011-12-19 02:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ],
+            "themes": [
+                "alone"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #53",
+            "start_date": "2011-11-20 01:00:00 +0000",
+            "end_date": "2011-11-20 03:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Blitzkast Monthly VII",
+            "start_date": "2011-11-13",
+            "end_date": "2011-11-13",
+            "description": "You have 4 hours to build a game prototype within the timeframe. Using the announced theme is optional. Make the game you've always dreamed about.",
+            "local": false,
+            "url": "http:\/\/www.thepoppenkast.com",
+            "tags": [
+                "blitzkast"
+            ],
+            "themes": [
+                "modularity-weird-occultism"
+            ]
+        },
+        {
+            "name": "0h Game Jam, US & Canada",
+            "start_date": "2011-11-06 02:00:00 +0000",
+            "end_date": "2011-11-06 03:00:00 +0000",
+            "description": "Zero hour game jam! In many countries clocks shift one hour to the past because of the DST change, which means that there's an extra hour that sould be used, of course, to make a game.\r\n\r\n<em>Warning!<\/em> The time may not show correctly.",
+            "local": true,
+            "url": "http:\/\/0hgame.eu",
+            "tags": [
+                "0h-game-jam"
+            ]
+        },
+        {
+            "name": "MiniLD #30",
+            "start_date": "2011-11-05 02:00:00 +0000",
+            "end_date": "2011-11-07 02:00:00 +0000",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "adaptation"
+            ]
+        },
+        {
+            "name": "The Third Super Friendship Club Pageant",
+            "start_date": "2011-11-01",
+            "end_date": "2011-11-30",
+            "description": "Super Friendship Club arranges pageants (game development competitions) every 2 months.",
+            "local": false,
+            "url": "http:\/\/superfriendshipclub.com",
+            "tags": [
+                "super-friendship-club"
+            ],
+            "themes": [
+                "editor"
+            ]
+        },
+        {
+            "name": "0h Game Jam, EU",
+            "start_date": "2011-10-30 02:00:00 +0000",
+            "end_date": "2011-10-30 03:00:00 +0000",
+            "description": "Zero hour game jam! In many countries clocks shift one hour to the past because of the DST change, which means that there's an extra hour that sould be used, of course, to make a game.\r\n\r\n<em>Warning!<\/em> The time may not show correctly.",
+            "local": false,
+            "url": "http:\/\/0hgame.eu",
+            "tags": [
+                "0h-game-jam"
+            ]
+        },
+        {
+            "name": "#GPCv9",
+            "start_date": "2011-10-10 08:00:00 +0000",
+            "end_date": "2011-10-18 08:00:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ]
+        },
+        {
+            "name": "Experimental Gameplay Project - October",
+            "start_date": "2011-10-01",
+            "end_date": "2011-10-31",
+            "description": "An event that is running all the time! On the first day of each month a new theme is announced and then you have 7 days to make a game based on that theme. No voting, everybody is a winner.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com",
+            "tags": [
+                "experimental-gameplay-project"
+            ],
+            "themes": [
+                "slicing"
+            ]
+        },
+        {
+            "name": "Ludum Dare - The October Challenge",
+            "start_date": "2011-10-01",
+            "end_date": "2011-10-31",
+            "description": "The point of The October Challenge is to make a game and then sell it one way or another. No specific rules, you can start any time you want.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare-the-october-challenge",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Fall Folklore TIGER Assault",
+            "start_date": "2011-10-03 10:01:00 +0000",
+            "end_date": "2011-10-31 08:00:00 +0000",
+            "description": "A free form competition. Everything goes as long as the game works on Windows.",
+            "local": false,
+            "url": "http:\/\/forums.tigsource.com\/index.php?topic=22023.0",
+            "tags": [
+                "tigforums"
+            ],
+            "themes": [
+                "folklore",
+                "urban-regional-legends"
+            ]
+        },
+        {
+            "name": "Scary Four Digits 2011",
+            "start_date": "2011-10-07 12:00:00 +0000",
+            "end_date": "2011-10-30 12:00:00 +0000",
+            "description": "64digits is a small, close-knit community focused on game development and artistic endeavours. A few times a year, they host competitions to hone their skills, express ideas, and just to have fun! The contest is held entirely online and everyone is encouraged to participate.",
+            "local": false,
+            "url": "http:\/\/64digits.com\/users\/index.php?userid=Toast&cmd=comments&id=271479",
+            "tags": [
+                "64digits"
+            ],
+            "themes": [
+                "halloween-horror"
+            ]
+        },
+        {
+            "name": "#GPCv10",
+            "start_date": "2011-12-05 05:00:00 +0000",
+            "end_date": "2011-12-13 04:59:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ],
+            "themes": [
+                "dreams",
+                "collectibles"
+            ]
+        },
+        {
+            "name": "Blitzkast Monthly IX",
+            "start_date": "2011-12-11",
+            "end_date": "2011-12-11",
+            "description": "You have 4 hours to build a game prototype within the timeframe. Using the announced theme is optional. Make the game you've always dreamed about.",
+            "local": false,
+            "url": "http:\/\/www.thepoppenkast.com",
+            "tags": [
+                "blitzkast"
+            ],
+            "themes": [
+                "pyramid"
+            ]
+        },
+        {
+            "name": "2012: THE END IS UPON US",
+            "start_date": "2011-12-01",
+            "end_date": "2012-01-01",
+            "description": "The world is going to end in 2012, make a game that illustrates this. No engine, platform or team restrictions.",
+            "local": false,
+            "url": "http:\/\/forums.tigsource.com\/index.php?topic=22859.0",
+            "tags": [
+                "tigforums"
+            ],
+            "themes": [
+                "apocalypse"
+            ]
+        },
+        {
+            "name": "Java4K 2012",
+            "start_date": "2011-12-01",
+            "end_date": "2012-02-29",
+            "description": "A competition for Java games that are maximum of 4096 bytes in size.",
+            "local": false,
+            "url": "http:\/\/www.java4k.com",
+            "tags": [
+                "java4k"
+            ]
+        },
+        {
+            "name": "Braingale Competition 2011",
+            "start_date": "2011-11-01 05:00:00 +0000",
+            "end_date": "2011-12-24 05:00:00 +0000",
+            "description": "A contest that ends just before Christmas. Prizes for the best three games. ",
+            "local": false,
+            "url": "http:\/\/braingale.net\/forum\/index.php?topic=123.0",
+            "tags": [
+                "braingale"
+            ],
+            "themes": [
+                "arcade"
+            ]
+        },
+        {
+            "name": "2012 Independent Propeller Awards Competition",
+            "start_date": "2011-11-15 05:00:00 +0000",
+            "end_date": "2011-12-16 04:59:00 +0000",
+            "description": "Game can be started and finished before the competition. Big prizes!",
+            "local": false,
+            "url": "http:\/\/contest.indiepub.com\/?q=contest",
+            "tags": [
+                "indiepub"
+            ]
+        },
+        {
+            "name": "The Newgrounds Game Jam 6",
+            "start_date": "2011-12-02",
+            "end_date": "2011-12-04",
+            "description": "Newgrounds Game Jams are for randomly generated teams of four or less, and they last for one weekend.",
+            "local": false,
+            "url": "http:\/\/austinbreed.newgrounds.com\/news\/post\/657704",
+            "tags": [
+                "game-jam",
+                "newgrounds"
+            ],
+            "themes": [
+                "hallucinations"
+            ]
+        },
+        {
+            "name": "Timezone Lottery Klik Jam #9",
+            "start_date": "2011-12-04 07:00:00 +0000",
+            "end_date": "2011-12-04 09:00:00 +0000",
+            "description": "A two hour event on the first Saturday of each month. Time is chosen randomly. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/2066",
+            "tags": [
+                "timezone-lottery-klik-jam",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #54",
+            "start_date": "2011-12-18 12:00:00 +0000",
+            "end_date": "2011-12-18 02:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/2065",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Experimental Gameplay Project - 5 Buttons Competition",
+            "start_date": "2011-12-01 03:00:00 +0000",
+            "end_date": "2012-01-31 07:59:00 +0000",
+            "description": "This time EGP is partnering with <a href=\"http:\/\/www.02l.net\/menu\">02L &gt;  Outside Standing Level<\/a> to bring you a real competition with cash prizes! Games must be Windows executables.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com\/blog\/2011\/12\/5-buttons-competition-in-decemberjanuary\/",
+            "tags": [
+                "experimental-gameplay-project"
+            ],
+            "themes": [
+                "5-buttons"
+            ]
+        },
+        {
+            "name": "Flash in a Flash Creation Contest",
+            "start_date": "2011-12-22 04:00:00 +0000",
+            "end_date": "2012-01-06 07:59:00 +0000",
+            "description": "Create a Flash game with Unity 3.5 beta and win $20,000!",
+            "local": false,
+            "url": "http:\/\/unity3d.com\/unity\/preview\/contest",
+            "tags": [
+                "unity"
+            ]
+        },
+        {
+            "name": "Level Up 2011",
+            "start_date": "2011-11-29 08:01:00 +0000",
+            "end_date": "2012-03-20 07:59:00 +0000",
+            "description": "A competition for Windows game demos. The grand prize is $10,000 and the finalists will be featured on Steam. Note that you must be at least 18 years old.",
+            "local": false,
+            "url": "http:\/\/software.intel.com\/sites\/campaigns\/levelup2011\/",
+            "tags": [
+                "level-up"
+            ]
+        }
+    ]
+}

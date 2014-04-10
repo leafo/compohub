@@ -64,7 +64,7 @@ J.parse_jam_timestamp = do ->
 
 
 class J.Jams
-  @url: "jams.all.json"
+  @url: "jams/2014.json" # TODO: multiple urls
 
   @fetch: (fn) ->
     @_deferred ||= $.get(@url).then (res) =>

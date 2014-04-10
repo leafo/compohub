@@ -1,0 +1,521 @@
+{
+    "jams": [
+        {
+            "name": "Global Game Jam 2014",
+            "start_date": "2014-01-24 05:00:00 +0000",
+            "end_date": "2014-01-26 05:00:00 +0000",
+            "description": "The Global Game Jam (GGJ) is the world's largest game jam event taking place around the world at physical locations. Think of it as a hackathon focused on game development.",
+            "local": true,
+            "url": "http:\/\/globalgamejam.org\/",
+            "tags": [
+                "global-game-jam"
+            ]
+        },
+        {
+            "name": "Nordic Game Jam",
+            "start_date": "2014-02-14 08:00:00 +0000",
+            "end_date": "2014-02-16 03:00:00 +0000",
+            "description": "Nordic Game Jam is the biggest video game industry event in Denmark and one of the largest game jams in the whole world.",
+            "local": false,
+            "url": "http:\/\/nordicgamejam.org\/",
+            "tags": [
+                "nordic-game-jam"
+            ]
+        },
+        {
+            "name": "Mini Ludum Dare #48",
+            "start_date": "2014-01-10",
+            "end_date": "2014-01-12",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/12\/29\/minild-48\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-02-01",
+            "end_date": "2014-02-28",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-03-01",
+            "end_date": "2014-03-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-04-01",
+            "end_date": "2014-04-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-05-01",
+            "end_date": "2014-05-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-06-01",
+            "end_date": "2014-06-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-07-01",
+            "end_date": "2014-07-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-08-01",
+            "end_date": "2014-08-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-09-01",
+            "end_date": "2014-09-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-10-01",
+            "end_date": "2014-10-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-11-01",
+            "end_date": "2014-11-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-12-01",
+            "end_date": "2014-12-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "GMC JAM #13",
+            "start_date": "2014-01-25 12:00:00 +0000",
+            "end_date": "2014-01-28 12:00:00 +0000",
+            "description": "A 72-hour game jam for <a href=\"http:\/\/www.yoyogames.com\/gamemaker\">Game Maker<\/a> users. Includes prizes.",
+            "local": false,
+            "url": "http:\/\/gmc.yoyogames.com\/index.php?showtopic=606847",
+            "tags": [
+                "gmc-jam"
+            ]
+        },
+        {
+            "name": "gm(48) #9",
+            "start_date": "2014-01-18 12:00:00 +0000",
+            "end_date": "2014-01-20 12:00:00 +0000",
+            "description": "Born in the Reddit community, the gm(48) occurs once every season. There will be a two-week voting period for the theme, which will be revealed at the start of the competition.",
+            "local": false,
+            "url": "http:\/\/www.reddit.com\/r\/gamemaker\/comments\/1hamju\/announcement_gm48_rules_and_theme_suggestion\/",
+            "tags": [
+                "gm-48"
+            ]
+        },
+        {
+            "name": "Candy Jam",
+            "start_date": "2014-01-21",
+            "end_date": "2014-02-03",
+            "description": "A game jam in reaction of a company trademarking a very common noun.",
+            "local": false,
+            "url": "http:\/\/candycandycandycandyjam.tumblr.com\/",
+            "tags": [
+                "candy-jam"
+            ]
+        },
+        {
+            "name": "7 Day Finish Yer Game Jam",
+            "start_date": "2014-02-10 11:59:00 +0000",
+            "end_date": "2014-02-17 11:59:00 +0000",
+            "description": "Use this jam as a deadline for your current game. Start whenever, but finish within these 7 days!",
+            "local": false,
+            "url": "http:\/\/gallefray.github.io\/FinishYourGame-Jam\/",
+            "tags": [
+                "7-day-finish-yer-game-jam"
+            ]
+        },
+        {
+            "name": "RR Mini Comp: One Screen Cassette 50",
+            "start_date": "2014-01-17",
+            "end_date": "2014-02-17",
+            "description": "Make a crappy one screen remake of another game.",
+            "local": false,
+            "url": "http:\/\/retroremakes.com\/nostalgia\/2014\/01\/17\/rr-mini-comp-one-screen-cassette-50\/",
+            "tags": [
+                "retro-remakes"
+            ]
+        },
+        {
+            "name": "GDSE Winter Game Jam",
+            "start_date": "2014-01-31 05:00:00 +0000",
+            "end_date": "2014-02-02 05:00:00 +0000",
+            "description": "A jam hosted by Game Development Stack Exchange.",
+            "local": false,
+            "url": "http:\/\/meta.gamedev.stackexchange.com\/questions\/1449\/the-2014-gdse-winter-game-jam",
+            "tags": [
+                "gdse-jam"
+            ]
+        },
+        {
+            "name": "Seven Day Roguelike Challenge",
+            "start_date": "2014-03-08",
+            "end_date": "2014-03-16",
+            "description": "In Seven Day Roguelike Challenge you have a week to build a roguelike. Using pre-existing resources is allowed.",
+            "local": false,
+            "url": "http:\/\/7drl.org",
+            "tags": [
+                "seven-day-roguelike-challenge"
+            ]
+        },
+        {
+            "name": "The Arbitrary Gamejam",
+            "start_date": "2014-02-07 02:00:00 +0000",
+            "end_date": "2014-02-09 02:00:00 +0000",
+            "description": "What is TAG - The Arbitrary Gamejam?\r\nI created TAG to try and add something exciting and good natured to the community. \r\nThe Arbitrary Gamejam is a weekend game jam with 3 themes designed to promote small and unknown indie developers.\r\nAt the end of each TAG, the submissions are rated by the host.\r\nThe person who submitted the best game will be \"tagged\" and is responsible for hosting the next TAG.\r\nThe idea is, as the Gamejam grows more popular, passing the Gamejam around will help small unknown indie developers pull traffic to their websites.\r\nBy using a random word generator to generate 2\/3 themes, TAG is intentionally arbitrary to encourage outside-the-box thinking and wild combinations.\r\n\r\n\r\nWhen is TAG?\r\nTAG usually occurs on the first weekend of every month, Friday to Sunday.\r\nThe themes for each TAG will be posted on the Thursday before it starts, to give people some time to think about how the themes can fit together.\r\nThe Jam Begins at Midnight on Thursday and Ends at Midnight on Sunday.\r\n\r\n[Go to the Current Hosts site for a Countdown to the next TAG]\r\n\r\n\r\nHow Do I Host?\r\nFirst and foremost, you cannot host TAG twice in a row or more than two times in a single year (Unless yours is the only submission). If you end up hosting TAG, you can handle it in any way you want under two conditions.\r\nYou must keep the 4 core rules outlined below by linking to this page. This maintains the legitimacy of the jam by identifying you officially as current host and prevents non-tagged people from hosting.\r\nThere must be 2 randomly generated themes, the last theme is chosen by you.\r\nOther than that you are free to decide how people join and how submissions are rated\/handled, and any further rules\/restrictions you want to place on participants.\r\n\r\n\r\nThe 4 Core Rules\r\nSubmissions must come in within 12 hours of the Gamejam ending.\r\nSubmissions must be original works, no plagiarism.\r\nSubmissions can be based on any number of themes, but must incorporate at least 1 of the randomly generated themes.\r\nNo Pressure. Just have fun with it. Submissions will still be accepted even if they're not complete.\r\n- - -\r\n\r\nTAG History\r\n\r\nA List of all previous TAGs, their hosts and their entries.\r\n\r\n#01 - August 2013 - Hosted by TickTakashi\r\n[Games]\r\n\r\n#02 - September 2013 - Hosted by Udell Games\r\n[Games]\r\n\r\n#03 - October 2013 - Hosted by Brendan LoBuglio\r\n[Not Yet Started]\r\n\r\n[TAG #03 Begins on October 11th]",
+            "local": false,
+            "url": "http:\/\/www.ticktakashi.com\/p\/tag-arbitrary-gamejam.html",
+            "tags": [
+                "the-arbitrary-gamejam"
+            ]
+        },
+        {
+            "name": "Flappy Jam",
+            "start_date": "2014-02-09",
+            "end_date": "2014-02-24",
+            "description": null,
+            "local": true,
+            "url": "http:\/\/itch.io\/jam\/flappyjam",
+            "tags": [
+                "itch-io"
+            ],
+            "themes": [
+                "make-a-game-like-flappy-bird"
+            ]
+        },
+        {
+            "name": "games++",
+            "start_date": "2014-03-01 03:00:00 +0000",
+            "end_date": "2014-03-02 01:00:00 +0000",
+            "description": "Organized by Alex Myers + Jeff Thompson, games++ is a local game jam in\r\n\r\nStevens Institute of Technology\r\nVisual Art & Technology Program\r\nMorton Building, 2nd Floor\r\nHoboken, New Jersey \r\n\r\nand\r\n\r\nBellevue University\r\nGame Studies Program\r\nASB, Basement\r\nOmaha, Nebraska\r\n",
+            "local": false,
+            "url": "http:\/\/gamesplusplus.org\/",
+            "tags": [
+                "games"
+            ]
+        },
+        {
+            "name": "MiniLD #49",
+            "start_date": "2014-02-21",
+            "end_date": "2014-02-24",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": true,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2014\/02\/15\/minild-49\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "non-human-player"
+            ]
+        },
+        {
+            "name": "Cyberpunk Game Jam 2014",
+            "start_date": "2014-03-01 08:00:00 +0000",
+            "end_date": "2014-03-11 08:00:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/www.punkcyb.org\/",
+            "tags": [
+                "itch-io"
+            ],
+            "themes": [
+                "must-be-cyberpunk-related",
+                "will-be-80-s-based"
+            ]
+        },
+        {
+            "name": "Ludum Dare 29",
+            "start_date": "2014-04-26 01:00:00 +0000",
+            "end_date": "2014-04-29 01:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "FGL Game Jam",
+            "start_date": "2014-03-01 12:00:00 +0000",
+            "end_date": "2014-03-03 12:00:00 +0000",
+            "description": "A forum based 48h jam with prizes. Mobile and web games only.",
+            "local": false,
+            "url": "https:\/\/www.fgl.com\/view_thread.php?thread_id=48101&offset=0#post333237",
+            "tags": [
+                "fgl-game-jam"
+            ]
+        },
+        {
+            "name": "BaconGameJam 07",
+            "start_date": "2014-03-21 10:00:00 +0000",
+            "end_date": "2014-03-23 10:00:00 +0000",
+            "description": "Game jam for everyone. No strict restrictions.",
+            "local": false,
+            "url": "http:\/\/bacongamejam.org\/jams\/bacongamejam-07\/",
+            "tags": [
+                "bacongamejam"
+            ]
+        },
+        {
+            "name": "NaNoRenO 2014",
+            "start_date": "2014-02-28 11:00:00 +0000",
+            "end_date": "2014-03-31 11:00:00 +0000",
+            "description": "NaNoRenO is an event where creators make a game (mostly visual novels) from scratch during the month of March.",
+            "local": false,
+            "url": "http:\/\/lemmasoft.renai.us\/forums\/viewtopic.php?f=13&t=25262",
+            "tags": [
+                "nanoreno"
+            ]
+        },
+        {
+            "name": "The Arbitrary Game Jam 8",
+            "start_date": "2014-03-08 12:00:00 +0000",
+            "end_date": "2014-03-10 12:00:00 +0000",
+            "description": "What is TAG - The Arbitrary Gamejam?\r\nI created TAG to try and add something exciting and good natured to the community. \r\nThe Arbitrary Gamejam is a weekend game jam with 3 themes designed to promote small and unknown indie developers.\r\nAt the end of each TAG, the submissions are rated by the host.\r\nThe person who submitted the best game will be \"tagged\" and is responsible for hosting the next TAG.\r\nThe idea is, as the Gamejam grows more popular, passing the Gamejam around will help small unknown indie developers pull traffic to their websites.\r\nBy using a random word generator to generate 2\/3 themes, TAG is intentionally arbitrary to encourage outside-the-box thinking and wild combinations.\r\n\r\n\r\nWhen is TAG?\r\nTAG usually occurs on the first weekend of every month, Friday to Sunday.\r\nThe themes for each TAG will be posted on the Thursday before it starts, to give people some time to think about how the themes can fit together.\r\nThe Jam Begins at Midnight on Thursday and Ends at Midnight on Sunday.\r\n\r\n[Go to the Current Hosts site for a Countdown to the next TAG]\r\n\r\n\r\nHow Do I Host?\r\nFirst and foremost, you cannot host TAG twice in a row or more than two times in a single year (Unless yours is the only submission). If you end up hosting TAG, you can handle it in any way you want under two conditions.\r\nYou must keep the 4 core rules outlined below by linking to this page. This maintains the legitimacy of the jam by identifying you officially as current host and prevents non-tagged people from hosting.\r\nThere must be 2 randomly generated themes, the last theme is chosen by you.\r\nOther than that you are free to decide how people join and how submissions are rated\/handled, and any further rules\/restrictions you want to place on participants.\r\n\r\n\r\nThe 4 Core Rules\r\nSubmissions must come in within 12 hours of the Gamejam ending.\r\nSubmissions must be original works, no plagiarism.\r\nSubmissions can be based on any number of themes, but must incorporate at least 1 of the randomly generated themes.\r\nNo Pressure. Just have fun with it. Submissions will still be accepted even if they're not complete.\r\n- - -\r\n\r\nTAG History\r\n\r\nA List of all previous TAGs, their hosts and their entries.\r\n\r\n#01 - August 2013 - Hosted by TickTakashi\r\n[Games]\r\n\r\n#02 - September 2013 - Hosted by Udell Games\r\n[Games]\r\n\r\n#03 - October 2013 - Hosted by Brendan LoBuglio\r\n[Not Yet Started]\r\n\r\n[TAG #03 Begins on October 11th]",
+            "local": false,
+            "url": "http:\/\/www.ticktakashi.com\/p\/tag-arbitrary-gamejam.html",
+            "tags": [
+                "the-arbitrary-gamejam"
+            ]
+        },
+        {
+            "name": "64Digits Spring Competition",
+            "start_date": "2014-04-01 07:00:00 +0000",
+            "end_date": "2014-04-30 06:59:00 +0000",
+            "description": "64digits is a small, close-knit community focused on game development and artistic endeavours. A few times a year, they host competitions to hone their skills, express ideas, and just to have fun! The contest is held entirely online and everyone is encouraged to participate.",
+            "local": false,
+            "url": "http:\/\/competition.64digits.com\/",
+            "tags": [
+                "64digits"
+            ]
+        },
+        {
+            "name": "Procedural Death Jam",
+            "start_date": "2014-03-08 12:00:00 +0000",
+            "end_date": "2014-03-15 11:59:00 +0000",
+            "description": "Procedural Death Jam is a 7-day game jam. The theme is \"Procedural Death Labyrinth,\" a new way of describing games like FTL, Spelunky, Coin Crypt, The Binding of Isaac, etc, that\u00e2\u20ac\u2122s less awkward than \"Rogue-Like-LIKE\" or \"Rogue-LITE.\"",
+            "local": false,
+            "url": "http:\/\/proceduraldeathjam.com\/",
+            "tags": [
+                "procedural-death-jam"
+            ]
+        },
+        {
+            "name": "MiniLD #50",
+            "start_date": "2014-03-22",
+            "end_date": "2014-03-24",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/bit.ly\/MiniLD50",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "demakes"
+            ]
+        },
+        {
+            "name": "Pi Jam 2014",
+            "start_date": "2014-03-14",
+            "end_date": "2014-03-16",
+            "description": "Pi Jam is a 48-hour game jam themed around \u00cf\u20ac, that beautiful mathematical constant. VFS Hat Jam and Microsoft have joined for hosting this jam.",
+            "local": false,
+            "url": "http:\/\/pi-jam.com\/",
+            "tags": [
+                "pi-jam"
+            ]
+        },
+        {
+            "name": "Insanity Jam 2014",
+            "start_date": "2014-04-01 12:00:00 +0000",
+            "end_date": "2014-04-04 11:59:00 +0000",
+            "description": "The Insanity Jam is a relaxed, experimental, game jam that utilizes orteil42's random game idea generator. This Jam aims to be inclusive, welcoming game creators anywhere in the world of all skill levels, from newbies to professionals.\r\n\r\nThe Jam is split into 2 parts: the Main Jam, and the Post Jam, during which developers may clean up their project or make late submissions. ",
+            "local": true,
+            "url": "http:\/\/jam.alamantus.com\/insanity2014\/viewtopic.php?id=12",
+            "tags": [
+                "insanity-jam"
+            ]
+        },
+        {
+            "name": "PyWeek May 2014",
+            "start_date": "2014-05-11 12:00:00 +0000",
+            "end_date": "2014-05-18 12:00:00 +0000",
+            "description": "A week-long Python game programming challenge that is arranged roughly three times a year. The theme and the winners are chosen by fellow game makers.",
+            "local": false,
+            "url": "http:\/\/pyweek.org\/18\/",
+            "tags": [
+                "pyweek"
+            ]
+        },
+        {
+            "name": "#1Up Norwich Game Jam",
+            "start_date": "2014-04-07 12:00:00 +0000",
+            "end_date": "2014-04-11 12:00:00 +0000",
+            "description": "Make a game within 4 days and win prizes with a total value of over \u00c2\u00a33,000, in a number of categories. The winning games also have the chance to be exhibited in The Forum at a special event later in the year.",
+            "local": false,
+            "url": "http:\/\/norwichgamingfestival.wordpress.com\/create\/game-jam\/",
+            "tags": [
+                "1up-norwich-game-jam"
+            ]
+        },
+        {
+            "name": "2014 Spring GDSE GameJam",
+            "start_date": "2014-04-05 12:00:00 +0000",
+            "end_date": "2014-04-07 11:59:00 +0000",
+            "description": "A jam hosted by Game Development Stack Exchange.",
+            "local": false,
+            "url": "http:\/\/meta.gamedev.stackexchange.com\/questions\/1565\/the-2014-spring-gdse-gamejam",
+            "tags": [
+                "gdse-jam"
+            ]
+        },
+        {
+            "name": "Level up 2014",
+            "start_date": "2014-03-17 06:01:00 +0000",
+            "end_date": "2014-06-03 07:59:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/software.intel.com\/sites\/campaigns\/levelup2014\/",
+            "tags": [
+                "level-up"
+            ]
+        },
+        {
+            "name": "The Arbitrary Gamejam 9",
+            "start_date": "2014-04-04 07:00:00 +0000",
+            "end_date": "2014-04-06 06:59:00 +0000",
+            "description": "What is TAG - The Arbitrary Gamejam?\r\nI created TAG to try and add something exciting and good natured to the community. \r\nThe Arbitrary Gamejam is a weekend game jam with 3 themes designed to promote small and unknown indie developers.\r\nAt the end of each TAG, the submissions are rated by the host.\r\nThe person who submitted the best game will be \"tagged\" and is responsible for hosting the next TAG.\r\nThe idea is, as the Gamejam grows more popular, passing the Gamejam around will help small unknown indie developers pull traffic to their websites.\r\nBy using a random word generator to generate 2\/3 themes, TAG is intentionally arbitrary to encourage outside-the-box thinking and wild combinations.\r\n\r\n\r\nWhen is TAG?\r\nTAG usually occurs on the first weekend of every month, Friday to Sunday.\r\nThe themes for each TAG will be posted on the Thursday before it starts, to give people some time to think about how the themes can fit together.\r\nThe Jam Begins at Midnight on Thursday and Ends at Midnight on Sunday.\r\n\r\n[Go to the Current Hosts site for a Countdown to the next TAG]\r\n\r\n\r\nHow Do I Host?\r\nFirst and foremost, you cannot host TAG twice in a row or more than two times in a single year (Unless yours is the only submission). If you end up hosting TAG, you can handle it in any way you want under two conditions.\r\nYou must keep the 4 core rules outlined below by linking to this page. This maintains the legitimacy of the jam by identifying you officially as current host and prevents non-tagged people from hosting.\r\nThere must be 2 randomly generated themes, the last theme is chosen by you.\r\nOther than that you are free to decide how people join and how submissions are rated\/handled, and any further rules\/restrictions you want to place on participants.\r\n\r\n\r\nThe 4 Core Rules\r\nSubmissions must come in within 12 hours of the Gamejam ending.\r\nSubmissions must be original works, no plagiarism.\r\nSubmissions can be based on any number of themes, but must incorporate at least 1 of the randomly generated themes.\r\nNo Pressure. Just have fun with it. Submissions will still be accepted even if they're not complete.\r\n- - -\r\n\r\nTAG History\r\n\r\nA List of all previous TAGs, their hosts and their entries.\r\n\r\n#01 - August 2013 - Hosted by TickTakashi\r\n[Games]\r\n\r\n#02 - September 2013 - Hosted by Udell Games\r\n[Games]\r\n\r\n#03 - October 2013 - Hosted by Brendan LoBuglio\r\n[Not Yet Started]\r\n\r\n[TAG #03 Begins on October 11th]",
+            "local": false,
+            "url": "http:\/\/www.dopplex.net\/TAG9\/",
+            "tags": [
+                "the-arbitrary-gamejam"
+            ]
+        },
+        {
+            "name": "Public Domain Jam",
+            "start_date": "2014-05-17",
+            "end_date": "2014-05-24",
+            "description": "TIRED OF THE CONSTANT FLOOD OF CTHULU AND ZOMBIE GAMES? Part of the reason they're everywhere is that they're both well known and free to use, and a lot of people who make games aren\u00e2\u20ac\u2122t aware of just how many good stories they\u00e2\u20ac\u2122re carrying around with them. There are SO MANY other stories and characters out there that are also free to use. The list goes on forever, and these are all stories that are free to be remixed and remade by anyone. Whatever the reason, a lot of these stories aren\u00e2\u20ac\u2122t out there in games yet. SO LET'S MAKE SOME!",
+            "local": false,
+            "url": "http:\/\/itch.io\/jam\/the-public-domain-jam",
+            "tags": [
+                "public-domain-jam"
+            ],
+            "themes": [
+                "public-domain"
+            ]
+        },
+        {
+            "name": "Gender Jam",
+            "start_date": "2014-04-01",
+            "end_date": "2014-04-30",
+            "description": "Since this jam is not being hosted in a central location there will be no voting and you will need to find a place to post your game. Consider this a more relaxed game jam.  More of a personal challenge for everyone than a competition.",
+            "local": false,
+            "url": "http:\/\/www.deviever.com\/?p=76",
+            "tags": [
+                "gender-jam"
+            ],
+            "themes": [
+                "gender"
+            ]
+        },
+        {
+            "name": "HTML5 Game Jam Paris",
+            "start_date": "2014-05-09 10:00:00 +0000",
+            "end_date": "2014-05-11 07:00:00 +0000",
+            "description": "HTML5 Game Jam Paris is an international event open to professionals, students and other web enthusiasts.\r\nDuring this event, teams of graphic artists and developers will battle to make the best game from scratch using the latest open web technologies.\r\n\r\nThe event will last the whole weekend (9 10 11 may 2014), and tech talks are planned",
+            "local": false,
+            "url": "http:\/\/html5gamejam.org\/",
+            "tags": [
+                "html5-game-jam"
+            ]
+        },
+        {
+            "name": "gm(48) #10",
+            "start_date": "2014-04-18",
+            "end_date": "2014-04-19",
+            "description": "Born in the Reddit community, the gm(48) occurs once every season. There will be a two-week voting period for the theme, which will be revealed at the start of the competition.",
+            "local": false,
+            "url": "http:\/\/www.reddit.com\/r\/gamemaker",
+            "tags": [
+                "gm-48"
+            ]
+        }
+    ]
+}

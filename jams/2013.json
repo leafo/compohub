@@ -1,0 +1,1212 @@
+{
+    "jams": [
+        {
+            "name": "Global Game Jam 2013",
+            "start_date": "2013-01-25",
+            "end_date": "2013-01-27",
+            "description": "48h event arranged worldwide in multiple places.",
+            "local": false,
+            "url": "http:\/\/globalgamejam.org",
+            "tags": [
+                "global-game-jam"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-02-01",
+            "end_date": "2013-02-28",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-03-01",
+            "end_date": "2013-03-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-04-01",
+            "end_date": "2013-04-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-05-01",
+            "end_date": "2013-05-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-06-01",
+            "end_date": "2013-06-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-07-01",
+            "end_date": "2013-07-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-08-01",
+            "end_date": "2013-08-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-09-01",
+            "end_date": "2013-09-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-10-01",
+            "end_date": "2013-10-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-11-01",
+            "end_date": "2013-11-30",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2013-12-01",
+            "end_date": "2013-12-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": false,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "Midsummer Jam Week",
+            "start_date": "2013-06-17",
+            "end_date": "2013-06-23",
+            "description": "A game jam hosted by Richard Blechinger.",
+            "local": false,
+            "url": "http:\/\/msj.blechi.at",
+            "tags": [
+                "blechi-at"
+            ]
+        },
+        {
+            "name": "Experimental Gameplay Project - March",
+            "start_date": "2013-03-01",
+            "end_date": "2013-03-31",
+            "description": "An event that is running all the time! On the first day of each month a new theme is announced and then you have 7 days to make a game based on that theme. No voting, everybody is a winner.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com",
+            "tags": [
+                "experimental-gameplay-project"
+            ]
+        },
+        {
+            "name": "Experimental Gameplay Project - April and May",
+            "start_date": "2013-04-01",
+            "end_date": "2013-05-31",
+            "description": "An event that is running all the time! On the first day of each month a new theme is announced and then you have 7 days to make a game based on that theme. No voting, everybody is a winner.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com",
+            "tags": [
+                "experimental-gameplay-project"
+            ],
+            "themes": [
+                "construct"
+            ]
+        },
+        {
+            "name": "Experimental Gameplay Project - June",
+            "start_date": "2013-06-01",
+            "end_date": "2013-06-30",
+            "description": "An event that is running all the time! On the first day of each month a new theme is announced and then you have 7 days to make a game based on that theme. No voting, everybody is a winner.",
+            "local": false,
+            "url": "http:\/\/experimentalgameplay.com",
+            "tags": [
+                "experimental-gameplay-project"
+            ]
+        },
+        {
+            "name": "#GPCv16",
+            "start_date": "2013-02-04 05:00:00 +0000",
+            "end_date": "2013-02-12 04:59:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #67",
+            "start_date": "2013-01-20 12:00:00 +0000",
+            "end_date": "2013-01-20 02:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/4917",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Create: A Game Jam Presented by Kill Screen and Ouya",
+            "start_date": "2013-01-14",
+            "end_date": "2013-01-23",
+            "description": "Create a game with Ouya SDK and win an Ouya Dev Console and thousands of dollars. You need to pre-order <a href=\"http:\/\/www.ouya.tv\/\">Ouya<\/a> to participate.",
+            "local": false,
+            "url": "http:\/\/www.killscreendaily.com\/create\/",
+            "tags": [
+                "kill-screen"
+            ]
+        },
+        {
+            "name": "MiniLD #39",
+            "start_date": "2013-01-11 08:00:00 +0000",
+            "end_date": "2013-01-25 03:00:00 +0000",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Glorious Trainwrecks: an event",
+            "start_date": "2013-01-23 02:44:00 +0000",
+            "end_date": "2013-01-24 02:44:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5001",
+            "tags": [
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Moosader",
+            "start_date": "2013-01-25",
+            "end_date": "2013-02-25",
+            "description": "Q: How do I enter?\r\nA: You have to be a member of the board; Register and then post in the Introduction Forum to get activated.\r\n\r\nFrom there, post a thread to this forum. Make sure to prefix the thread title with [Entry]. If you drop out, please use the suffix [Dropout]. Once the entry is completed, please prefix with [Completed] and add a download link to the first post in your entry's thread. (If you don't have a place to host, I can host for you).\r\n\r\nThe thread title can be whatever- generally, people post the game title once they figure it out.\r\n\r\n\r\nQ: What is the prize for winning?\r\nA: You get marked as the winner on the competition website! I know, exciting, right?\r\n(I'm open to Prize Ideas, given that they're cheap and not a lot of work. x)\r\n\r\n\r\nQ: How is the winner decided?\r\nA: Once the competition is over, everybody posts links to download their games. Any board member can vote for any finished entry (sometimes 1 or more votes per person), but we ask that if you are going to vote, you give every game a fair shake first.\r\n\r\n\r\nQ: What do I need to submit to be able to be voted on?\r\nA: You need to provide at least your game's binaries. Most of our members are Windows and Linux users, and some are Linux exclusive. It's up to you to decide what to provide binaries for, if someone can't play your game, you'll simply not get a vote from them.\r\n\r\nIf you'd like to make your game Open Source and link to a repo, that's great, but not required. We'd still like to see some binaries, at least for Windows users. \r\n\r\n\r\nQ: What am I allowed to make my game with?\r\nA: Anything you like. You can use C++, C#, GameMaker, MMF, Flash, etc. So long as people can play your game to vote for it. It can even be a game mod, so long as it stands up as an original game, not just a re-skinning.\r\n\r\n\r\nQ: What are the team limits?\r\nA: You can work alone, or be on a team. We don't really have any hard limits on how many people can be in a team, since there usually aren't more than 3 for a competition game. If you feel like hiring 100 college students to produce your game, fine. It'll be interesting.\r\n\r\n\r\nQ: What can I do before the competition starts?\r\nA: You can work on your game engine, planning, design, art, etc. Pretty much anything but actual game-specific code.\r\n\r\nYou can also work on \"Prototype\" code ahead of time. For example, writing and testing out algorithms in programs. That's fine, but it can't really be actual game code.",
+            "local": false,
+            "url": "http:\/\/forum.moosader.info\/viewtopic.php?f=91&t=2650",
+            "tags": [
+                "moosader"
+            ],
+            "themes": [
+                "japanese-rpg-styled-game"
+            ]
+        },
+        {
+            "name": "GiTD #29",
+            "start_date": "2013-01-31",
+            "end_date": "2013-02-09",
+            "description": "The name says it all. A theme will be announced when the competition starts.",
+            "local": false,
+            "url": "http:\/\/www.kongregate.com\/forums\/4-game-programming\/topics\/320282-gitd-29-10-day-jam-starts-january-31st",
+            "tags": [
+                "game-in-ten-days",
+                "kongregate"
+            ],
+            "themes": [
+                "night-and-day"
+            ]
+        },
+        {
+            "name": "CRA Game Jam",
+            "start_date": "2013-02-02",
+            "end_date": "2013-02-03",
+            "description": "Canada Revenue Agency Game Jam was inspired by <a href=\"http:\/\/www.thestar.com\/news\/gta\/2013\/01\/30\/revenue_canada_worker_fired_for_his_online_customer_service_game.html\">this incident<\/a> in which an indie developer loses his day job because of his game.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/01\/29\/cra-game-jam\/",
+            "tags": [
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Free For All KlikFest #2",
+            "start_date": "2013-02-02 04:15:00 +0000",
+            "end_date": "2013-02-12 04:15:00 +0000",
+            "description": "A simple Klik of the Month Klub -style event but lasts longer.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5027",
+            "tags": [
+                "free-for-all-klikfest",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "7DRL Challenge 2013",
+            "start_date": "2013-03-09",
+            "end_date": "2013-03-17",
+            "description": "In Seven Day Roguelike Challenge you have a week to build a roguelike. Using pre-existing resources is allowed.",
+            "local": false,
+            "url": "http:\/\/7drl.org\/2013\/01\/31\/we-have-dates-for-7drl-challenge-2013\/",
+            "tags": [
+                "seven-day-roguelike-challenge"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #68",
+            "start_date": "2013-02-17 12:00:00 +0000",
+            "end_date": "2013-02-17 02:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5048",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "GiTD #30",
+            "start_date": "2013-02-28",
+            "end_date": "2013-03-09",
+            "description": "The name says it all. A theme will be announced when the competition starts.",
+            "local": false,
+            "url": "http:\/\/www.kongregate.com",
+            "tags": [
+                "game-in-ten-days",
+                "kongregate"
+            ]
+        },
+        {
+            "name": "Modit's \"Make it Anything\" Contest",
+            "start_date": "2013-02-18 07:00:00 +0000",
+            "end_date": "2013-03-04 07:00:00 +0000",
+            "description": "Make a modit (HTML5 game, app or anything) and win cash prizes. You need to be at least 18 years old to enter.",
+            "local": false,
+            "url": "https:\/\/mod.it\/contest",
+            "tags": [
+                "mod-it"
+            ]
+        },
+        {
+            "name": "MiniLD #40",
+            "start_date": "2013-02-22",
+            "end_date": "2013-02-25",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/02\/13\/an-announcement-for-minild-40\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "the-real-world"
+            ]
+        },
+        {
+            "name": "Game Jolt Contest #9",
+            "start_date": "2013-03-01 05:00:00 +0000",
+            "end_date": "2013-03-11 05:00:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/gamejolt.com",
+            "tags": [
+                "game-jolt"
+            ]
+        },
+        {
+            "name": "Clay.io HTML5 Game Dev Contest for Students",
+            "start_date": "2013-03-05 06:00:00 +0000",
+            "end_date": "2013-04-06 05:59:00 +0000",
+            "description": "A competition for high school and college students. Make a HTML5 for the Clay.io Marketplace. Includes prizes.",
+            "local": false,
+            "url": "http:\/\/clay.io\/competition",
+            "tags": [
+                "clay-io"
+            ]
+        },
+        {
+            "name": "NASA - Dark Side of the Jam",
+            "start_date": "2013-03-08",
+            "end_date": "2013-03-10",
+            "description": "What is the Dark Side of the Jam?\r\n\r\nA game jam hosted by NASA!\r\n\r\nGame developers around the planet will gather to make games about space and science.\r\n\r\nThe Dark Side of the Jam is open to all, whether you\u00e2\u20ac\u2122re a veteran developer, hobbyist, or student. Ideally your games will not only be great achievements in coding prowess, but will help capture the public\u00e2\u20ac\u2122s interest in the real science and technology advancements being made in aerospace exploration.\r\n\r\nDSJ is an educational project of the Night Rover Challenge. Learn more about this $1.5 Million dollar NASA Centennial Challenge for advanced energy storage technology. You might even want to use it in a game! And be sure to check out NASA\u00e2\u20ac\u2122s other Centennial Challenges \u00e2\u20ac\u201c multi-million dollar prize competitions to catalyze amazing new technologies!",
+            "local": false,
+            "url": "http:\/\/www.darksidejam.com\/",
+            "tags": [
+                "nasa"
+            ],
+            "themes": [
+                "space"
+            ]
+        },
+        {
+            "name": "Ludum Dare 26",
+            "start_date": "2013-04-27 02:00:00 +0000",
+            "end_date": "2013-04-30 02:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "#GPCv17",
+            "start_date": "2013-04-08 05:00:00 +0000",
+            "end_date": "2013-04-16 04:59:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ],
+            "themes": [
+                "island-and-entanglement"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #69",
+            "start_date": "2013-03-16 11:00:00 +0000",
+            "end_date": "2013-03-17 01:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5101",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "1GAMCRUNCH",
+            "start_date": "2013-03-22",
+            "end_date": "2013-03-24",
+            "description": "Monthly game jam that normally runs the last weekend of each month. Designed to help #1GAM (www.OneGameAMonth.com) participants reach the finish line on their games before the month ends.",
+            "local": false,
+            "url": "http:\/\/1gamcrunch.playvue.com\/",
+            "tags": [
+                "1gamcrunch-by-playvue"
+            ]
+        },
+        {
+            "name": "MiniLD #41",
+            "start_date": "2013-03-11 02:59:00 +0000",
+            "end_date": "2013-03-31 02:59:00 +0000",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/03\/11\/minild-41-announcement\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "blood-in-the-water"
+            ]
+        },
+        {
+            "name": "Construct 2 Jam - Newgrounds",
+            "start_date": "2013-03-15",
+            "end_date": "2013-04-30",
+            "description": "Win money and Construct 2 Business Edition.",
+            "local": false,
+            "url": "http:\/\/www.newgrounds.com\/bbs\/topic\/1335307",
+            "tags": [
+                "newgrounds"
+            ]
+        },
+        {
+            "name": "Stencyl Jam 2013",
+            "start_date": "2013-03-03 12:00:00 +0000",
+            "end_date": "2013-05-01 07:59:00 +0000",
+            "description": "Win dollars and 1 year of Stencyl Studio.",
+            "local": false,
+            "url": "http:\/\/community.stencyl.com\/index.php\/topic,19699.0.html",
+            "tags": [
+                "stencyl"
+            ]
+        },
+        {
+            "name": "GiTD #31",
+            "start_date": "2013-03-29 01:00:00 +0000",
+            "end_date": "2013-04-08 01:00:00 +0000",
+            "description": "The name says it all. A theme will be announced when the competition starts.",
+            "local": false,
+            "url": "http:\/\/www.kongregate.com\/forums\/4-game-programming\/topics\/330143-gitd-31-starts-soon",
+            "tags": [
+                "game-in-ten-days",
+                "kongregate"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #70",
+            "start_date": "2013-04-20 11:00:00 +0000",
+            "end_date": "2013-04-21 01:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5195",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Great GMCJam #10",
+            "start_date": "2013-04-27 12:00:00 +0000",
+            "end_date": "2013-04-29 11:59:00 +0000",
+            "description": "A 72-hour game jam for <a href=\"http:\/\/www.yoyogames.com\/gamemaker\">Game Maker<\/a> users. Includes prizes.",
+            "local": false,
+            "url": "http:\/\/gmc.yoyogames.com\/index.php?showtopic=578250",
+            "tags": [
+                "gmc-jam"
+            ]
+        },
+        {
+            "name": "GiTD #32",
+            "start_date": "2013-05-02 12:00:00 +0000",
+            "end_date": "2013-05-12 12:00:00 +0000",
+            "description": "The name says it all. A theme will be announced when the competition starts.",
+            "local": false,
+            "url": "http:\/\/www.kongregate.com\/forums\/4-game-programming\/topics\/334927-gitd-32-starts-on-may-2nd",
+            "tags": [
+                "game-in-ten-days",
+                "kongregate"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #71",
+            "start_date": "2013-05-18 11:00:00 +0000",
+            "end_date": "2013-05-19 01:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5360",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Fishing Jam",
+            "start_date": "2013-05-20",
+            "end_date": "2013-05-27",
+            "description": "This is a friendly fishing jam.\r\n\r\nNow them, if this is your first time to fishing jam club; you have to make a fishing game! here are some links to get you started! even beginners can make their first game in a week! \r\n\r\nMake a game about or inspired by Fishing, in a week! If you say it relates to fishing then it relates to fishing. Use whatever tools\/techniques you want to make your game. You need to make a thread for your game in the games forum. Updating it through the week is your choice, but it's more fun if you do! Feel free to start your thread whenever you like, if you want to share your idea that's cool! When your game is done, make a post about it in your thread, and link to that post in the submission thread. \r\n",
+            "local": false,
+            "url": "http:\/\/jam.legendaryfisher.com\/forum\/viewtopic.php?f=2&t=1",
+            "tags": [
+                "fishing-jam"
+            ],
+            "themes": [
+                "fishing"
+            ]
+        },
+        {
+            "name": "BaconGameJam 05",
+            "start_date": "2013-06-07 10:00:00 +0000",
+            "end_date": "2013-06-09 10:00:00 +0000",
+            "description": "Game jam for everyone. No strict restrictions.",
+            "local": false,
+            "url": "http:\/\/bacongamejam.org\/jams\/bacongamejam-05\/",
+            "tags": [
+                "bacongamejam"
+            ]
+        },
+        {
+            "name": "#22Jams01",
+            "start_date": "2013-05-25 12:00:00 +0000",
+            "end_date": "2013-05-27 12:00:00 +0000",
+            "description": "A game jam for teams of 1-8 people.",
+            "local": true,
+            "url": "http:\/\/22jams.com",
+            "tags": [
+                "22jams"
+            ]
+        },
+        {
+            "name": "IndieGameMag Game Developer Contest",
+            "start_date": "2013-05-06",
+            "end_date": "2013-05-12",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/www.indiegamemag.com\/forums\/showthread.php\/2021-Theme-Announcement!-Begin-the-Contest!",
+            "tags": [
+                "the-indie-game-magazine"
+            ],
+            "themes": [
+                "cliches"
+            ]
+        },
+        {
+            "name": "#GPCv18",
+            "start_date": "2013-06-03 05:00:00 +0000",
+            "end_date": "2013-06-11 04:59:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ]
+        },
+        {
+            "name": "#1GAMCRUNCH May Edition",
+            "start_date": "2013-05-24",
+            "end_date": "2013-05-26",
+            "description": "#1GAMCRUNCH is a One Game a Month game jam held on the last weekend before the 1GAM end of month submission deadline. May's jam is held 5\/24-5\/26 and features a new special challenge: Make a Game WITHOUT Touch Controls in 48HRS. (No mouse, no keyboard, no swipe, no stylus.) There is also prize for the highest rated challenge submission.",
+            "local": false,
+            "url": "http:\/\/1gamcrunch.playvue.com\/",
+            "tags": [
+                "1gamcrunch-by-playvue"
+            ],
+            "themes": [
+                "make-a-game-without-touch-controls-no-mouse",
+                "no-keyboard",
+                "no-swipe",
+                "no-stylus"
+            ]
+        },
+        {
+            "name": "MiniLD #42",
+            "start_date": "2013-05-24",
+            "end_date": "2013-05-26",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/05\/18\/mini-ludum-dare-42-announcement\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "earth-will-be-destroyed"
+            ]
+        },
+        {
+            "name": "GiTD #33",
+            "start_date": "2013-05-30 10:00:00 +0000",
+            "end_date": "2013-06-09 10:00:00 +0000",
+            "description": "The name says it all. A theme will be announced when the competition starts.",
+            "local": false,
+            "url": "http:\/\/www.kongregate.com\/forums\/4-game-programming\/topics\/339785-gitd-33-contest-starting-soon",
+            "tags": [
+                "game-in-ten-days",
+                "kongregate"
+            ]
+        },
+        {
+            "name": "GBJam - Game Boy Jam",
+            "start_date": "2013-07-05",
+            "end_date": "2013-07-14",
+            "description": "The GBJAM is a video game development JAM that developers will spend a week and develop a game based around the theme of GameBoy.\r\n\r\nGBJAM 1 will be July 5th - July 14th\r\n\r\nWhen discussing the GBJAM use #GBJAM.",
+            "local": false,
+            "url": "http:\/\/www.gbjam.net\/",
+            "tags": [
+                "game-boy-jam"
+            ],
+            "themes": [
+                "gameboy"
+            ]
+        },
+        {
+            "name": "No Future Contest",
+            "start_date": "2013-06-15",
+            "end_date": "2013-07-15",
+            "description": "As an exercise in style, OUJEVIPO and VISAGES DU MONDE (a french culturel center in Cergy, close to Paris) invite you to participate to the NO FUTURE game dev CONTEST. Your game will have to obey to strict technical and thematic constraints\u00e2\u20ac\u00a6 Because your freedom and creativity match to a system of laws and rules.\r\nThe main theme of the contest will be announced on june 15th. Please, register right now. To submit your games, the deadline is on july 15th.\r\nWe will exhibit the 15 best projects due to arcade cabinets during the GAMES FESTIVAL of Cergy where we will announce the contest winners (audience price \/ jury price \/ homebrew price \/ 800 \u00e2\u201a\u00ac for each).\r\n \r\n\r\nConditions\r\n \r\nYou have to create a video game compatible with Windows, browser or homebrew within a month (from the 15th June to 15th July) on a given theme. You have to respect at least one of the rules written below. (See the paragraph \u00e2\u20ac\u0153Rules\u00e2\u20ac\u009d)\r\n \r\n\r\nAwards\r\n\r\nThe 15 best games created for the contest will be displayed \/ showed to the public with adapted arcade cabinets in \u00c2\u00ab Visages du Monde \u00c2\u00bb from September to October the 20th. Those cabinets will be considered for every game (look, control \/ buttons \/ joystick \u00e2\u20ac\u00a6). The developers will take part of their production.\r\n\r\n\r\n\r\n3 different awards will be attributed to the the best games :\r\nThe \u00c2\u00ab Visages du Monde \u00c2\u00bb award, by the public (800 \u00e2\u201a\u00ac)\r\nThe \u00c2\u00ab Oujevipo \u00c2\u00bb award, by the jury (800 \u00e2\u201a\u00ac)\r\nThe Homebrew award, by the publisher \u00c2\u00ab Pix\u00e2\u20ac\u2122n Love \u00c2\u00bb (800 \u00e2\u201a\u00ac)\r\n\r\nThe non-selected games will be available online on the festival website. [WIP]\r\n \r\n\r\n \r\n\r\nRegistration\r\n\r\nThe contest is open to every individual or collective, professional or non-professional of video games. You should register here before the 1st July.\r\n \r\n\r\nSending the game\r\n\r\nThe game file (.exe, rom, .swf...) must be sent to nofuturecontest@gmail.com, with a picture from the game (jpg or png) and the name of the dev\/team. More infos will be avalaible on oujevipo.fr et vdmlab.fr.\r\n \r\n\r\nRules\r\n \r\nThe games should be made for Windows, browser or for a console which is not marketed by the constructor anymore (homebrew). Homebrew games have their own category and award.\r\nThe games have to respect the contest\u00e2\u20ac\u2122s theme announced on the 15th June on www.oujevipo.fr and www.vdmlab.fr. They also have to respect one or several (as you like) following rules :\r\n\r\n1 \u00e2\u20ac\u201c Joysticks were just a fling. Nobody use them anymore\u00e2\u20ac\u00a6\r\nThe game mustn\u00e2\u20ac\u2122t use mouse, keyboard nor traditional game controllers (the ones with sticks and buttons)\r\n\r\n2 \u00e2\u20ac\u201c Floppy disks are still the big thing\r\nThe game has to take place in just one screen. No scrolling allowed)\r\n\r\n3 \u00e2\u20ac\u201cThey were right : people actually can\u00e2\u20ac\u2122t read nowadays.\r\nNot a single word or letter is allowed in the game\r\n\r\n4 \u00e2\u20ac\u201c After the WW3, atomic weapons destroyed all the colours.\r\nThe game has 4 colours, no more !\r\n\r\n5 \u00e2\u20ac\u201c My programmer is dead.\r\nThe game has to operate \/ use \/ exploit the concept and\/or aesthetics of the bug and glitch\r\n\r\n6 \u00e2\u20ac\u201c My graphic designer is dead.\r\nNo computer-made graphics allowed (you can use scans, photographies\u00e2\u20ac\u00a6but also ASCII art)\r\n\r\n7 \u00e2\u20ac\u201c Color-blinds has took over the world\r\nThe game has to be in black and white\r\n\r\n8 \u00e2\u20ac\u201c Typewriting is the new hardcore gaming\r\nThe game has to use all or at least the majority of the keyboard buttons\r\n\r\n9 \u00e2\u20ac\u201c Back in 92, Wolfeinstein 1D really made a big splash!\r\nThe game has only one dimension\r\n\r\n10 \u00e2\u20ac\u201c You look better with 3D glasses.\r\nThe game needs stereoscopic or anaglyph 3D glasses\r\n\r\n11 \u00e2\u20ac\u201c World Wide What ?\r\nThe game has to be massively multiplayer (well\u00e2\u20ac\u00a6at least 4) but on one machine)\r\n\r\n12 \u00e2\u20ac\u201c Games are evil, and thus have been strictly forbidden.\r\nThe game has to be developed with a software which usually can\u00e2\u20ac\u2122t create games\r\n \r\nThe use of copyright free material is authorised (pictures, sounds, code\u00e2\u20ac\u2122s extracts \u00e2\u20ac\u00a6) but it need to be written in the credits. The entire game still have to be entirely done made between June 15th and July 15th.\r\n \r\n\r\nCalendar\r\n\r\n31th May : Opening of registration\r\n15th June (7:00pm) : Announcement of the theme on oujevipo.fr et vdmlab.fr\r\n1st July : Closing of registration\r\n15th July (11:59pm) : Dead-line for sending projects\r\n25th July : Announcement of the selected games\r\n18th September : Opening of the exhibition and start-up of the public vote\r\n6th October :  Awards\r\n20th October : Closing of the exhibition",
+            "local": false,
+            "url": "http:\/\/oujevipo.fr\/index.php?option=com_content&view=article&id=941",
+            "tags": [
+                "no-future-contest"
+            ],
+            "themes": [
+                "multiple-themes-to-choose-from"
+            ]
+        },
+        {
+            "name": "Molyjam 2013",
+            "start_date": "2013-07-05",
+            "end_date": "2013-07-07",
+            "description": "An international 48-hour game jam. Arranged in bunch of cities around the world. Add your own if it's not on the list.",
+            "local": false,
+            "url": "http:\/\/www.molyjam.com",
+            "tags": [
+                "molyjam"
+            ]
+        },
+        {
+            "name": "Klik of the Month Klub #72",
+            "start_date": "2013-06-15 11:00:00 +0000",
+            "end_date": "2013-06-16 01:00:00 +0000",
+            "description": "A two hour event every month. Using Klik & Play is highly recommended.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5449",
+            "tags": [
+                "klik-of-the-month-klub",
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "#22Jams02",
+            "start_date": "2013-06-29",
+            "end_date": "2013-06-30",
+            "description": "A game jam for teams of 1-8 people.",
+            "local": false,
+            "url": "http:\/\/22jams.com",
+            "tags": [
+                "22jams"
+            ]
+        },
+        {
+            "name": "iamagamer",
+            "start_date": "2013-07-12",
+            "end_date": "2013-07-14",
+            "description": "Recently, Gamasutra quoted the video-game industry saying, \"you can't have a female character in games\".\r\n\r\nJoin us to challenge these out-dated views during our very first game jam themed around strong, female protagonists!\r\n\r\nThis site is dedicated to games for all, by all. If you love games and respect your fellow human being, it is dedicated to you, too.\r\n\r\nThis site is about you\u00e2\u20ac\u00a6 and you and you and you!  It's about all of us.  Together we all play, and together we can make great things: games have the power to change the world, and so do you!\r\nIt's more than being annoyed when reading something you feel is deeply misguided. It's about stepping up as a community to make a difference in the world. There is a large portion of under-represented people, undeveloped content, and unrealized potential in the games industry today. Large, risk-averse companies are creating content based on misguided perceptions of what gamers want. It's time to challenge those perceptions. Let's jam!",
+            "local": false,
+            "url": "http:\/\/iamagamer.ca\/",
+            "tags": [
+                "iamagamer"
+            ],
+            "themes": [
+                "strong",
+                "female-protagonists"
+            ]
+        },
+        {
+            "name": "7dRTS \/ MiniLD44",
+            "start_date": "2013-07-22",
+            "end_date": "2013-07-28",
+            "description": "Make a real time strategy game in 7 days.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/07\/05\/minild-44-announcement\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "real-time-strategy"
+            ]
+        },
+        {
+            "name": "7DFPS",
+            "start_date": "2013-08-10",
+            "end_date": "2013-08-17",
+            "description": "In 7DFPS your challenge is to make a great first person shooter in 7 days.",
+            "local": false,
+            "url": "http:\/\/7dfps.org\/",
+            "tags": [
+                "7-day-fps-challenge"
+            ],
+            "themes": [
+                "first-person-shooter"
+            ]
+        },
+        {
+            "name": "#GPCv19",
+            "start_date": "2013-08-05 04:00:00 +0000",
+            "end_date": "2013-08-13 03:59:00 +0000",
+            "description": "Game Prototype Challenge is about taking two themes and mashing up them into a game prototype.",
+            "local": false,
+            "url": "http:\/\/gameprototypechallenge.com",
+            "tags": [
+                "game-prototype-challenge"
+            ]
+        },
+        {
+            "name": "Ludum Dare 27",
+            "start_date": "2013-08-24 01:00:00 +0000",
+            "end_date": "2013-08-26 01:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Robot Day 2013",
+            "start_date": "2013-07-10",
+            "end_date": "2013-07-10",
+            "description": "Submit movies, games, art or music. Cash prizes.",
+            "local": false,
+            "url": "http:\/\/www.newgrounds.com\/collection\/robotday2013",
+            "tags": [
+                "newgrounds"
+            ],
+            "themes": [
+                "robots"
+            ]
+        },
+        {
+            "name": "Evil\/Strange\/Weird Artifacts",
+            "start_date": "2013-07-15 12:00:00 +0000",
+            "end_date": "2013-07-21 10:00:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5532",
+            "tags": [
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "The Great Gmc Jam #11",
+            "start_date": "2013-07-27 12:00:00 +0000",
+            "end_date": "2013-07-29 11:59:00 +0000",
+            "description": "A 72-hour game jam for <a href=\"http:\/\/www.yoyogames.com\/gamemaker\">Game Maker<\/a> users. Includes prizes.",
+            "local": false,
+            "url": "http:\/\/gmc.yoyogames.com",
+            "tags": [
+                "gmc-jam"
+            ]
+        },
+        {
+            "name": "Develteam Summer Jam",
+            "start_date": "2013-08-05",
+            "end_date": "2013-08-19",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/www.develteam.com\/GameJams\/",
+            "tags": [
+                "develteam"
+            ]
+        },
+        {
+            "name": "The Clickteam Event",
+            "start_date": "2013-07-17 07:10:00 +0000",
+            "end_date": "2013-08-30 07:10:00 +0000",
+            "description": "Make a game in any Clickteam product.",
+            "local": false,
+            "url": "http:\/\/www.glorioustrainwrecks.com\/node\/5614",
+            "tags": [
+                "glorious-trainwrecks"
+            ]
+        },
+        {
+            "name": "Interactive Fiction Competition 2013",
+            "start_date": "2013-06-26 12:00:00 +0000",
+            "end_date": "2013-09-29 04:59:00 +0000",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/ifcomp.org\/comp13\/enter.html",
+            "tags": [
+                "interactive-fiction-competition"
+            ]
+        },
+        {
+            "name": "Community Controller Jam",
+            "start_date": "2013-07-01",
+            "end_date": "2013-07-31",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/communitycontroller.tumblr.com\/",
+            "tags": [
+                "community-controller"
+            ]
+        },
+        {
+            "name": "Community Controller Compo",
+            "start_date": "2013-09-01",
+            "end_date": "2013-09-30",
+            "description": null,
+            "local": false,
+            "url": "http:\/\/communitycontroller.tumblr.com\/",
+            "tags": [
+                "community-controller"
+            ]
+        },
+        {
+            "name": "Indie Speed Run",
+            "start_date": "2013-09-01",
+            "end_date": "2013-09-30",
+            "description": "September 1st to 30th. Choose a 48 hour window within the month and get crack-a-lackin'! Also there are some awesome judges (Notch, Peter Molyneux, Ron Gilbert...just to name a few)",
+            "local": false,
+            "url": "http:\/\/www.indiespeedrun.com\/",
+            "tags": [
+                "indie-speed-run"
+            ],
+            "themes": [
+                "make-a-playable-game-in-only-48-hours"
+            ]
+        },
+        {
+            "name": "Tower Jam",
+            "start_date": "2013-09-01",
+            "end_date": "2013-09-30",
+            "description": "WHAT: Make a game about a character that traditionally would not be the \u00e2\u20ac\u0153hero\u00e2\u20ac\u009d of a video game: a love interest, a child, a companion, or a parent who stands in the background, gets kidnapped or rendered \u00e2\u20ac\u0153in distress\u00e2\u20ac\u009d, and waits to be returned to or saved or acknowledged. A character who typically doesn\u00e2\u20ac\u2122t get the full, three-dimensional human treatment will finally have their perspective explored, their story told.\r\nWe are cool with both fanfiction games (games about characters from existing games), as well as original games that explore this theme.",
+            "local": false,
+            "url": "http:\/\/towerjam.tumblr.com\/",
+            "tags": [
+                "tower-jam"
+            ],
+            "themes": [
+                "make-a-game-about-a-character-that-traditionally-would-not-be-the--hero-of-a-video-game"
+            ]
+        },
+        {
+            "name": "Magical Girl Jam",
+            "start_date": "2013-09-01",
+            "end_date": "2013-10-31",
+            "description": "Magical Girl shows like Sailor Moon are something I grew up with and they hold a dear place in my heart. My friends and I got all riled up on Twitter when talking about making games based on Magical Girls and I decided to make it official.\r\nWelcome to the Magical Girl Jam!\r\nWhat\u00e2\u20ac\u2122s a Magical Girl?\r\nIf you\u00e2\u20ac\u2122re not sure what a Magical Girl even is or means then please visit the Resources page for links to example shows you can watch for free online.\r\nOr get lost in a TVTropes rabbit hole.\r\nWhat\u00e2\u20ac\u2122s a jam?\r\nGame jams are where game developers get together and within a specified time period (usually a single weekend or a week) they create a game from scratch based on the provided theme. This is a long jam, so you have until Halloween to figure out and make your entry.\r\nThis jam is not just limited to games!\r\nFeel free to work on any sort of craft you want to express your personal love of the Magical Girl genre. As long as it\u00e2\u20ac\u2122s an original creation and not fan-art then it is totally acceptable for this. (I love fan-art but this jam is about creating new Magical Girls, a flood of Magical Girls!)\r\nThis jam is not just limited to girls or things starring girls!\r\n\"Magical Girl Jam\" is kind of a misnomer since that is what the genre is called. I\u00e2\u20ac\u2122ve included an example of a Magical Boy show on the Resources page for inspiration. Please feel free to run with it!",
+            "local": false,
+            "url": "http:\/\/magicalgirljam.tumblr.com\/when",
+            "tags": [
+                "magical-girl-jam"
+            ],
+            "themes": [
+                "magical-girls"
+            ]
+        },
+        {
+            "name": "Orca Jam 4",
+            "start_date": "2013-09-06",
+            "end_date": "2013-09-08",
+            "description": "OrcaJam is a local Game-Jam event along the lines of the Global Game Jam or TIGJams.\r\nIt's an event where a bunch of like-minded people get together and work on what they love - games - for 48 hours. What's more fun than getting together and doing what you love, with people that love you?\r\nProgrammers! Artists! Audio Engineers! Board game designers! Anyone interested in game development at all should come; team up with your newfound friends and make something amazing!\r\n\r\nMany from the local crowd are experienced developers, and will be working on their own projects or within their own teams for this event. But not everyone! You can team up with others, maybe learn a new skill, and jump on board with anyone that'll have you.\r\n\r\nBe sure to show up at the pre-event mixer to brainstorm ideas and team up with people that can show you the ropes!",
+            "local": false,
+            "url": "http:\/\/www.orcajam.com\/",
+            "tags": [
+                "orca-jam"
+            ]
+        },
+        {
+            "name": "Asylum Jam",
+            "start_date": "2013-10-11",
+            "end_date": "2013-10-13",
+            "description": "Asylum Jam is a 48 hour game jam set for the spooky month of October, taking place on October 11th - 13th. The purpose of this jam is for individuals or teams to create a horror game on any platform or of any type that simply follow the following stipulation, inspired by Ian Mahar\u00e2\u20ac\u2122s article \u00e2\u20ac\u02dcNobody Wins When Horror Games Stigmatize Mental Illness\u00e2\u20ac\u2122 (http:\/\/kotaku.com\/nobody-wins-when-horror-games-stigmatize-mental-illness-912462538):\r\n\r\n1.) You should not use asylums, psychiatric institutes, medical professionals or violent\/antipathic\/\u00e2\u20ac\u2122insane\u00e2\u20ac\u2122 patients as settings or triggers (some examples of what we\u00e2\u20ac\u2122re steering away from.)\r\n\r\nThis jam is to show that you can still create a great horror experience without using inaccurate stereotypes of those who suffer from mental illness, or the institutions that support them in diagnosis and recovery.\r\n\r\nWe will be running the jam on Brett Chalupa\u00e2\u20ac\u2122s BMO engine, which we will provide sign-up links for closer to the event!",
+            "local": false,
+            "url": "http:\/\/asylumjam.tumblr.com\/",
+            "tags": [
+                "asylum-jam"
+            ],
+            "themes": [
+                "an-international-horror-game-jam-to-explore-spooky-gaming-outside-of-mental-health-stereotypes"
+            ]
+        },
+        {
+            "name": "JS13k - Make a game in under 13k! Tons of prizes!",
+            "start_date": "2013-08-13",
+            "end_date": "2013-09-13",
+            "description": "Js13kGames is a JavaScript coding competition for HTML5 game developers. The fun part of the compo is the file size limit set to 13 kilobytes. The main theme for 2013 is bad luck, though it's not mandatory. Competition started at 13:00 CEST, 13th August 2013\r\nand will end at 13:00 CEST, 13th September 2013.\r\nThe competition is organized by Andrzej Mazur from Enclave Games. See the Rules section for detailed info about the official rules of the competition.\r\nGood... bad luck to you all and have fun!",
+            "local": false,
+            "url": "http:\/\/js13kgames.com\/",
+            "tags": [
+                "js13k"
+            ],
+            "themes": [
+                "bad-luck"
+            ]
+        },
+        {
+            "name": "Chain Jam",
+            "start_date": "2013-09-25",
+            "end_date": "2013-09-27",
+            "description": "A three day online game jam, for 4 player games. The games will all be bundled into one big list. When the games are done and combined, players will get a sequence of mini-games that were made during the jam, with scores accumulating through the mini-games. \r\n\r\nYou make the games, minigames or levels. We\u00e2\u20ac\u2122ll make the Chain Game, that binds them all together. \r\n\r\nAfter the jam, the collective commits itself to promoting it, and taking your games on tour. It will be free forever, and we will credit all the game creators as much as possible for their work. The Chain Game will just be an interface that selects the games and keeps score.",
+            "local": false,
+            "url": "http:\/\/www.copenhagengamecollective.org\/chainjam\/",
+            "tags": [
+                "chain-jam"
+            ],
+            "themes": [
+                "what-if-you-could-chain-a-bunch-of-jam-games-together-into-one-game"
+            ]
+        },
+        {
+            "name": "GameBoy Jam 2",
+            "start_date": "2013-11-01",
+            "end_date": "2013-11-10",
+            "description": "The GBJAM is a video game development JAM that developers will spend a week and develop a game based around the theme of GameBoy.\r\nGBJAM 2 will be November 1st - November 10th\r\nGBJAM 2 end November 10th at 23:59 your local time.\r\nWhen discussing the GBJAM use #GBJAM",
+            "local": false,
+            "url": "http:\/\/gbjam.net\/",
+            "tags": [
+                "game-boy-jam"
+            ],
+            "themes": [
+                "gameboy"
+            ]
+        },
+        {
+            "name": "Bacon Game Jam 6",
+            "start_date": "2013-10-25",
+            "end_date": "2013-10-27",
+            "description": "Jam Details\r\n\r\nAnnounced\t1 day 2 hours ago\r\nTime of jam\tin 21 days\r\nDuration\t48 hours\r\nMax team size\tUnlimited\r\nParticipants\t62 users\r\nTeams\t51 teams\r\nGames\t0 games",
+            "local": false,
+            "url": "http:\/\/bacongamejam.org\/jams\/bacongamejam-06\/",
+            "tags": [
+                "bacongamejam"
+            ],
+            "themes": [
+                "tba"
+            ]
+        },
+        {
+            "name": "Ludum Dare October Challenge 2013",
+            "start_date": "2013-10-01",
+            "end_date": "2013-10-31",
+            "description": "The point of The October Challenge is to make a game and then sell it one way or another. No specific rules, you can start any time you want.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/09\/27\/october-challenge-2013\/",
+            "tags": [
+                "ludum-dare-the-october-challenge",
+                "ludum-dare"
+            ],
+            "themes": [
+                "make-a-dollar"
+            ]
+        },
+        {
+            "name": "The Walking Dead Jam",
+            "start_date": "2013-10-01",
+            "end_date": "2013-10-10",
+            "description": "Welcome to the Walking Dead All Out War Game Jam!\r\n\r\nFor those who don\u00e2\u20ac\u2122t know what a Game Jam is, it\u00e2\u20ac\u2122s where aspiring and professional game developers are tasked to make a video game in a short amount of time (in this case, 2 weeks starting 9\/26\/13) based around a theme (you guessed it: All Out War).\r\n\r\nFor the full list of rules for the All Out War Game Jam, go to www.thewalkingdead.com\/gamejam\/rules\r\n\r\nThe 10 best entries will win prizes as follows:\r\n\u00e2\u20ac\u00a2\tSuper-special Walking Dead prizes, including signed special books, merchandise and t-shirts.\r\n\u00e2\u20ac\u00a2\tA full Unity Pro license for each of the 10 winners.\r\n\u00e2\u20ac\u00a2\tA Steam Greenlight key so if you choose to build your winning game further, you can ask the Steam Greenlight community to help bring you to the Steam platform!\r\n\u00e2\u20ac\u00a2\tFame and adulation on Thewalkingdead.com and Eurogamer and other Gamer Network trusted game sites!\r\n\u00e2\u20ac\u00a2\tFeaturing on www.Thewalkingdead.com!\r\nAnd for our Number 1 pick, all the stuff above, plus\u00e2\u20ac\u00a6\r\n\u00e2\u20ac\u00a2\t\u00e2\u20ac\u00a6the endorsement of Mr Robert Kirkman, should he pick you as our grand prize winner game from the 10 winners.\r\nTo get you started, we recommend you follow the path below\u00e2\u20ac\u00a6\r\nFirst, make sure you read and understand the rules.\r\ngamejam-rules\r\nSecond, register.\r\nRegister\r\nThird, go to the resource page and prepare for the road ahead.\r\nResources\r\nFourth, make and submit your game by the 10\/10\/2013 deadline!\r\n\r\n\r\n\r\nFinally, this would not be possible without the Eurogamer Expo for partnering with us, Unity for hooking us up with Pro licenses for prizes, Valve for giving our winners Steam Greenlight codes and Byron Atkinson-Jones for advising us and writing our All Out War Game Jam Survival Guide. So a mighty gracious thanks to them and the hardworking team at Skybound for making this happen!",
+            "local": false,
+            "url": "http:\/\/www.thewalkingdead.com\/gamejam\/",
+            "tags": [
+                "the-walking-dead-jam"
+            ]
+        },
+        {
+            "name": "The Arbitrary Gamejam",
+            "start_date": "2013-10-11",
+            "end_date": "2013-10-14",
+            "description": "What is TAG - The Arbitrary Gamejam?\r\nI created TAG to try and add something exciting and good natured to the community. \r\nThe Arbitrary Gamejam is a weekend game jam with 3 themes designed to promote small and unknown indie developers.\r\nAt the end of each TAG, the submissions are rated by the host.\r\nThe person who submitted the best game will be \"tagged\" and is responsible for hosting the next TAG.\r\nThe idea is, as the Gamejam grows more popular, passing the Gamejam around will help small unknown indie developers pull traffic to their websites.\r\nBy using a random word generator to generate 2\/3 themes, TAG is intentionally arbitrary to encourage outside-the-box thinking and wild combinations.\r\n\r\n\r\nWhen is TAG?\r\nTAG usually occurs on the first weekend of every month, Friday to Sunday.\r\nThe themes for each TAG will be posted on the Thursday before it starts, to give people some time to think about how the themes can fit together.\r\nThe Jam Begins at Midnight on Thursday and Ends at Midnight on Sunday.\r\n\r\n[Go to the Current Hosts site for a Countdown to the next TAG]\r\n\r\n\r\nHow Do I Host?\r\nFirst and foremost, you cannot host TAG twice in a row or more than two times in a single year (Unless yours is the only submission). If you end up hosting TAG, you can handle it in any way you want under two conditions.\r\nYou must keep the 4 core rules outlined below by linking to this page. This maintains the legitimacy of the jam by identifying you officially as current host and prevents non-tagged people from hosting.\r\nThere must be 2 randomly generated themes, the last theme is chosen by you.\r\nOther than that you are free to decide how people join and how submissions are rated\/handled, and any further rules\/restrictions you want to place on participants.\r\n\r\n\r\nThe 4 Core Rules\r\nSubmissions must come in within 12 hours of the Gamejam ending.\r\nSubmissions must be original works, no plagiarism.\r\nSubmissions can be based on any number of themes, but must incorporate at least 1 of the randomly generated themes.\r\nNo Pressure. Just have fun with it. Submissions will still be accepted even if they're not complete.\r\n- - -\r\n\r\nTAG History\r\n\r\nA List of all previous TAGs, their hosts and their entries.\r\n\r\n#01 - August 2013 - Hosted by TickTakashi\r\n[Games]\r\n\r\n#02 - September 2013 - Hosted by Udell Games\r\n[Games]\r\n\r\n#03 - October 2013 - Hosted by Brendan LoBuglio\r\n[Not Yet Started]\r\n\r\n[TAG #03 Begins on October 11th]",
+            "local": false,
+            "url": "http:\/\/www.ticktakashi.com\/p\/tag-arbitrary-gamejam.html",
+            "tags": [
+                "the-arbitrary-gamejam"
+            ]
+        },
+        {
+            "name": "Game Jolt Contest 10",
+            "start_date": "2013-11-09",
+            "end_date": "2013-11-18",
+            "description": "Are you ready for the coolest, bestest contest ever? Join us for 10 days of game jamming, livestreaming, and fun!",
+            "local": false,
+            "url": "http:\/\/gamejolt.com\/community\/contests\/",
+            "tags": [
+                "game-jolt"
+            ],
+            "themes": [
+                "tba"
+            ]
+        },
+        {
+            "name": "Charity Game Jam II",
+            "start_date": "2013-11-23",
+            "end_date": "2013-11-30",
+            "description": "The second annual Charity Game Jam is presented by #1GAM (www.onegameamonth.com) and G4C (www.gamesforchange.org). \r\n\r\nHelp send your players to the charity of your choice by adding the CHARITY BUTTON to the title screen of your game! ",
+            "local": false,
+            "url": "http:\/\/charitygamejam.com",
+            "tags": [
+                "charity-game-jams"
+            ],
+            "themes": [
+                "the-charity-button-challenge"
+            ]
+        },
+        {
+            "name": "NES Jam",
+            "start_date": "2013-12-01",
+            "end_date": "2013-12-10",
+            "description": "The NESJam is a video game development JAM that developers will spend a week and develop a game based around the theme of Nintendo Entertainment System.\r\n\r\nWhen discussing the NESJam use #NESJam",
+            "local": false,
+            "url": "http:\/\/819kids.com\/retrostark\/NESJam\/index2.html",
+            "tags": [
+                "nes-jam"
+            ],
+            "themes": [
+                "the-nintendo-entertainment-system"
+            ]
+        },
+        {
+            "name": "Ludum Dare 28",
+            "start_date": "2013-12-13 08:00:00 +0000",
+            "end_date": "2013-12-16 08:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Global Game Jam 2014",
+            "start_date": "2013-01-24 05:00:00 +0000",
+            "end_date": "2013-01-26 05:00:00 +0000",
+            "description": "The Global Game Jam (GGJ) is the world's largest game jam event taking place around the world at physical locations. Think of it as a hackathon focused on game development.",
+            "local": true,
+            "url": "http:\/\/globalgamejam.org\/",
+            "tags": [
+                "global-game-jam"
+            ]
+        },
+        {
+            "name": "Game Jolt Jam #4",
+            "start_date": "2013-12-28 11:00:00 +0000",
+            "end_date": "2013-12-31 05:00:00 +0000",
+            "description": "There are no prizes or rewards involved (except perhaps a featured game or two on the front page of GJ); the focus is on collaborating together, sharing our creations live, and having a jolly good time in the process!",
+            "local": false,
+            "url": "http:\/\/gamejolt.com\/community\/jams\/",
+            "tags": [
+                "game-jolt"
+            ]
+        },
+        {
+            "name": "SALTW Winter 2013 Game Jam",
+            "start_date": "2013-12-20 01:00:00 +0000",
+            "end_date": "2013-12-29 01:00:00 +0000",
+            "description": "Create a game based upon three of these actual IMDB keywords, taking one from each of the lists above! Will your game be about instilling communist values in peasant, stolen bones, and an eccentric senior citizen? An all-knowing psychiatrist, dead boyfriend and an incurable will to live?",
+            "local": false,
+            "url": "http:\/\/itch.io\/jam\/saltw-winter-2013-jam",
+            "tags": [
+                "itch-io"
+            ]
+        },
+        {
+            "name": "Holiday Game Jam",
+            "start_date": "2013-12-11",
+            "end_date": "2013-12-22",
+            "description": "Organized by GLITCH CITY. All proceeds for the Child's Play charity.",
+            "local": false,
+            "url": "http:\/\/holidaygamejam.com\/",
+            "tags": [
+                "holiday-game-jam"
+            ]
+        },
+        {
+            "name": "The Arbitrary Gamejam",
+            "start_date": "2013-12-07",
+            "end_date": "2013-12-11",
+            "description": "The Arbitrary Gamejam is a game jam with 3 themes designed to promote small and unknown indie developers.\r\nAt the end of each TAG, the submissions are rated by the host.",
+            "local": false,
+            "url": "http:\/\/ratalaika.com\/tag-arbitrary-gamejam\/",
+            "tags": [
+                "ratalaika-games"
+            ]
+        },
+        {
+            "name": "Mini Ludum Dare #47",
+            "start_date": "2013-11-29",
+            "end_date": "2013-12-01",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/2013\/11\/28\/mini-ludum-dare-47-announcement-humble-beginnings\/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "humble-beginnings"
+            ]
+        },
+        {
+            "name": "Festival d. Autorenspiele",
+            "start_date": "2013-11-29 03:00:00 +0000",
+            "end_date": "2013-12-01 03:00:00 +0000",
+            "description": "Local event in the city of Kassel, Germany.",
+            "local": false,
+            "url": "http:\/\/spielsalonkassel.com\/en\/",
+            "tags": [
+                "spielsalon-kassel"
+            ],
+            "themes": [
+                "signal-to-noise"
+            ]
+        },
+        {
+            "name": "GitHub Game Off 2013",
+            "start_date": "2013-11-01",
+            "end_date": "2013-11-30",
+            "description": null,
+            "local": false,
+            "url": "https:\/\/github.com\/blog\/1674-github-game-off-ii",
+            "tags": [
+                "github"
+            ]
+        },
+        {
+            "name": "Speccy Jam",
+            "start_date": "2013-11-16",
+            "end_date": "2013-11-23",
+            "description": "Speccy Jam is a regular world wide 1 week game jam, where indie game developers come together to create games with the flavour of the legendary 8-bit personal home computer, the Sinclair ZX Spectrum.",
+            "local": false,
+            "url": "http:\/\/www.speccyjam.com\/",
+            "tags": [
+                "speccy-jam"
+            ]
+        },
+        {
+            "name": "New-Year Game Jam",
+            "start_date": "2013-12-31 12:00:00 +0000",
+            "end_date": "2014-01-02 12:00:00 +0000",
+            "description": "A game jam hosted by Richard Blechinger.",
+            "local": true,
+            "url": "http:\/\/seasonaljamweek.com\/",
+            "tags": [
+                "blechi-at"
+            ]
+        },
+        {
+            "name": "One Game a Month",
+            "start_date": "2014-01-01",
+            "end_date": "2014-01-31",
+            "description": "Gamification added to game development. Try to release a new game every month and earn experience points.",
+            "local": true,
+            "url": "http:\/\/www.onegameamonth.com",
+            "tags": [
+                "one-game-a-month"
+            ]
+        },
+        {
+            "name": "Linux Game Jam",
+            "start_date": "2014-01-01 12:00:00 +0000",
+            "end_date": "2014-02-10 06:00:00 +0000",
+            "description": "Develop a game for Linux, web based games not allowed. Work alone or in a team of up to 3.",
+            "local": false,
+            "url": "http:\/\/linuxgamejam.tumblr.com\/",
+            "tags": [
+                "linux-game-jam"
+            ],
+            "themes": [
+                "unlikely-teamwork-optional"
+            ]
+        }
+    ]
+}

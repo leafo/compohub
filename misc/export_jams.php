@@ -1,5 +1,9 @@
 <?php
 
+if (isset($argv[1])) {
+	$year = (int)$argv[1];
+}
+
 mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 mb_http_input('UTF-8');
@@ -64,7 +68,14 @@ function format_time($time, $event) {
 	return date($time_format, $time);
 }
 
-$res = $mysqli->query("SELECT * FROM gdc2_events where deleted = 0 order by id asc");
+$clause = "";
+
+if (isset($year)) {
+	$clause .= ' and from_unixtime(start, "%X") = ' . $mysqli->escape_string($year);
+}
+
+$res = $mysqli->query("SELECT * FROM gdc2_events where deleted = 0 $clause order by id asc");
+
 $events = array();
 while ($row	= $res->fetch_assoc()) {
 	$themes = null;
