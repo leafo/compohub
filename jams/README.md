@@ -4,6 +4,10 @@ To add a new jam you'll need to submit a pull request with the jam's
 information added to one of the `json` files in this directory. Once accepted
 the page will be updated and your jam will be visible.
 
+> If you're not familiar with creating a pull request then you can also open an
+> issue on the [issues tracker](https://github.com/leafo/compohub/issues) with
+> the jam you want added.
+
 Jams are organized by their starting year. Choose the `json` file that
 corresponds to the year when your jam starts, if the file doesn't exist yet
 then you can create it.
