@@ -5,6 +5,8 @@ $.easing.easeInOutQuad = (x, t, b, c, d) ->
   return -c/2 * ((--t)*(t-2) - 1) + b
 
 $.fn.draggable = (opts={}) ->
+  touch_enabled = 'ontouchstart' of document
+
   # TODO: add touchstart, etc
   body = $ document.body
   html = $ "html"
@@ -15,31 +17,51 @@ $.fn.draggable = (opts={}) ->
   drag_stop = (e) =>
     body.removeClass "dragging"
     @removeClass "dragging"
-    html.off "mousemove", drag_move
+    html.off "mousemove touchmove", drag_move
     opts.stop?()
 
-  drag_move = (e) =>
-    dx = e.pageX - mouse_x
-    dy = e.pageY - mouse_y
-
+  drag_move = (e, _x, _y) =>
+    dx = _x - mouse_x
+    dy = _y - mouse_y
     mouse_x += dx
     mouse_y += dy
-
     opts.move? dx, dy
 
-  # start, stop, move
-  @on "mousedown", (e) =>
+  drag_start = (e, _x, _y) =>
     return if body.is ".dragging"
     return if opts.skip_drag? e
 
     body.addClass "dragging"
     @addClass "dragging"
-    mouse_x = e.pageX
-    mouse_y = e.pageY
-
-    html.one "mouseup", drag_stop
-    html.on "mousemove", drag_move
+    mouse_x = _x
+    mouse_y = _y
     opts.start?()
+    true
+
+  # start, stop, move
+  if touch_enabled
+    @on "touchstart", (e) =>
+      {pageX: x, pageY: y } = e.originalEvent.targetTouches[0]
+      if drag_start e, x, y
+        html.one "touchend", drag_stop
+
+        drag_move = do (move=drag_move) =>
+          (e) =>
+            {pageX: x, pageY: y } = e.originalEvent.targetTouches[0]
+            move e, x, y
+
+        html.on "touchmove", drag_move
+
+        false
+  else
+    @on "mousedown", (e) =>
+      if drag_start e, e.pageX, e.pageY
+        html.one "mouseup", drag_stop
+
+        drag_move = do (move=drag_move) =>
+          (e) => move e, e.pageX, e.pageY
+
+        html.on "mousemove", drag_move
 
 J.parse_jam_timestamp = do ->
   patterns = [
