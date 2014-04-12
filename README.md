@@ -1,5 +1,7 @@
 # Compohub
 
+[![Build Status](https://travis-ci.org/leafo/compohub.svg?branch=master)](https://travis-ci.org/leafo/compohub)
+
 A community run listing of game jams.
 
 ## Adding a new jam
