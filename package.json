@@ -1,0 +1,23 @@
+{
+  "name": "jamhub",
+  "version": "0.0.0",
+  "description": "A community run listing of game jams.",
+  "scripts": {
+    "test": "make"
+  },
+  "devDependencies": {
+    "moment": "",
+    "mocha": "",
+    "coffee-script": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leafo/compohub.git"
+  },
+  "author": "leaf coran",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/leafo/compohub/issues"
+  },
+  "homepage": "https://github.com/leafo/compohub"
+}

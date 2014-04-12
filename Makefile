@@ -1,5 +1,10 @@
 
-.PHONY: deploy json
+.PHONY: deploy json test
+
+test:
+	./node_modules/.bin/mocha \
+		--compilers coffee:coffee-script/register \
+		--reporter dot
 
 json:
 	php misc/export_jams.php 2011 > jams/2011.json
