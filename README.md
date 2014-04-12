@@ -17,3 +17,4 @@ main directory then you can view `index.html` in your browser to see the jams.
 
 Found something wrong or want to see a new feature? Add an issue to the [issues
 tracker](https://github.com/leafo/compohub/issues).
+
