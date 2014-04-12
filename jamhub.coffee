@@ -215,18 +215,10 @@ class J.Jam
       }
 
   date_format: (date, name) ->
-    is_distant = moment(date).month() != moment(new Date).month()
     is_loose = @["_#{name}_date_loose"]
 
-    f = null
-    if is_distant
-      f = "l"
-      f = f + " LT" unless is_loose
-      moment(date).format(f)
-    else
-      f = "ddd Do"
-      f = f + ", LT" unless is_loose
-
+    f = "ll"
+    f = "#{f} H:mm" unless is_loose
     moment(date).format(f)
 
   collides_with: (range_start, range_end) ->
