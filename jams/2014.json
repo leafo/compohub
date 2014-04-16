@@ -528,6 +528,16 @@
             "tags": [
                 "gm-48"
             ]
-        }
+        },
+        {
+            "name": "The Arbitrary Gamejam 10",
+            "start_date": "2014-05-02 07:00:00 -0400",
+            "end_date": "2014-05-12 07:00:00 -0400",
+            "description": "The Arbitrary Gamejam 10 (#TAGJam10) is the tenth game jam in a series of monthly game jams for indie game devs. Each month is hosted by winner of previous month. The Arbitrary Gamejam 10 will run will for 10 days rather than the usual 48/72 hours. Optional Bonus Rule 1: Post about your progress/lessons-learned after each day. Optional Bonus Rule 2: record and post a video of a mother playing the game or giving feedback on it (Mother's Day - May 11)",
+            "local": false,
+            "url": "http://tagjam10.idumpling.com",
+            "tags": ["the-arbitrary-gamejam"],
+            "image": "http://tagjam10.idumpling.com/img/card_rotated_gray_320x200.png"
+        }        
     ]
 }
