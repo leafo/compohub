@@ -247,7 +247,7 @@ class J.Jam
     unless @_end_date
       [@_end_date, @_end_date_loose] = J.parse_jam_timestamp @data.end_date
       if @_end_date_loose
-        moment(@_end_date).hours(23).minutes(59).seconds(59)
+        @_end_date = moment(@_end_date).endOf("day").toDate()
 
     @_end_date
 
