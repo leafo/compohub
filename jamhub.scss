@@ -31,10 +31,14 @@ $site_width: 640px;
 
 body {
     background: #e6e6e6;
-    font-family: lato, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     color: #333;
     font-size: 16px;
+
+    &.nice_fonts {
+        font-family: lato, sans-serif;
+    }
 
     &.dragging  {
         @include unselectable;
@@ -90,6 +94,7 @@ a {
     h1 {
         margin: 0;
         margin-top: 52px;
+        font-family: lato, sans-serif;
         font-weight: 200;
         font-size: 80px;
         line-height: 1.0;
@@ -278,6 +283,7 @@ a {
     margin: 0 auto;
 
     h2 {
+        font-family: lato, sans-serif;
         font-weight: 200;
         color: #666;
         font-size: 48px;
