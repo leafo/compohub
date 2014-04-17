@@ -538,6 +538,20 @@
             "url": "http://tagjam10.idumpling.com",
             "tags": ["the-arbitrary-gamejam"],
             "image": "http://tagjam10.idumpling.com/img/card_rotated_gray_320x200.png"
-        }        
+        },
+        {
+            "name": "Hack3city",
+            "url": "http://hack3city.pl/",
+            "start_date": "2014-05-05",
+            "end_date": "2014-05-11",
+            "description": "Hackaton in Poland. During one of the biggest conference about IT and new media in Poland, there will be possibility to take part in interesting hackhaton. If you want to participate, you have to choose one of the three ways of competition. Every one of this ways are hosted by other companies, such as Intel, Playsoft and Estimote. Spend a nice weekend in Gdańsk and learn something new."
+        },
+        {
+            "name": "Game Changer Game Jam",
+            "url": "http://www.gcgj.org/",
+            "start_date": "2014-05-02 11:40:00 -0700",
+            "end_date": "2014-05-04 05:00:00 -0700",
+            "description": "(Aarhus Denmark) We believe that Game Designers, Gamers and Games together hold an important role in society. That Game designers will be the future engagement hackers, change agents and architects of massive collaborative systems. That Games dealing with political, social and environmental challenges can be an platform for massive change, inspiring Gamers to connect and engage with important issues more effectively."
+        }
     ]
 }
