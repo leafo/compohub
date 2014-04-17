@@ -1,5 +1,9 @@
 <?php
 
+$fetch_images = true;
+$image_dir = "jams/images";
+$image_root = "http://compohub.net/img";
+
 if (isset($argv[1])) {
 	$year = (int)$argv[1];
 }
@@ -84,6 +88,17 @@ while ($row	= $res->fetch_assoc()) {
 	$parent = isset($parents[$row["parent"]]) ? $parents[$row["parent"]] : false; 
 	$row["parent_obj"] = $parent;
 
+	if ($fetch_images) {
+		$image = find_first_value($row, "image");
+		if ($image) {
+			$dest = "$image_dir/$image";
+			if (!file_exists($dest)) {
+				error_log("Downloading $image");
+				file_put_contents($dest, file_get_contents("$image_root/$image"));
+			}
+		}
+	}
+
 	$current_parent = $parent;
 	while ($current_parent) {
 		$tags[] = slugify($current_parent["name"]);
@@ -109,6 +124,10 @@ while ($row	= $res->fetch_assoc()) {
 
 	if (!empty($themes)) {
 		$event["themes"] = $themes;
+	}
+
+	if (!empty($image)) {
+		$event["image"] = "jams/$image";
 	}
 
 	$events[] = $event;
