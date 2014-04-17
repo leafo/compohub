@@ -594,3 +594,28 @@ class J.Calendar
 
   end_date: ->
     @_today().add("month", 2).toDate()
+
+class J.Header
+  constructor: (el) ->
+    @el = $ el
+    @el.on "click", ".multi_share .top", (e) =>
+      $(e.currentTarget).closest(".multi_share").toggleClass "open"
+
+    @el.on "click", ".multi_share a", (e) =>
+      link = $ e.currentTarget
+
+      w = 600
+      h = 500
+
+      win = $(window)
+      win_x = window.screenLeft ? window.screenX
+      win_y = window.screenTop ? window.screenY
+
+      left = win_x + (win.width() - w) / 2
+      top = win_y + (win.height() - h) / 2
+
+      popup = window.open(link.attr("href"), 'Share', 'width='+w+',height='+h+',top=' + top + ',left=' + left)
+
+      if popup
+        popup.focus() if window.focus
+        e.preventDefault()

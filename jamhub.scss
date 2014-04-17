@@ -16,6 +16,7 @@ $site_width: 640px;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    cursor: default;
 }
 
 @mixin border_box {
@@ -68,6 +69,56 @@ a {
         right: 20px;
     }
 
+    .multi_share {
+        text-align: center;
+        min-width: 110px;
+        margin-top: 10px;
+
+        border: 1px solid white;
+        border-radius: 3px;
+        overflow: hidden;
+
+        height: 20px;
+
+        @include transition(height 0.15s ease);
+
+        &.open, &:hover {
+            height: 113px;
+
+            .top {
+                @include transition(all 0.15s ease);
+                background: rgba(255,255,255,0.8);
+                color: $primary_color;
+            }
+        }
+
+        .top {
+            @include unselectable;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .button {
+            display: block;
+            border: 0;
+            border-top: 1px solid white;
+            border-radius: 0;
+            text-align: center;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .row:last-child {
+            .button {
+                border-radius: 0 0 3px 3px;
+            }
+        }
+    }
+
     .button {
         @include transition(all 0.15s ease);
         border: 1px solid white;
@@ -80,6 +131,8 @@ a {
         cursor: pointer;
         color: white;
         text-decoration: none;
+        min-width: 110px;
+        text-align: center;
 
         &:hover {
             color: $primary_color;

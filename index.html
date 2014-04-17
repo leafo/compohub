@@ -18,6 +18,21 @@
   <h2>Find game jams</h1>
   <div class="header_tools">
     <a class="button" href="https://github.com/leafo/compohub/tree/master/jams#how-to-add-a-new-jam">Submit a jam</a>
+
+    <div class="multi_share">
+      <div class="top">Share</div>
+      <div class="row">
+        <a class="button" rel="nofollow" href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=CompoHub&amp;p[summary]=CompoHub+lists+all+kinds+of+game+development+events%21&amp;p[url]=http%3A%2F%2Fcompohub.net">Facebook</a>
+      </div>
+
+      <div class="row">
+        <a class="button" rel="nofollow" href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http%3A%2F%2Fcompohub.net">Google+</a>
+      </div>
+
+      <div class="row">
+        <a class="button" rel="nofollow" href="http://twitter.com/share?url=http%3A%2F%2Fcompohub.net&amp;text=CompoHub+lists+all+kinds+of+game+development+events%21">Twitter</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -41,7 +56,8 @@
 <script type="text/javascript" src="moment.min.js"></script>
 <script type="text/javascript" src="jamhub.js?2"></script>
 <script type="text/javascript">
-  new J.Calendar(".jam_browser")
+  new J.Header(".header");
+  new J.Calendar(".jam_browser");
 </script>
 </body>
 </html>
