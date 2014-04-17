@@ -127,7 +127,7 @@ while ($row	= $res->fetch_assoc()) {
 	}
 
 	if (!empty($image)) {
-		$event["image"] = "jams/$image";
+		$event["image"] = "jams/images/$image";
 	}
 
 	$events[] = $event;

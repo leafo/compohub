@@ -9,7 +9,8 @@
             "url": "http:\/\/globalgamejam.org\/",
             "tags": [
                 "global-game-jam"
-            ]
+            ],
+            "image": "jams\/images\/21092272484ec673cc161ac7.89017946.png"
         },
         {
             "name": "Nordic Game Jam",
@@ -32,7 +33,8 @@
             "tags": [
                 "minild",
                 "ludum-dare"
-            ]
+            ],
+            "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         },
         {
             "name": "One Game a Month",
@@ -43,7 +45,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -54,7 +57,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -65,7 +69,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -76,7 +81,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -87,7 +93,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -98,7 +105,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -109,7 +117,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -120,7 +129,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -131,7 +141,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -142,7 +153,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "One Game a Month",
@@ -153,7 +165,8 @@
             "url": "http:\/\/www.onegameamonth.com",
             "tags": [
                 "one-game-a-month"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
             "name": "GMC JAM #13",
@@ -164,7 +177,8 @@
             "url": "http:\/\/gmc.yoyogames.com\/index.php?showtopic=606847",
             "tags": [
                 "gmc-jam"
-            ]
+            ],
+            "image": "jams\/images\/278394084f91d85bd2d4e0.09374261.png"
         },
         {
             "name": "gm(48) #9",
@@ -230,7 +244,8 @@
             "url": "http:\/\/7drl.org",
             "tags": [
                 "seven-day-roguelike-challenge"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1359836493.39_0.601642125852.png"
         },
         {
             "name": "The Arbitrary Gamejam",
@@ -241,7 +256,8 @@
             "url": "http:\/\/www.ticktakashi.com\/p\/tag-arbitrary-gamejam.html",
             "tags": [
                 "the-arbitrary-gamejam"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1380914266.52_0.935968657593.png"
         },
         {
             "name": "Flappy Jam",
@@ -281,7 +297,8 @@
             ],
             "themes": [
                 "non-human-player"
-            ]
+            ],
+            "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         },
         {
             "name": "Cyberpunk Game Jam 2014",
@@ -307,19 +324,8 @@
             "url": "http:\/\/www.ludumdare.com\/compo\/",
             "tags": [
                 "ludum-dare"
-            ]
-        },
-        {
-            "name": "Toronto Independent Game Jam",
-            "start_date": "2014-04-25 10:00:00 -0400",
-            "end_date": "2014-04-27 23:00:00 -0400",
-            "description": "The Toronto Independent Game Jam (TOJam) is a free, annual, open-to-the-public event that attracts a mix of hobbyists, students, and professionals. For some, it's an opportunity to try new ideas, for others it's a chance to focus. For everyone, it's a grand old time!",
-            "local": true,
-            "url": "http:\/\/www.tojam.ca\/",
-            "tags": [
-                "tojam",
-                "toronto"
-            ]
+            ],
+            "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         },
         {
             "name": "FGL Game Jam",
@@ -341,7 +347,8 @@
             "url": "http:\/\/bacongamejam.org\/jams\/bacongamejam-07\/",
             "tags": [
                 "bacongamejam"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1343586023.16_0.540877325193.png"
         },
         {
             "name": "NaNoRenO 2014",
@@ -363,7 +370,8 @@
             "url": "http:\/\/www.ticktakashi.com\/p\/tag-arbitrary-gamejam.html",
             "tags": [
                 "the-arbitrary-gamejam"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1380914266.52_0.935968657593.png"
         },
         {
             "name": "64Digits Spring Competition",
@@ -374,13 +382,14 @@
             "url": "http:\/\/competition.64digits.com\/",
             "tags": [
                 "64digits"
-            ]
+            ],
+            "image": "jams\/images\/14398886984e81fd1418e4f9.82238073.png"
         },
         {
             "name": "Procedural Death Jam",
             "start_date": "2014-03-08 12:00:00 +0000",
             "end_date": "2014-03-15 11:59:00 +0000",
-            "description": "Procedural Death Jam is a 7-day game jam. The theme is \"Procedural Death Labyrinth,\" a new way of describing games like FTL, Spelunky, Coin Crypt, The Binding of Isaac, etc, that's less awkward than \"Rogue-Like-LIKE\" or \"Rogue-LITE.\"",
+            "description": "Procedural Death Jam is a 7-day game jam. The theme is \"Procedural Death Labyrinth,\" a new way of describing games like FTL, Spelunky, Coin Crypt, The Binding of Isaac, etc, that\u00e2\u20ac\u2122s less awkward than \"Rogue-Like-LIKE\" or \"Rogue-LITE.\"",
             "local": false,
             "url": "http:\/\/proceduraldeathjam.com\/",
             "tags": [
@@ -400,7 +409,8 @@
             ],
             "themes": [
                 "demakes"
-            ]
+            ],
+            "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         },
         {
             "name": "Pi Jam 2014",
@@ -433,13 +443,14 @@
             "url": "http:\/\/pyweek.org\/18\/",
             "tags": [
                 "pyweek"
-            ]
+            ],
+            "image": "jams\/images\/2849173764e81fcee271a33.24238708.png"
         },
         {
             "name": "#1Up Norwich Game Jam",
             "start_date": "2014-04-07 12:00:00 +0000",
             "end_date": "2014-04-11 12:00:00 +0000",
-            "description": "Make a game within 4 days and win prizes with a total value of over £33,000, in a number of categories. The winning games also have the chance to be exhibited in The Forum at a special event later in the year.",
+            "description": "Make a game within 4 days and win prizes with a total value of over \u00c2\u00a33,000, in a number of categories. The winning games also have the chance to be exhibited in The Forum at a special event later in the year.",
             "local": false,
             "url": "http:\/\/norwichgamingfestival.wordpress.com\/create\/game-jam\/",
             "tags": [
@@ -466,7 +477,8 @@
             "url": "http:\/\/software.intel.com\/sites\/campaigns\/levelup2014\/",
             "tags": [
                 "level-up"
-            ]
+            ],
+            "image": "jams\/images\/553949174f2bd02caa84e1.40172513.png"
         },
         {
             "name": "The Arbitrary Gamejam 9",
@@ -477,13 +489,14 @@
             "url": "http:\/\/www.dopplex.net\/TAG9\/",
             "tags": [
                 "the-arbitrary-gamejam"
-            ]
+            ],
+            "image": "jams\/images\/screenshot_1380914266.52_0.935968657593.png"
         },
         {
             "name": "Public Domain Jam",
             "start_date": "2014-05-17",
             "end_date": "2014-05-24",
-            "description": "TIRED OF THE CONSTANT FLOOD OF CTHULU AND ZOMBIE GAMES? Part of the reason they're everywhere is that they're both well known and free to use, and a lot of people who make games aren't aware of just how many good stories they're carrying around with them. There are SO MANY other stories and characters out there that are also free to use. The list goes on forever, and these are all stories that are free to be remixed and remade by anyone. Whatever the reason, a lot of these stories aren't out there in games yet. SO LET'S MAKE SOME!",
+            "description": "TIRED OF THE CONSTANT FLOOD OF CTHULU AND ZOMBIE GAMES? Part of the reason they're everywhere is that they're both well known and free to use, and a lot of people who make games aren\u00e2\u20ac\u2122t aware of just how many good stories they\u00e2\u20ac\u2122re carrying around with them. There are SO MANY other stories and characters out there that are also free to use. The list goes on forever, and these are all stories that are free to be remixed and remade by anyone. Whatever the reason, a lot of these stories aren\u00e2\u20ac\u2122t out there in games yet. SO LET'S MAKE SOME!",
             "local": false,
             "url": "http:\/\/itch.io\/jam\/the-public-domain-jam",
             "tags": [
