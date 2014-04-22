@@ -1,2 +1,2 @@
-: foreach *.coffee |> coffee -c %f |> %B.js
+: jamhub.coffee |> coffee -c %f |> %B.js
 : foreach *.scss |> sassc < %f > %o |> %B.css

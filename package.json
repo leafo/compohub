@@ -8,7 +8,11 @@
   "devDependencies": {
     "moment": "",
     "mocha": "",
-    "coffee-script": ""
+    "coffee-script": "",
+    "grunt": "^0.4.4",
+    "assemble": "^0.4.37",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-coffee": "^0.10.1"
   },
   "repository": {
     "type": "git",
