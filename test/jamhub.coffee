@@ -2,28 +2,7 @@
 fs = require "fs"
 moment = require "moment"
 
-J = {}
-J.parse_jam_timestamp = do ->
-  patterns = [
-    "YYYY-MM-DD HH:mm:ss Z"
-    "YYYY-MM-DD HH:mm Z"
-    "YYYY-MM-DD"
-  ]
-
-  loose_patterns = {
-    "YYYY-MM-DD": true
-  }
-
-  (timestamp) ->
-    for p in patterns
-      d = moment timestamp, p, true
-      break if d.isValid()
-
-      d = moment "#{timestamp} +0000", p, true
-      break if d.isValid()
-
-    [d.isValid() && d.toDate(), loose_patterns[p]]
-
+{J} = require "../jamhub"
 
 check_date = (val) ->
   [valid, date] = J.parse_jam_timestamp val

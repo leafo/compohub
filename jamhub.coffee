@@ -1,4 +1,11 @@
-window.J = {}
+J = {}
+
+global = (typeof exports == "undefined" && window || exports)
+global.J = J
+
+$ = global.$ || { easing: {}, fn: {} }
+_ = global._ || { template: -> }
+moment = global.moment || require "moment"
 
 $.easing.easeInOutQuad = (x, t, b, c, d) ->
   return c/2*t*t + b if ((t/=d/2) < 1)
@@ -62,6 +69,7 @@ $.fn.draggable = (opts={}) ->
           (e) => move e, e.pageX, e.pageY
 
         html.on "mousemove", drag_move
+
 
 J.parse_jam_timestamp = do ->
   patterns = [
@@ -619,3 +627,4 @@ class J.Header
       if popup
         popup.focus() if window.focus
         e.preventDefault()
+
