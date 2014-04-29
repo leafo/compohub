@@ -9,7 +9,11 @@ module.exports = (grunt) ->
     "jams/2014.json"
   ]
 
-  assemble = {}
+  assemble = {
+    options: {
+      root: "../../../" # path to index from jam page
+    }
+  }
   for file in jam_files
     build_jam_pages assemble, grunt.file.readJSON file
 
