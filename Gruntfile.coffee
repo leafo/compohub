@@ -11,6 +11,7 @@ module.exports = (grunt) ->
 
   assemble = {
     options: {
+      cache_buster: "3"
       root: "../../../" # path to index from jam page
     }
   }
