@@ -93,6 +93,15 @@ J.parse_jam_timestamp = do ->
     [d.isValid() && d.toDate(), loose_patterns[p]]
 
 
+J.slugify = (str) ->
+  str.toLowerCase()
+    .replace(/\+/g, " plus ")
+    .replace(/\s+/g, "-")
+    .replace(/[^\w-]+/g, "")
+    .replace(/--+/g, "-")
+    .replace(/^-/, "")
+    .replace(/-$/, "")
+
 class J.Jams
   @url: "jams/2014.json" # TODO: multiple urls
 
