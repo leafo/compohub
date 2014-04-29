@@ -9,14 +9,9 @@ module.exports = (grunt) ->
     "jams/2014.json"
   ]
 
-  assemble = {
-    options: {
-      layout: "templates/layout.hbs"
-    }
-  }
-
+  assemble = {}
   for file in jam_files
-    assemble = build_jam_pages assemble, grunt.file.readJSON file
+    build_jam_pages assemble, grunt.file.readJSON file
 
   grunt.initConfig {
     pkg: grunt.file.readJSON "package.json"
@@ -54,30 +49,13 @@ build_jam_pages = (params, jam_data) ->
     images: true
   }
 
-  jams_by_slug = params.options.jams_by_slug
+  J.Jams.slugify_jams jam_data.jams, params.options.jams_by_slug
 
   for jam in jam_data.jams
-    jam.slug = J.slugify jam.name
-    [start_date] = J.parse_jam_timestamp jam.start_date
-    start_date = moment start_date
-
-    # name taken
-    if jams_by_slug[jam.slug]
-      jam.slug += "-#{start_date.year()}-#{start_date.format("MMMM")}".toLowerCase()
-
-    # name still taken, add day
-    if jams_by_slug[jam.slug]
-      jam.slug += "-#{start_date.date()}".toLowerCase()
-
-    if jams_by_slug[jam.slug]
-      throw "jam name still taken"
-
-    jams_by_slug[jam.slug] = jam
-
     params["jam_#{jam.slug}"] = {
       options: { jam: jam }
       src: "templates/jam.hbs"
-      dest: "jams/#{start_date.year()}/#{jam.slug}/index.html"
+      dest: "#{jam.local_url}/index.html"
     }
 
   params

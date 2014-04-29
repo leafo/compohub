@@ -92,7 +92,6 @@ J.parse_jam_timestamp = do ->
 
     [d.isValid() && d.toDate(), loose_patterns[p]]
 
-
 J.slugify = (str) ->
   str.toLowerCase()
     .replace(/\+/g, " plus ")
@@ -109,9 +108,31 @@ class J.Jams
     @_deferred ||= $.get(@url).then (res) =>
       if typeof res == "string"
         res = JSON.parse(res)
+      @slugify_jams res.jams
       new J.Jams res
 
     @_deferred.done fn
+
+  @slugify_jams: (jams, jams_by_slug={}) ->
+    for jam in jams
+      jam.slug = J.slugify jam.name
+      [start_date] = J.parse_jam_timestamp jam.start_date
+      start_date = moment start_date
+
+      # name taken
+      if jams_by_slug[jam.slug]
+        jam.slug += "-#{start_date.year()}-#{start_date.format("MMMM")}".toLowerCase()
+
+      # name still taken, add day
+      if jams_by_slug[jam.slug]
+        jam.slug += "-#{start_date.date()}".toLowerCase()
+
+      if jams_by_slug[jam.slug]
+        throw "jam name still taken"
+
+      jam.local_url = "jams/#{start_date.year()}/#{jam.slug}"
+
+    jams_by_slug
 
   constructor: (data) ->
     @jams = for jam_data in data.jams
@@ -185,9 +206,9 @@ class J.Jam
   """
 
   calendar_template: _.template """
-    <div class='jam_cell'>
+    <div class="jam_cell" data-slug="<%- slug %>">
       <span class="fixed_label">
-        <a href="#"><%- name %></a>
+        <a href="<%- local_url %>"><%- name %></a>
       </span>
     </div>
   """

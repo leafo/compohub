@@ -6,8 +6,9 @@ test:
 		--compilers coffee:coffee-script/register \
 		--reporter dot
 
-grunt:
-	grunt coffee sass assemble
+pages:
+	grunt coffee sass
+	grunt assemble
 
 json:
 	php misc/export_jams.php 2011 > jams/2011.json
