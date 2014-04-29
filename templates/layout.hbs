@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ jam.name }} - CompoHub</title>
+  <link rel="stylesheet" href="{{ root }}/jamhub.css?{{ cache_buster }}" />
+  <link rel="stylesheet" href="{{ root }}/font.css" />
+  <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-27046573-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+
+</head>
+<body>
+<script type="text/javascript">
+  if (navigator.appVersion.indexOf("Win") == -1) { document.body.className = "nice_fonts"; }
+</script>
+
+<div class="header">
+  <h1>CompoHub</h1>
+  <h2>Find game jams</h1>
+  <div class="header_tools">
+    <a class="button" href="https://github.com/leafo/compohub/tree/master/jams#how-to-add-a-new-jam">Submit a jam</a>
+
+    <div class="multi_share">
+      <div class="top">Share</div>
+      <div class="row">
+        <a class="button" rel="nofollow" href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=CompoHub&amp;p[summary]=CompoHub+lists+all+kinds+of+game+development+events%21&amp;p[url]=http%3A%2F%2Fcompohub.net">Facebook</a>
+      </div>
+
+      <div class="row">
+        <a class="button" rel="nofollow" href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http%3A%2F%2Fcompohub.net">Google+</a>
+      </div>
+
+      <div class="row">
+        <a class="button" rel="nofollow" href="http://twitter.com/share?url=http%3A%2F%2Fcompohub.net&amp;text=CompoHub+lists+all+kinds+of+game+development+events%21">Twitter</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> body }}
+
+<div class="footer">
+  CompoHub is opensource,
+  <a href="https://github.com/leafo/compohub">view on GitHub</a>
+  &middot;
+  follow
+  <a href="https://twitter.com/compohub">@compohub</a>
+  on Twitter
+</div>
+
+<script type="text/javascript" src="{{ root }}jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="{{ root }}underscore-min.js"></script>
+<script type="text/javascript" src="{{ root }}moment.min.js"></script>
+<script type="text/javascript" src="{{ root }}jamhub.js?{{ cache_buster }}"></script>
+
+</body>
+</html>
+

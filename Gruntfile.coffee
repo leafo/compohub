@@ -12,9 +12,11 @@ module.exports = (grunt) ->
   assemble = {
     options: {
       cache_buster: "3"
+      layout: "templates/layout.hbs"
       root: "../../../" # path to index from jam page
     }
   }
+
   for file in jam_files
     build_jam_pages assemble, grunt.file.readJSON file
 
