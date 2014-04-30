@@ -255,21 +255,21 @@ a {
         left: 0;
     }
 
-	.elapsed_time {
-		@include border_box;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		width: 50%;
-		background: #F5F5F5;
-		border-right: 5px solid #E9E9E9;
+    .elapsed_time {
+        @include border_box;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        background: #F5F5F5;
+        border-right: 5px solid #E9E9E9;
         box-shadow: 0 0 0 1px #DEDEDE;
-	}
+    }
 
     .day_markers {
         z-index: 1;
-		@include unselectable;
+        @include unselectable;
 
         .day_marker {
             @include border_box;
@@ -315,7 +315,7 @@ a {
     }
 
     .month_markers {
-		@include unselectable;
+        @include unselectable;
         height: 20px;
         background: black;
         position: relative;
@@ -331,8 +331,8 @@ a {
             top: 0;
             bottom: 0;
             height: $label_height;
-			line-height: $label_height;
-			padding: 0 20px;
+            line-height: $label_height;
+            padding: 0 20px;
 
             &:first-child {
                 border-left: 0;
