@@ -1,0 +1,20 @@
+
+<div class="jam_list all_jams">
+  {{#each jams_by_year }}
+  <div class="jam_year">
+    <h2>{{ year }}</h2>
+    <ul>
+      {{#each jams }}
+      <li>
+        <span class="simple_date">
+          {{ simple_date }}
+        </span>
+        <a href="{{ ../../root }}/{{ url }}">
+          {{ jam.name }}
+        </a>
+      </li>
+      {{/each }}
+    </ul>
+  </div>
+  {{/each }}
+</div>

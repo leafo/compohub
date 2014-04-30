@@ -130,6 +130,7 @@ class J.Jams
       if jams_by_slug[jam.slug]
         throw "jam name still taken"
 
+      jams_by_slug[jam.slug] = jam
       jam.local_url = "jams/#{start_date.year()}/#{jam.slug}"
 
     jams_by_slug

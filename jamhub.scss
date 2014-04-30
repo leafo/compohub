@@ -151,6 +151,17 @@ a {
         font-weight: 200;
         font-size: 80px;
         line-height: 1.0;
+
+        a {
+            @include transition(border 0.2s ease);
+            text-decoration: none;
+            color: white;
+            border-bottom: 1px solid rgba(255,255,255, 0);
+
+            &:hover {
+                border-bottom: 1px solid rgba(255,255,255, 0.5);
+            }
+        }
     }
 
     h2 {
@@ -552,4 +563,39 @@ a {
         color: #999;
     }
 }
+
+
+.jam_year {
+    ul {
+        overflow: hidden;
+        margin: 0;
+        padding: 24px 20px;
+
+        background: white;
+        font-size: 16px;
+        line-height: 1.5;
+
+        .simple_date {
+            background: #eee;
+            display: inline-block;
+            font-family: monospace;
+            padding: 2px 8px;
+            vertical-align: middle;
+            text-align: left;
+            min-width: 70px;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+
 
