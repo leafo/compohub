@@ -85,6 +85,17 @@
             "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
+            "name": "LOWREZ Jam",
+            "start_date": "2014-05-01 00:00 -0700",
+            "end_date": "2014-05-19 00:00 -0700",
+            "description": "Create a game with a maximum screen resolution of 32×32 pixels.",
+            "local": true,
+            "url": "http://jams.gamejolt.io/lowrezjam2014/",
+            "tags": [
+                "lowrez-jam"
+            ]
+        },
+        {
             "name": "One Game a Month",
             "start_date": "2014-06-01",
             "end_date": "2014-06-30",
