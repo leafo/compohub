@@ -566,6 +566,15 @@
             ]
         },
         {
+            "name": "Waifu Jam 2014",
+            "start_date": "2014-05-01",
+            "end_date": "2014-05-10",
+            "description": "Create a game that can make the player fall in love",
+            "local": false,
+            "url": "http://waifujam.pomf.se",
+            "tags": ["waifu-jam"]
+        },
+        {
             "name": "The Arbitrary Gamejam 10",
             "start_date": "2014-05-02 07:00:00 -0400",
             "end_date": "2014-05-12 07:00:00 -0400",
