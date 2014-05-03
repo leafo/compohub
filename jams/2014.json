@@ -597,6 +597,16 @@
             "start_date": "2014-05-02 11:40:00 -0700",
             "end_date": "2014-05-04 05:00:00 -0700",
             "description": "(Aarhus Denmark) We believe that Game Designers, Gamers and Games together hold an important role in society. That Game designers will be the future engagement hackers, change agents and architects of massive collaborative systems. That Games dealing with political, social and environmental challenges can be an platform for massive change, inspiring Gamers to connect and engage with important issues more effectively."
+        },
+        {
+            "name": "Accessibility Jam 2014",
+            "url": "http://jams.gamejolt.io/accessibilityjam/",
+            "start_date": "2014-05-12 03:00:00",
+            "end_date": "2014-06-02 01:59:00",
+            "description": "The goal of this jam is to raise awareness, giving developers knowledge and experience of how to make mainstream video games accessible to gamers with disabilities, to provide good examples of what's possible, and move accessibility towards being widely accepted good practice in the game design process. Over 20% of gamers have some form of impairment that can affect gameplay. They're a huge group with very real spending power who can find life changing benefits from gaming, but they are often unnecessarily and unknowingly locked out by developers.",
+            "local": false,
+            "tags": ["accessibilityjam"],
+            "image": "http://i.imgur.com/MCDc1br.png"
         }
     ]
 }
