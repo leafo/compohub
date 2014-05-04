@@ -659,3 +659,11 @@ class J.Header
         popup.focus() if window.focus
         e.preventDefault()
 
+
+class J.SingleJam
+  constructor: (el="body") ->
+    @el = $ el
+    @jam = new J.Jam @el.find(".jam_box").data("jam")
+    @el.find(".progress_outer").replaceWith @jam.render_time_data()
+
+
