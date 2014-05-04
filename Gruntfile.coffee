@@ -73,6 +73,7 @@ build_jam_pages = (params, jam_data) ->
     params["jam_#{jam.slug}"] = {
       options: {
         jam: jam
+        jam_json: JSON.stringify(jam)
         page_title: jam.name
       }
       src: "templates/jam.hbs"

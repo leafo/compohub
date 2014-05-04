@@ -1,8 +1,31 @@
 <div class="jam_list">
-  <div class="jam_box">
+  <div class="jam_box" data-jam="{{ jam_json }}">
     <h3>{{ jam.name }}</h3>
     <p class="jam_link"><a href="{{ jam.url }}">{{ jam.url }}</a></p>
     <p>{{ jam.description }}</p>
+
+    <div class="progress_outer">
+      <div class="date_row">
+        <strong>Start date: </strong>
+        <span class="start_date">
+          {{ jam.start_date }}
+        </span>
+      </div>
+      <div class="date_row">
+        <strong>End date: </strong>
+        <span class="end_date">
+          {{ jam.end_date }}
+        </span>
+      </div>
+    </div>
+
+    {{#if jam.tags }}
+    <div class="jam_tags">
+      {{#each jam.tags }}
+        <span class="jam_tag">{{ this }}</span>
+      {{/each }}
+    </div>
+    {{/if }}
   </div>
 
   <p class="link_back">
