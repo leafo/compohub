@@ -355,6 +355,14 @@ a {
     }
 }
 
+.tagged_jams {
+    h2 {
+        font-weight: normal;
+        font-size: 20px;
+        color: #555;
+    }
+}
+
 .comments_outer {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -514,15 +522,14 @@ a {
             line-height: 24px;
             font-size: 14px;
             margin-left: 22px;
+            text-decoration: none;
 
-            // cursor: pointer;
-
-            // &:hover {
-            //     background-color: $link_color;
-            //     &:before {
-            //         border-color:transparent $link_color transparent transparent;
-            //     }
-            // }
+            &:hover {
+                background-color: $link_color;
+                &:before {
+                    border-color:transparent $link_color transparent transparent;
+                }
+            }
 
             &:before {
                 content: "";

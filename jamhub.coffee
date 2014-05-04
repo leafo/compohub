@@ -133,6 +133,10 @@ class J.Jams
       jams_by_slug[jam.slug] = jam
       jam.local_url = "jams/#{start_date.year()}/#{jam.slug}"
 
+      if jam.tags
+        for i of jam.tags
+          jam.tags[i] = J.slugify jam.tags[i]
+
     jams_by_slug
 
   constructor: (data) ->
@@ -178,7 +182,7 @@ class J.Jam
       <% if (tags && tags.length)  {%>
         <div class="jam_tags">
           <% _.each(tags, function(tag) {%>
-            <span class="jam_tag"><%- tag %></span>
+            <a class="jam_tag" href="tags/<%- J.slugify(tag) %>"><%- tag %></span>
           <% }) %>
         </div>
       <% } %>

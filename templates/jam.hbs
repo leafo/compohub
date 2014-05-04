@@ -22,14 +22,14 @@
     {{#if jam.tags }}
     <div class="jam_tags">
       {{#each jam.tags }}
-        <span class="jam_tag">{{ this }}</span>
+        <a href="{{ ../root }}/tags/{{ this }}/" class="jam_tag">{{ this }}</a>
       {{/each }}
     </div>
     {{/if }}
   </div>
 
   <p class="link_back">
-    <a href="../../../">View more jams on CompoHub</a>
+    <a href="{{ root }}">View more jams on CompoHub</a>
   </p>
 </div>
 

@@ -71,7 +71,6 @@ build_jam_pages = (params, jam_data) ->
   J.Jams.slugify_jams jam_data.jams, params.options.jams_by_slug
 
   for jam in jam_data.jams
-    continue
     params["jam_#{jam.slug}"] = {
       options: {
         jam: jam
@@ -112,7 +111,6 @@ build_tag_pages = (params) ->
 
     if jam.tags
       for tag in jam.tags
-        tag = J.slugify tag
         jams_by_tag[tag] ||= []
         jams_by_tag[tag].push wrapped
 
