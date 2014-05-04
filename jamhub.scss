@@ -342,7 +342,7 @@ a {
 }
 
 
-.jam_list {
+.jam_list, .comments_outer {
     width: $site_width;
     margin: 0 auto;
 
@@ -354,6 +354,17 @@ a {
         margin: 48px 0 24px 0;
     }
 }
+
+.comments_outer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    h3 {
+        font-size: 20px;
+        color: #555;
+    }
+}
+
 
 .jam_box {
     background: white;
@@ -595,7 +606,5 @@ a {
         }
     }
 }
-
-
 
 
