@@ -1,0 +1,18 @@
+<div class="jam_list all_jams">
+  <h2>Jams tagged '{{ tag }}'</h2>
+  <div class="jam_tag_list">
+    <ul>
+      {{#each jams }}
+      <li>
+        <span class="simple_date">
+          {{ simple_date }}
+        </span>
+        <a href="{{ ../root }}/{{ url }}">
+          {{ jam.name }}
+        </a>
+      </li>
+      {{/each }}
+    </ul>
+  </div>
+</div>
+

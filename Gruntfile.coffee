@@ -29,7 +29,8 @@ module.exports = (grunt) ->
   for file in jam_files
     build_jam_pages assemble, grunt.file.readJSON file
 
-  build_jam_root assemble
+  build_tag_pages assemble
+  build_jam_root_page assemble
 
   grunt.initConfig {
     pkg: grunt.file.readJSON "package.json"
@@ -70,6 +71,7 @@ build_jam_pages = (params, jam_data) ->
   J.Jams.slugify_jams jam_data.jams, params.options.jams_by_slug
 
   for jam in jam_data.jams
+    continue
     params["jam_#{jam.slug}"] = {
       options: {
         jam: jam
@@ -82,7 +84,56 @@ build_jam_pages = (params, jam_data) ->
 
   params
 
-build_jam_root = (params) ->
+format_jam_for_list = (jam, start_date) ->
+  {
+    start_date: +start_date.toDate()
+    simple_date: start_date.format("MMM D")
+    url: "#{jam.local_url}"
+    jam: jam
+  }
+
+build_tag_pages = (params) ->
+  jams = params.options.jams_by_slug
+
+  jams_by_tag = {}
+
+  for slug of jams
+    jam = jams[slug]
+    [start_date] = J.parse_jam_timestamp jam.start_date
+    continue unless start_date
+    start_date = moment start_date
+
+    wrapped = {
+      start_date: +start_date.toDate()
+      simple_date: start_date.format("YYYY-MM-DD")
+      url: "#{jam.local_url}"
+      jam: jam
+    }
+
+    if jam.tags
+      for tag in jam.tags
+        tag = J.slugify tag
+        jams_by_tag[tag] ||= []
+        jams_by_tag[tag].push wrapped
+
+  for tag of jams_by_tag
+    jams = jams_by_tag[tag]
+    jams.sort (a, b) ->
+      b.start_date - a.start_date
+
+    params["tag_#{tag}"] = {
+      options: {
+        tag: tag
+        jams: jams
+        page_title: "Jams taged '#{tag}'"
+        root: "../.."
+      }
+
+      src: "templates/tag.hbs"
+      dest: "tags/#{tag}/index.html"
+    }
+
+build_jam_root_page = (params) ->
   jams = params.options.jams_by_slug
 
   jams_by_year = {}
