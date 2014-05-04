@@ -599,6 +599,27 @@
             "description": "(Aarhus Denmark) We believe that Game Designers, Gamers and Games together hold an important role in society. That Game designers will be the future engagement hackers, change agents and architects of massive collaborative systems. That Games dealing with political, social and environmental challenges can be an platform for massive change, inspiring Gamers to connect and engage with important issues more effectively."
         },
         {
+            "name": "Dublin GameCraft 5 - Celebrating 2 years of Jams",
+            "url": "http://dublingamecraft.com/events/dublin-gamecraft-5-2-years-of-jams-dit/",
+            "start_date": "2014-05-17 11:40:00 -0000",
+            "end_date": "2014-05-18 12:00:00 -0000",
+            "description": "(Dublin, Ireland).Just over two years ago, GameCraft sloshed it’s way free of the primordial game development ooze and smote the world, or at least parts of Dublin, with it’s mighty presence! In celebration of that gooey and historic event, we’re returning to the source (DIT) for a (slightly belated) two year anniversary GameCraft. On the 17th of May 2014, DIT will be hosting three special GameCraft events: 24hour jam, 8 hour unpluged jam and a Jam for Kids with the help of Coder Dojo"
+        },
+        {
+            "name": "Galway GameCraft ",
+            "url": "http://dublingamecraft.com/events/galway-gamecraft-10th-may/",
+            "start_date": "2014-05-10 08:30:00 -0000",
+            "end_date": "2014-05-10 21:00:00 -0000",
+            "description": "(Galway, Ireland).Gamecraft has been happening all over the world and now in association with Insight, we’re coming to your virescent spring-time neck of the woods to lather you in a bath of frantic game development!"
+        },
+        {
+            "name": "London GameCraft ",
+            "url": "http://dublingamecraft.com/events/london-gamecraft-june-2014/",
+            "start_date": "2014-06-07 08:30:00 -0000",
+            "end_date": "2014-06-07 22:00:00 -0000",
+            "description": "(London, UK).where folks come together to make games! Teams (or brave individuals,) get together and are given a theme early in the morning and from there have as little as 8 hours (sometimes 12 if we’re feeling generous). Games are built from scratch on any platform you like, at the end of the day the games are demoed by a panel of judges who award prizes for the best contenders. It’s a great chance to flex your creative muscles, tackle some quick and dirty coding problems, and to get out there and meet other game-makers face to face."
+        },
+        {
             "name": "Accessibility Jam 2014",
             "url": "http://jams.gamejolt.io/accessibilityjam/",
             "start_date": "2014-05-12 03:00:00",
