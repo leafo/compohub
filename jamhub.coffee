@@ -294,6 +294,9 @@ class J.Jam
 
     @_end_date
 
+  share_message: =>
+    "#{@data.name} - #{@date_format @start_date()} to #{@date_format @end_date()} #compohub"
+
 class J.List
   constructor: (el) ->
     J.list = @
@@ -640,6 +643,8 @@ class J.Calendar
 
 class J.Header
   constructor: (el) ->
+    @constructor.instance = @
+
     @el = $ el
     @el.on "click", ".multi_share .top", (e) =>
       $(e.currentTarget).closest(".multi_share").toggleClass "open"
@@ -663,11 +668,31 @@ class J.Header
         popup.focus() if window.focus
         e.preventDefault()
 
+  update_share_links: (jam) ->
+    msg = jam.share_message()
+    url = jam.data.url
+
+    @el.find(".twitter_share").attr "href", "http://twitter.com/share?" + $.param {
+      url: url
+      text: msg
+    }
+
+    @el.find(".facebook_share").attr "href", "http://www.facebook.com/sharer.php?" + $.param {
+      s: "100"
+      "p[title]": jam.name
+      "p[summary]": msg
+      "p[url]": url
+    }
+
+    @el.find(".google_plus_share").attr "href", "https://plusone.google.com/_/+1/confirm?" + $.param {
+      hl: "en"
+      url: url
+    }
 
 class J.SingleJam
   constructor: (el="body") ->
     @el = $ el
     @jam = new J.Jam @el.find(".jam_box").data("jam")
     @el.find(".progress_outer").replaceWith @jam.render_time_data()
-
+    J.Header.instance.update_share_links @jam
 
