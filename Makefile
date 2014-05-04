@@ -17,4 +17,4 @@ json:
 	php misc/export_jams.php 2014 > jams/2014.json
 
 deploy:
-	rsync -RrvuzL index.html *.js *.css jams/ font/ leaf@leafo.net:www/compohub.net
+	rsync -RrvuzL index.html *.js *.css jams/ font/ tags/ leaf@leafo.net:www/compohub.net
