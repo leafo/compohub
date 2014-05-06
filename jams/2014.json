@@ -87,7 +87,7 @@
         {
             "name": "LOWREZ Jam",
             "start_date": "2014-05-01 00:00 -0700",
-            "end_date": "2014-05-19 00:00 -0700",
+            "end_date": "2014-05-31 00:00 -0700",
             "description": "Create a game with a maximum screen resolution of 32×32 pixels.",
             "local": true,
             "url": "http://jams.gamejolt.io/lowrezjam2014/",
