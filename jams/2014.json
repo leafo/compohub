@@ -629,5 +629,13 @@
             "tags": ["accessibilityjam"],
             "image": "http://i.imgur.com/MCDc1br.png"
         }
+        {
+            "name": "Fuck This Jam",
+            "url": "http://fuckthisjam.com/",
+            "start_date": "2014-05-31 00:00:00",
+            "end_date": "2014-06-06 23:59:00",
+            "description": "Create games in a genre you hate.",
+            "local": false,
+        }
     ]
 }
