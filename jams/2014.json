@@ -636,6 +636,14 @@
             "end_date": "2014-06-06 23:59:00",
             "description": "Create games in a genre you hate.",
             "local": false
+        },
+        {
+            "name": "Purple Monkey Game Jam",
+            "url": "http://purplemonkeygamejam.com/",
+            "start_date": "2014-06-14 08:00:00 -0500",
+            "end_date": "2014-06-15 19:00:00 -0500",
+            "description": "Once again the game jam is afoot! The next Purple Monkey Game Jam is just around the corner and if the last game jam is any indication this one will be unforgettable! Same as before the game jam is open for anyone who has any interest in game development and there are no restrictions on the technology (or lack thereof) used to make a game.",
+            "image": "http://purplemonkeygamejam.com/images/monkey.png"
         }
     ]
 }
