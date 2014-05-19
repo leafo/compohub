@@ -638,6 +638,16 @@
             "local": false
         },
         {
+            "name": "The Arbitrary Gamejam 11",
+            "start_date": "2014-06-06 00:00:00 -0400",
+            "end_date": "2014-06-08 23:59:00 -0400",
+            "description": "The Arbitrary Gamejam 11 (#TAGJam11) is the eleventh edition in a series of monthly game jams for indie game devs. Each month is hosted by the winner of the previous month, and two of the three theme words are randomly generated.",
+            "local": false,
+            "url": "http://dev.bunnyhero.org/pages/tagjam11/",
+            "tags": ["the-arbitrary-gamejam"],
+            "image": "http://i.imgur.com/csu8xpf.jpg"
+        },
+        {
             "name": "Purple Monkey Game Jam",
             "url": "http://purplemonkeygamejam.com/",
             "start_date": "2014-06-14 08:00:00 -0500",
