@@ -654,6 +654,14 @@
             "end_date": "2014-06-15 19:00:00 -0500",
             "description": "Once again the game jam is afoot! The next Purple Monkey Game Jam is just around the corner and if the last game jam is any indication this one will be unforgettable! Same as before the game jam is open for anyone who has any interest in game development and there are no restrictions on the technology (or lack thereof) used to make a game.",
             "image": "http://purplemonkeygamejam.com/images/monkey.png"
+        },
+        {
+             "name": "Epic Game Jam",
+            "url": "http://epicgamejam.com",
+            "start_date": "2014-07-04 20:00 +0100",
+            "end_date": "2014-07-06 17:00 +0100",
+            "tags": ["epicgamejam"],
+            "description": "45 hours to make a game, start with 1 theme, spice it up with ??? subthemes added along the way"
         }
     ]
 }
