@@ -654,6 +654,29 @@
             "end_date": "2014-06-15 19:00:00 -0500",
             "description": "Once again the game jam is afoot! The next Purple Monkey Game Jam is just around the corner and if the last game jam is any indication this one will be unforgettable! Same as before the game jam is open for anyone who has any interest in game development and there are no restrictions on the technology (or lack thereof) used to make a game.",
             "image": "http://purplemonkeygamejam.com/images/monkey.png"
+        },
+        {
+            "name": "ASCII Enthusiasts 72 hour Programming Jam",
+            "url": "http://asciienthusiasts.noip.me/",
+            "start_date": "2014-06-25 00:00:00 -0000",
+            "end_date": "2014-06-28 00:00:00 -0000",
+            "description": "A short game jam centered around ASCII, ANSI, and text based games and programs, 72 hour version"
+            
+            
+            
+            
+        },
+        {
+            "name": "ASCII Enthusiasts 10 day Programming Jam",
+            "url": "http://asciienthusiasts.noip.me/",
+            "start_date": "2014-07-01 00:00:00 -0000",
+            "end_date": "2014-07-10 00:00:00 -0000",
+            "description": "A short game jam centered around ASCII, ANSI, and text based games and programs, 10 day version"
+            
+            
+            
+            
+        }
         }
     ]
 }
