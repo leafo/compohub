@@ -663,7 +663,7 @@
             "description": "Game Jolt is beyond pleased to announce the first official Game Jolt game jam using the new Game Jolt Jams platform: Glitch Jam! Start glitching out on June 9th and make a game or just follow along with the fun. If you choose to participate, we challenge you to make a game that embraces glitchiness. Games should deliberately use a glitch or glitches as an integral part of the gameplay, or should make use of glitchiness as an overall aesthetic.",
             "image": "http:\/\/i.imgur.com\/77Tvzcc.png",
             "tags": ["glitchjam", "game jolt"],
-            "themes": ["glitches"]
+            "themes": ["glitches"],
             "local": false
         }
     ]
