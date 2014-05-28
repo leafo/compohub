@@ -662,6 +662,17 @@
             "end_date": "2014-07-06 17:00 +0100",
             "tags": ["epicgamejam"],
             "description": "45 hours to make a game, start with 1 theme, spice it up with ??? subthemes added along the way"
+        },
+        {
+            "name": "Glitch Jam",
+            "url": "http:\/\/jams.gamejolt.io\/glitchjam",
+            "start_date": "2014-06-09 00:00:00",
+            "end_date": "2014-06-30 00:00:00",
+            "description": "Game Jolt is beyond pleased to announce the first official Game Jolt game jam using the new Game Jolt Jams platform: Glitch Jam! Start glitching out on June 9th and make a game or just follow along with the fun. If you choose to participate, we challenge you to make a game that embraces glitchiness. Games should deliberately use a glitch or glitches as an integral part of the gameplay, or should make use of glitchiness as an overall aesthetic.",
+            "image": "http:\/\/i.imgur.com\/77Tvzcc.png",
+            "tags": ["glitchjam", "game jolt"],
+            "themes": ["glitches"],
+            "local": false
         }
     ]
 }
