@@ -673,6 +673,16 @@
             "tags": ["glitchjam", "game jolt"],
             "themes": ["glitches"],
             "local": false
+        },
+        {
+            "name": "BitBitJAM",
+            "start_date": "2014-06-14 00:00:00 +0100",
+            "end_date": "2014-06-21 00:00:00 +0100",
+            "description": "BitBitJAM is an Online RetroGame event where people around the world create a game for old hardware in a week. The goal is to share tools that helps make games for older platforms. The entries later could be used as working examples that make easy and accessible the first development contact.",
+            "url": "http:\/\/bitbitjam.com\/",
+            "image": "http:\/\/bitbitjam.com\/img\/bitbitjam-200px.png",
+            "tags": ["retro-game-jam", "real-hardware", "old-school-jam" ],
+            "local": false
         }
     ]
 }
