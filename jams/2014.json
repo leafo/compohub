@@ -683,6 +683,16 @@
             "image": "http:\/\/bitbitjam.com\/img\/bitbitjam-200px.png",
             "tags": ["retro-game-jam", "real-hardware", "old-school-jam" ],
             "local": false
+        },
+              {
+            "name": "Nar8 Narrative Game Jam",
+            "url": "http:\/\/www.itch.io\/jam\/nar8-jam",
+            "start_date": "2014-06-08 00:00:00",
+            "end_date": "2014-06-30 00:00:00",
+            "description": "Nar8 is a game jam that occurs from the 8th of June to the 30th of June. Participants will have the entire time to select their teams, form concepts, and design their games. There is no theme besides telling a story, but experimentation and stepping outside your comfort zone is heavily suggested. Nar8 is different than some game jams in that entries are voted upon by users not for their graphics or their fun, but how successful they were in telling their story.",
+            "image": "http:\/\/i.imgur.com\/SfABG9J.png",
+            "tags": ["itch.io", "narrative-game-jam"],
+            "themes": ["narrative"],
+            "local": false
         }
-    ]
 }
