@@ -683,6 +683,16 @@
             "image": "http:\/\/bitbitjam.com\/img\/bitbitjam-200px.png",
             "tags": ["retro-game-jam", "real-hardware", "old-school-jam" ],
             "local": false
+        },
+        {
+            "name": "Nar8 Narrative Game Jam",
+            "start_date": "2014-06-08 00:00:00 +0100",
+            "end_date": "2014-07-01 00:00:00 +0100",
+            "description": "Create a game focused on telling a story. Find game mechanics that are more than fun, but also help expand or explain the story of your writing. Games are a form of interactive fiction that gives the creator control over aspects of how your audience interacts with the story. Use this advantage to create something that sends a message in a way no other medium can.",
+            "url": "http://itch.io/jam/nar8-jam",
+            "image": "http://i.imgur.com/KbWjIJE.png",
+            "tags": ["narrative", "game-jam", "nar8" ],
+            "local": false
         }
     ]
 }
