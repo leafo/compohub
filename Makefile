@@ -9,6 +9,7 @@ test:
 pages:
 	grunt coffee sass
 	grunt assemble
+	grunt ical
 
 json:
 	php misc/export_jams.php 2011 > jams/2011.json
@@ -17,4 +18,4 @@ json:
 	php misc/export_jams.php 2014 > jams/2014.json
 
 deploy:
-	rsync -RrvuzL index.html *.js *.css jams/ font/ tags/ leaf@leafo.net:www/compohub.net
+	rsync -RrvuzL index.html *.ics *.js *.css jams/ font/ tags/ leaf@leafo.net:www/compohub.net
