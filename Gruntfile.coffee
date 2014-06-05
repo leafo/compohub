@@ -1,4 +1,6 @@
 moment = require "moment"
+ical = require "ical-generator"
+
 {J} = require "./jamhub"
 
 module.exports = (grunt) ->
@@ -31,6 +33,7 @@ module.exports = (grunt) ->
 
   build_tag_pages assemble
   build_jam_root_page assemble
+  build_ical_feed assemble
 
   grunt.initConfig {
     pkg: grunt.file.readJSON "package.json"
@@ -59,6 +62,46 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-coffee"
 
   grunt.registerTask "default", ["coffee", "sass"]
+
+build_ical_feed = (params) ->
+	calendar = ical()
+	calendar.setDomain('compohub.net')
+	calendar.setName('Compohub Game Jams')
+
+	#Get a list of jams in sorted order
+	jams = []
+	for slug, jam of params.options.jams_by_slug
+		jams.push(jam)
+	jams.sort (a, b) ->
+      b.start_date - a.start_date
+
+    #iCal library does not propery escape carriage returns
+    escape_carriage_return = (str) ->
+    	str.replace(/\r/g, (match) -> "" )
+
+    #Iterate through jams, adding it to ical builder
+	for jam in jams
+		#Parse dates
+		[start_date] = J.parse_jam_timestamp jam.start_date
+		[end_date] = J.parse_jam_timestamp jam.end_date
+
+		#Escape Summary and Description
+		summary = if jam.name? then escape_carriage_return(jam.name) else ""
+		description = if jam.description? then escape_carriage_return(jam.description) else ""
+
+		#Ensure that there is both a start_date and end_date for this event
+		continue unless start_date
+		continue unless end_date
+
+		calendar.addEvent({
+			start: start_date,
+			end: end_date,
+			summary: summary,
+			description: description,
+			url: jam.url,
+			uid: jam.slug
+		})
+	calendar.save("feed.ics")
 
 build_jam_pages = (params, jam_data) ->
   params.options ||= {}
