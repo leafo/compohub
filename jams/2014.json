@@ -719,5 +719,15 @@
             "tags": ["text", "text-jam", "textmode", "ASCII"],
             "description": "Text Jam is a game jam all about text games. Think text adventures, ascii art, choose your own adventure books! With graphics being so dramatically improved text games have fallen to the wayside, the purpose of this jam is to inspire developers to try something new and pursue a new style. This is a global game jam, which means anyone on this planet can submit a game. It’ll be a 48 hour game jam and it’ll start on Friday June 20th at 1:00 PM PST. You can use any engine or development tools, please use whatever you find most comfortable. You can even use Twine if you’d like! If you’re going to participate in the jam, please shoot me a tweet @mguniverse and let me know. "
         }
+        {
+            "name": "L.I.V Game Jam",
+            "url": "http://liv.ggjsantafe.com.ar/",
+            "image": "https://www.dropbox.com/s/5pntnpbtx6ka49e/promo.jpg",
+            "start_date": "2014-07-07 00:00 -0000",
+            "end_date": "2014-07-14 01:00 -0000",
+            "local": false,
+            "tags": ["LIV", "LIVGAMEJAM"],
+            "description": "this is the hardest jam - for creative people"
+        }
     ]
 }
