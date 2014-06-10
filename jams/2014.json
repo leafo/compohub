@@ -630,6 +630,19 @@
             "image": "http://i.imgur.com/MCDc1br.png"
         },
         {
+            "name": "2014 Indie Game Development Contest",
+            "start_date": "2014-05-29",
+            "end_date": "2014-06-30 23:59:00",
+            "description": "Are you ready for the excitement of the 2014 Indie Game Development Contest? Make your dream game during the month of June for a chance to win huge cash prizes (up to $10,000), widespread acclaim, and possibly a review by one of our celebrity judges. Now is your chance to grab the spotlight and become a renowned indie developer!",
+            "local": false,
+            "url": "http://contest.rpgmakerweb.com",
+            "tags": [
+                "indie-game-development-contest",
+                "humble-bundle",
+                "rpg-maker"
+            ]
+        },
+        {
             "name": "Fuck This Jam",
             "url": "http://fuckthisjam.com/",
             "start_date": "2014-05-31 00:00:00",
@@ -673,6 +686,18 @@
             "tags": ["glitchjam", "game jolt"],
             "themes": ["glitches"],
             "local": false
+        },
+        {
+            "name": "Mini Ludum Dare #52",
+            "start_date": "2014-06-13",
+            "end_date": "2014-06-23",
+            "description": "The theme this time is the RETRO CHALLENGE!  Write a software for some classic/retro hardware… Don’t have any old hardware around? No problem!  Emulated systems are fine!  Don’t know how to code in ASM?  No problem! Use any of the old development or game making tools from that machine’s time.  You can use any hardware emulation or simulation platform… basically anything that can be emulated/simulated on reasonably recent hardware, but not including modern system VMs.  that’d be cheating.  (Let’s say, try to stick to previous generation of home computer technology (pre-windows) if you’re going for Intel based stuff.  So, MS-DOS based games would be okay if you wanted to go that route.)",
+            "local": false,
+            "url": "http://www.ludumdare.com/compo/2014/06/02/mini-ld-52-the-retro-challenge/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
         },
         {
             "name": "BitBitJAM",
