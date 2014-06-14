@@ -759,6 +759,16 @@
             "local": false,
             "url": "http://itch.io/jam/agdg-microgame-jam",
             "tags": ["agdg", "microgame-jam", "itch.io"]
+        },
+        {
+            "name": "Monster Mash! 2014",
+            "start_date": "2014-06-30",
+            "end_date": "2014-07-07",
+            "description": "Monster Mash! is a week long game jam between June 30 and July 7 that challenges you to create a game with monster protagonists! Let's face it - we use humans a LOT in our games, so why not explore outside Earth for a little while?",
+            "local": false,
+            "url": "http://itch.io/jam/monster-mash",
+            "image": "http://i.imgur.com/kfuwW1r.png",
+            "tags": ["monster-mash", "itch.io"]
         }
     ]
 }
