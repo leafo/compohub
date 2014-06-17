@@ -779,6 +779,17 @@
             "url": "http://itch.io/jam/summer-jam",
             "image": "http://i.imgur.com/AyutrgV.png",
             "tags": ["summer-jam", "itch.io"]
+        },
+        {
+            "name": "Nine Worlds Game Jam: Fairytales Retold",
+            "start_date": "2014-06-15",
+            "end_date": "2014-07-15",
+            "url": "http://itch.io/jam/nine-worlds-2014-game-jam",
+            "themes": ["fairytales"],
+            "description": "Nine Worlds is hosting game jam, with the opportunity to attend the Friday of the convention. Submitters will get a chance to come and discuss their games, learn more about game making, and participate in an indie and newbie focused conference. This year's game jam theme is Fairytales Retold, and submissions are open from 15th June til 15th July. Fairytales are told all over the world, so why not have a look for some you might not know? That, or take an old beloved and give it a brand new setting and an interesting genre swap. Whether you want to go grimdark or fluffy and light, we've got space for whatever you can create. Since Nine Worlds is all about inclusivity, the more diverse your game is, the better!",
+            "local": false,
+            "image": "http://31.media.tumblr.com/adcb27c3401f7a520032ab613eb2442a/tumblr_mk96u33hUQ1qg5y4ao1_500.jpg",
+            "tags": ["itch.io", "NineWorlds"]
         }
     ]
 }
