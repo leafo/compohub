@@ -770,7 +770,7 @@
             "image": "http://i.imgur.com/kfuwW1r.png",
             "tags": ["monster-mash", "itch.io"]
         },
-		{
+		    {
             "name": "Summer Jam",
             "start_date": "2014-07-25",
             "end_date": "2014-07-27",
@@ -790,6 +790,17 @@
             "local": false,
             "image": "http://31.media.tumblr.com/adcb27c3401f7a520032ab613eb2442a/tumblr_mk96u33hUQ1qg5y4ao1_500.jpg",
             "tags": ["itch.io", "NineWorlds"]
+        },
+        {
+            "name": "Ripples of Change",
+            "start_date": "2014-06-15 17:00 -0500",
+            "end_date": "2014-07-15 19:00 -0500",
+            "url": "http://itch.io/jam/ripples-of-change-jam",
+            "themes": ["fairytales"],
+            "description": "Ripples of Change is a charity jam focused on bringing attention to the work that Engineers Without Borders is doing to bring clean water to Carmen Pampa in Bolivia. The jam will run for 48 hours and the theme will be announced on the URL above at 5PM on the 27th. ",
+            "local": false,
+            "image": "http://www.mantisdigitalarts.com/wp-content/uploads/2014/06/ripplesofchange_ad.png",
+            "tags": ["itch.io", "RoC", "Engineers Without Borders"]
         }
     ]
 }
