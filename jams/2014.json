@@ -801,6 +801,16 @@
             "local": false,
             "image": "http://www.mantisdigitalarts.com/wp-content/uploads/2014/06/ripplesofchange_ad.png",
             "tags": ["itch.io", "RoC", "Engineers Without Borders"]
+        },
+        {
+            "name": "OHJAM",
+            "start_date": "2014-08-05 12:00 -0500",
+            "end_date": "2014-08-06 12:00 -0500",
+            "url": "http:\/\/defacid.com\/ohjam\/",
+            "description": "OHJAM is a Midwest Game Jam being held at The Crawlspace Concert Club in Girard, OH. While the event focuses on the rapid design and production of games, everyone is welcome to hang out, watch, and even join in! If you love to make games, or you just love to play them, come out and see what OHJAM is all about!",
+            "local": true,
+            "image": "http:\/\/defacid.com\/ohjam\/ohjam_logo_small.png",
+            "tags": ["ohjam", "defacid", "midwest", "in-person", "irl", "meetup"]
         }
     ]
 }
