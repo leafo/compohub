@@ -770,7 +770,17 @@
             "image": "http://i.imgur.com/kfuwW1r.png",
             "tags": ["monster-mash", "itch.io"]
         },
-		    {
+        {
+            "name": "2014 GDSE Summer Game Jam",
+            "url": "http://meta.gamedev.stackexchange.com/questions/1637/the-2014-gdse-summer-game-jam",
+            "start_date": "2014-07-04 05:00",
+            "end_date": "2014-07-07 07:00",
+            "themes": ["twist"],
+            "tags": ["gdse", "summer"],
+            "image": "http://i.imgur.com/Ke4LQul.png",
+            "description": "The theme will be a bit different this time: each participant chooses a gameplay concept from an existing game, and builds a game around it, trying to give the concept a twist or make it better."
+        },
+	{
             "name": "Summer Jam",
             "start_date": "2014-07-25",
             "end_date": "2014-07-27",
