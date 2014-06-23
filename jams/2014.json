@@ -821,6 +821,16 @@
             "local": true,
             "image": "http:\/\/defacid.com\/ohjam\/ohjam_logo_small.png",
             "tags": ["ohjam", "defacid", "midwest", "in-person", "irl", "meetup"]
+        },
+        {
+            "name": "Indie Quilt",
+            "start_date": "2014-06-23",
+            "end_date": "2014-08-18",
+            "url": "http://jams.gamejolt.io/indiequilt",
+            "description": "Indie Quilt is a jam to kick off the creation of a collaborative game for charity! Make a small (under 30 seconds) minigame that will become a part of the Indie Quilt!",
+            "image": "http://i.imgur.com/YgTPhky.png",
+            "themes": ["minigame"],
+            "tags": ["indiequilt", "gamejolt"]
         }
     ]
 }
