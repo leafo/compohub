@@ -677,6 +677,16 @@
             "description": "45 hours to make a game, start with 1 theme, spice it up with ??? subthemes added along the way"
         },
         {
+		"name": "The Arbitrary Gamejam 12",
+		"url": "http://andrescremin.wordpress.com/tagjam12-the-arbitrary-game-jam/",
+		"start_date": "2014-07-04 00:00 -0300",
+		"end_date": "2014-07-06 23:59 -0300",
+		"description": "The Arbitrary Gamejam 12 (#TAGjam12) is the 12th edition in a series of monthly game jams for indie game devs. Each month is hosted by the winner of the previous nonth, and two of the three theme words are randomly generated.",
+		"local": false,
+		"tags": ["the-arbitrary-gamejam"],
+		"image": "https://www.dropbox.com/s/epskz3pgq7a0uzg/TAGquad.png"
+        },
+        {
             "name": "Glitch Jam",
             "url": "http:\/\/jams.gamejolt.io\/glitchjam",
             "start_date": "2014-06-09 00:00:00",
