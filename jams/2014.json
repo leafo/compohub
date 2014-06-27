@@ -863,6 +863,16 @@
             "url": "http://crazyalpacastudios.weebly.com/alpaca-game-jam.html",
             "description": "The first Alpaca Game Jam!",
             "tags": ["Game-Jam", "Alpaca-Game-Jam"]
+        },
+        {
+            "name": "Speccy Jam #2",
+            "start_date": "2014-08-29",
+            "end_date": "2014-09-05",
+            "url": "http://www.speccyjam.com",
+            "description": "Speccy Jam is a regular world wide 1 week game jam, where indie game developers come together to create games with the flavour of the legendary 8-bit personal home computer, the Sinclair ZX Spectrum.",
+            "image": "http://i.imgur.com/LXddFYS.jpg",
+            "themes": ["retrogaming"],
+            "tags": ["retro", "zx-spectrum", "zx", "retrogaming", "8-bit"]
         }
     ]
 }
