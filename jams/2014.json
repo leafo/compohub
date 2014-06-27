@@ -855,6 +855,14 @@
             "image": "http://i.imgur.com/YgTPhky.png",
             "themes": ["minigame"],
             "tags": ["indiequilt", "gamejolt"]
+        },
+	{
+            "name": "Alpaca Game Jam-1",
+            "start_date": "2014-07-4 16:00:00",
+            "end_date": "2014-07-6 16:00:00",
+            "description": "The first Alpaca Game Jam! The Alpaca Game Jam is a weekly 48 hour game jam"
+            "url": "http://crazyalpacastudios.weebly.com/alpaca-game-jam.html",
+            "tags": ["alpaca-game-jam", "game-gams", "48-hours"]
         }
     ]
 }
