@@ -873,6 +873,16 @@
             "image": "http://i.imgur.com/LXddFYS.jpg",
             "themes": ["retrogaming"],
             "tags": ["retro", "zx-spectrum", "zx", "retrogaming", "8-bit"]
+        },
+        {
+            "name": "RedWire Game Jam",
+            "start_date": "2014-07-17",
+            "end_date": "2014-07-25",
+            "url": "http://jamshaker.com/paris/",
+            "description": "",
+            "local": true,
+            "image": "http://jamshaker.com/wp-content/uploads/2013/07/redwire-cropped.png",
+            "tags": ["france", "local", "redwire"]
         }
     ]
 }
