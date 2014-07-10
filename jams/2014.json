@@ -883,6 +883,16 @@
             "local": true,
             "image": "http://jamshaker.com/wp-content/uploads/2013/07/redwire-cropped.png",
             "tags": ["france", "local", "redwire"]
+        },
+        {
+            "name": "GBJam #3",
+            "start_date": "2014-08-01",
+            "end_date": "2014-08-10",
+            "url": "http://jams.gamejolt.io/gbjam3",
+            "description": "The aim of GBJam is to create a GameBoy themed game. Rules are simple: keep in the original GameBoy screen resolution of 160px x 144px and use only 4 colors in your game.",
+            "image": "https://dl.dropboxusercontent.com/u/3954039/GBJam01/logo2.png",
+            "themes": ["retrogaming"],
+            "tags": ["retro", "gbjam", "gb", "retrogaming", "gameboy"]
         }
     ]
 }
