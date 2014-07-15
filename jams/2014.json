@@ -893,6 +893,15 @@
             "image": "https://dl.dropboxusercontent.com/u/3954039/GBJam01/logo2.png",
             "themes": ["retrogaming"],
             "tags": ["retro", "gbjam", "gb", "retrogaming", "gameboy"]
+        },
+        {
+            "name": "js13kGames",
+            "start_date": "2014-08-13",
+            "end_date": "2014-09-13",
+            "url": "http://js13kgames.com/",
+            "description": "js13kGames is a JavaScript coding competition for HTML5 game developers. The fun part of the compo is the file size limit set to 13 kilobytes. The main theme for 2014 will be announced soon.",
+            "image": "http://js13kgames.com/assets/img/avatar.png",
+            "tags": ["javascript", "size-limited", "13kb", "web", "html5"]
         }
     ]
 }
