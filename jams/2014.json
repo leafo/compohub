@@ -902,6 +902,31 @@
             "description": "js13kGames is a JavaScript coding competition for HTML5 game developers. The fun part of the compo is the file size limit set to 13 kilobytes. The main theme for 2014 will be announced soon.",
             "image": "http://js13kgames.com/assets/img/avatar.png",
             "tags": ["javascript", "size-limited", "13kb", "web", "html5"]
+        },
+        {
+            "name": "Mini Ludum Dare #53",
+            "start_date": "2014-07-19 00:00:00 +0000",
+            "end_date": "2014-07-21 00:00:00 +0000",
+            "description": "The theme this time is 'The future is now'! You may interpret this however you want to. It doesn't matter if the theme fits with the gameplay, or if you make a game for the Oculus Rift (or a similar device). Just show us where the future we all dream about is already available!",
+            "local": false,
+            "url": "http://www.ludumdare.com/compo/2014/07/06/minild-the-53rd-edition/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "Ludum Dare 30",
+            "start_date": "2014-08-23 01:00:00 +0000",
+            "end_date": "2014-08-26 01:00:00 +0000",
+            "description": "Dual event with 48h competition and 72h jam. The competition has stricter rules than the jam and it's only for solo developers but otherwise they are the same.",
+            "local": false,
+            "url": "http:\/\/www.ludumdare.com\/compo\/",
+            "tags": [
+                "ludum-dare"
+            ],
+            "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         }
+
     ]
 }
