@@ -926,6 +926,30 @@
                 "ludum-dare"
             ],
             "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
+        },
+        {
+            "name": "Alpaca Game Jam-3",
+            "start_date": "2014-07-19 16:00:00",
+            "end_date": "2014-07-20 16:00:00",
+            "url": "http://crazyalpacastudios.weebly.com/alpaca-game-jam.html",
+            "description": "The third Alpaca Game Jam! The Alpaca Game Jam is a weekly game jam, for single developers and for teams, no pre-registration required.",
+            "tags": ["Game-Jam", "Alpaca-Game-Jam", "24-Hour-Game-Jam","indie-games"]
+        },
+        {
+            "name": "Alpaca Game Jam-4",
+            "start_date": "2014-07-26 16:00:00",
+            "end_date": "2014-07-27 16:00:00",
+            "url": "http://crazyalpacastudios.weebly.com/alpaca-game-jam.html",
+            "description": "The fourth Alpaca Game Jam! The Alpaca Game Jam is a weekly game jam, for single developers and for teams, no pre-registration required.",
+            "tags": ["Game-Jam", "Alpaca-Game-Jam", "24-Hour-Game-Jam","indie-games"]
+        },
+        {
+            "name": "Alpaca Game Jam-5",
+            "start_date": "2014-08-2 16:00:00",
+            "end_date": "2014-08-3 16:00:00",
+            "url": "http://crazyalpacastudios.weebly.com/alpaca-game-jam.html",
+            "description": "The fifth Alpaca Game Jam! The Alpaca Game Jam is a weekly game jam, for single developers and for teams, no pre-registration required.",
+            "tags": ["Game-Jam", "Alpaca-Game-Jam", "24-Hour-Game-Jam","indie-games"]
         }
 
     ]
