@@ -926,7 +926,16 @@
                 "ludum-dare"
             ],
             "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
+        },
+	{
+	    "name": "The Arbitrary Gamejam #13",
+	    "url": "http://hilgames.com/tagjam13/",
+	    "start_date": "2014-08-08 00:00 -0300",
+	    "end_date": "2014-08-10 23:59 -0300",
+	    "description": "The Arbitrary Game Jam (TAGJam) is a monthly game jam where the themes are two random words, obtained using a random word generator, and one additional theme chosen by the host. This 13th anniversary edition is being hosted by Hilgames.",
+	    "local": false,
+	    "tags": ["the-arbitrary-gamejam", "tagjam", "tagjam13"],
+	    "image": "http://hilgames.com/tagjam13/headerImg.png"
         }
-
     ]
 }
