@@ -936,6 +936,15 @@
 	    "local": false,
 	    "tags": ["the-arbitrary-gamejam", "tagjam", "tagjam13"],
 	    "image": "http://hilgames.com/tagjam13/headerImg.png"
+        },
+	{
+	    "name": "Local Multiplayer Jam",
+	    "url": "http://jams.gamejolt.io/localmultiplayerjam",
+	    "start_date": "2014-08-01",
+	    "end_date": "2014-08-08",
+	    "description": "Local Multiplayer Games are awesome, so let's make some! Your game must have local multiplayer support for two or more players. This means that you should be able to play with friends on one computer or device.",
+	    "local": false,
+	    "tags": ["multiplayer", "localmultiplayerjam"]
         }
     ]
 }
