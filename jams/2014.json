@@ -945,6 +945,15 @@
 	    "description": "Local Multiplayer Games are awesome, so let's make some! Your game must have local multiplayer support for two or more players. This means that you should be able to play with friends on one computer or device.",
 	    "local": false,
 	    "tags": ["multiplayer", "localmultiplayerjam"]
+        },
+	{
+	    "name": "Peace, Love & Jam",
+	    "url": "http://jams.gamejolt.io/peaceloveandjam",
+	    "start_date": "2014-08-06",
+	    "end_date": "2014-08-20",
+	    "description": "Peace, Love & Jam is a game jam dedicated to creating non-violent, peaceful games that embody harmony, coexistence, acceptance and resolution. Especially in light of recent world events, it often seems like our planet is crying out for peace and harmony. Let's make some games that embody the message of peace and non-violence, that give the player a calm, comforting experience and explore what games can be in this sense.",
+	    "local": false,
+	    "tags": ["peace", "love", "peace-love-and-jam, peaceloveandjam"]
         }
     ]
 }
