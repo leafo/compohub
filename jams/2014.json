@@ -927,33 +927,53 @@
             ],
             "image": "jams\/images\/2576340814e81fd09b7e248.82235325.png"
         },
-	{
-	    "name": "The Arbitrary Gamejam #13",
-	    "url": "http://hilgames.com/tagjam13/",
-	    "start_date": "2014-08-08 00:00 -0300",
-	    "end_date": "2014-08-10 23:59 -0300",
-	    "description": "The Arbitrary Game Jam (TAGJam) is a monthly game jam where the themes are two random words, obtained using a random word generator, and one additional theme chosen by the host. This 13th anniversary edition is being hosted by Hilgames.",
-	    "local": false,
-	    "tags": ["the-arbitrary-gamejam", "tagjam", "tagjam13"],
-	    "image": "http://hilgames.com/tagjam13/headerImg.png"
+		{
+			"name": "The Arbitrary Gamejam #13",
+			"url": "http://hilgames.com/tagjam13/",
+			"start_date": "2014-08-08 00:00 -0300",
+			"end_date": "2014-08-10 23:59 -0300",
+			"description": "The Arbitrary Game Jam (TAGJam) is a monthly game jam where the themes are two random words, obtained using a random word generator, and one additional theme chosen by the host. This 13th anniversary edition is being hosted by Hilgames.",
+			"local": false,
+			"tags": ["the-arbitrary-gamejam", "tagjam", "tagjam13"],
+			"image": "http://hilgames.com/tagjam13/headerImg.png"
         },
-	{
-	    "name": "Local Multiplayer Jam",
-	    "url": "http://jams.gamejolt.io/localmultiplayerjam",
-	    "start_date": "2014-08-01",
-	    "end_date": "2014-08-08",
-	    "description": "Local Multiplayer Games are awesome, so let's make some! Your game must have local multiplayer support for two or more players. This means that you should be able to play with friends on one computer or device.",
-	    "local": false,
-	    "tags": ["multiplayer", "localmultiplayerjam"]
+		{
+			"name": "Local Multiplayer Jam",
+			"url": "http://jams.gamejolt.io/localmultiplayerjam",
+			"start_date": "2014-08-01",
+			"end_date": "2014-08-08",
+			"description": "Local Multiplayer Games are awesome, so let's make some! Your game must have local multiplayer support for two or more players. This means that you should be able to play with friends on one computer or device.",
+			"local": false,
+			"tags": ["multiplayer", "localmultiplayerjam"]
         },
-	{
-	    "name": "Peace, Love & Jam",
-	    "url": "http://jams.gamejolt.io/peaceloveandjam",
-	    "start_date": "2014-08-06",
-	    "end_date": "2014-08-20",
-	    "description": "Peace, Love & Jam is a game jam dedicated to creating non-violent, peaceful games that embody harmony, coexistence, acceptance and resolution. Especially in light of recent world events, it often seems like our planet is crying out for peace and harmony. Let's make some games that embody the message of peace and non-violence, that give the player a calm, comforting experience and explore what games can be in this sense.",
-	    "local": false,
-	    "tags": ["peace", "love", "peace-love-and-jam, peaceloveandjam"]
+		{
+			"name": "Peace, Love & Jam",
+			"url": "http://jams.gamejolt.io/peaceloveandjam",
+			"start_date": "2014-08-06",
+			"end_date": "2014-08-20",
+			"description": "Peace, Love & Jam is a game jam dedicated to creating non-violent, peaceful games that embody harmony, coexistence, acceptance and resolution. Especially in light of recent world events, it often seems like our planet is crying out for peace and harmony. Let's make some games that embody the message of peace and non-violence, that give the player a calm, comforting experience and explore what games can be in this sense.",
+			"local": false,
+			"tags": ["peace", "love", "peace-love-and-jam, peaceloveandjam"]
+        },
+		{
+			"name": "Insanity Jam 2",
+			"url": "http://www.insanityjam.com/2",
+			"start_date": "2014-07-18",
+			"end_date": "2014-07-27",
+			"description": "The Insanity Jam is a quarterly game jam that uses a random game idea generator to provide participants with the theme and idea for their game. Anyone and everyone can join as long as they have the means and the drive to complete their game within the time frame",
+			"local": false,
+			"tags": ["insanity-jam", "insanityjam", "insanity", "ij2"],
+			"image": "http://www.insanityjam.com/resources/Jam-logo_300x300.png"
+        },
+		{
+			"name": "Insanity Jam 3",
+			"url": "http://www.insanityjam.com/forum",
+			"start_date": "2014-10-17",
+			"end_date": "2014-10-26",
+			"description": "The Insanity Jam is a quarterly game jam that uses a random game idea generator to provide participants with the theme and idea for their game. Anyone and everyone can join as long as they have the means and the drive to complete their game within the time frame",
+			"local": false,
+			"tags": ["insanity-jam", "insanityjam", "insanity", "ij3"],
+			"image": "http://www.insanityjam.com/resources/Jam-logo_300x300.png"
         }
     ]
 }
