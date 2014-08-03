@@ -1,5 +1,19 @@
 {
     "jams": [
+        {
+            "name": "ALT CTRL Game Jam",
+            "url": "http://http://www.altctrlgamejam.com/",
+            "start_date": "2014-09-12 00:01",
+            "end_date": "2014-09-22 23:59",
+            "tags": [
+                "alternative",
+                "controls",
+                "alt-ctrl",
+                "gdc"
+            ],
+            "image": "https://dl.dropboxusercontent.com/u/36576668/logo-08.1.png",
+            "description": "ALT CTRL Game Jam is about experimenting with controls for your game. Make your custom controllers, or use conventional ones in a different way. This is an online jam with real world gatherings taking place 12-14 September."
+        },
 		{
 			"name": "The Interactive Fiction Competition",
 			"url": "http://www.ifcomp.org",
