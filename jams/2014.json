@@ -968,6 +968,15 @@
 			"description": "Peace, Love & Jam is a game jam dedicated to creating non-violent, peaceful games that embody harmony, coexistence, acceptance and resolution. Especially in light of recent world events, it often seems like our planet is crying out for peace and harmony. Let's make some games that embody the message of peace and non-violence, that give the player a calm, comforting experience and explore what games can be in this sense.",
 			"local": false,
 			"tags": ["peace", "love", "peace-love-and-jam, peaceloveandjam"]
+        },      {
+			"name": "Jam 4 Life: Mourning Against Violence",
+			"url": "http://jams.gamejolt.io/jam4life",
+			"start_date": "2014-08-09",
+			"end_date": "2014-08-30",
+			"description": "On wednesday 30th of july, Pablo Tonello, A 27 years old prolific game developer from Argentina was murdered on a theft attempt. The Community of United Developers Of Latin America (DUVAL), the Argentine Game Developers Association (ADVA), Gamester and Digital Media Company (CMD), denounce the violence that daily suffer latin america and the rest of the world and we make a call to celebrate to a Videogame Jam in honor to the memory of Pablo, in support of his family, friends and to reject violence in any form.",
+			"local": false,
+			"tags": ["jam4life", "peace", "non-violence"],
+			"image": "https://dl.dropboxusercontent.com/u/24695185/duval/jam4life_portada2.jpg"
         },
 		{
 			"name": "Insanity Jam 2",
