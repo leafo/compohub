@@ -999,4 +999,13 @@
 			"image": "http://www.insanityjam.com/resources/Jam-logo_300x300.png"
         }
     ]
-}
+      {
+      "name": "1 Week Multiplayer Jam",
+      "url": "http://jams.gamejolt.io/7DaysMultiplayer",
+      "start_date": "2014-07-19 2:00 -0700",
+      "end_date": "2014-07-26 12:00 -0700",
+      "themes": ["Multiplayer"],
+      "tags": ["Multiplayer", "Week", "WMJ", "Week multiplayer jam", "1 Week Multiplayer jam", "Jam"],
+      "description": "You have only 7 days to make a multiplayer game, what will you do?"
+    }
+  ]
