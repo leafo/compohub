@@ -172,6 +172,17 @@
             "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
+            "name": "Beta Breakers Game Jam",
+            "start_date": "2014-09-05 19:00 -0700",
+            "end_date": "2014-09-06 21:00 -0700",
+            "description": "Beta Breakers Game Jam is an annual 24-hour event in San Francisco. Come meet and work with some of the most creative and talented game developers. There will be plenty of food and some pretty awesome prizes -- see you there!!",
+            "url": "http://www.betabreakers.io",
+            "tags": [
+                "beta-breakers", "san francisco", "anything-goes", "free food"
+            ],
+            "image": "jams\/images\/betabreakers_shield.png"
+        },
+        {
             "name": "One Game a Month",
             "start_date": "2014-10-01",
             "end_date": "2014-10-31",
