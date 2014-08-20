@@ -184,6 +184,18 @@
             "image": "jams\/images\/screenshot_1362265626.98_0.15127399745.png"
         },
         {
+            "name": "PyWeek",
+            "start_date": "2014-10-05",
+            "end_date": "2014-10-12",
+            "description": "A week-long Python game programming challenge that is arranged twice a year. The theme and the winners are chosen by fellow game makers.",
+            "local": true,
+            "url": "http:\/\/www.pyweek.org",
+            "tags": [
+                "pyweek", "python"
+            ],
+            "image": "jams\/images\/2849173764e81fcee271a33.24238708.png"
+        },
+        {
             "name": "One Game a Month",
             "start_date": "2014-11-01",
             "end_date": "2014-11-30",
