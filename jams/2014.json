@@ -1159,6 +1159,18 @@
             "tags": [
                 "point-and-click"
             ]
+        },
+        {
+            "name": "NESJAM",
+            "url": "http://itch.io/jam/nesjam",
+            "start_date": "2014-09-01",
+            "end_date": "2014-10-01",
+            "description": "Make a game using some of the basic limitations of the Nintendo Entertainment System.",
+            "local": false,
+            "tags": [
+                "nesjam", "nes", "retro"
+            ],
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNTEvMzM5ODMucG5n/original/ZWluKw.png"
         }
     ]
 }
