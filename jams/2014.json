@@ -1171,6 +1171,18 @@
                 "nesjam", "nes", "retro"
             ],
             "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNTEvMzM5ODMucG5n/original/ZWluKw.png"
+        },
+        {
+            "name": "Ruin Jam 2014",
+            "url": "http://itch.io/jam/ruinjam2014",
+            "start_date": "2014-09-01",
+            "end_date": "2014-09-14",
+            "description": "Ruin Jam is a game jam celebrating the nonexistent demise of video games, inspired by a lot of current events. It's open to anyone and everyone who has been, is being, or plans to be accused of ruining the games industry. All Ruiners are welcome to contribute to the death of video games, provided that they adhere to the spirit of the jam.",
+            "local": false,
+            "tags": [
+                "ruinjam", "ruin"
+            ],
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNDUvMzI5ODkucG5n/original/chjy%2BB.png"
         }
     ]
 }
