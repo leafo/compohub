@@ -1183,6 +1183,18 @@
                 "ruinjam", "ruin"
             ],
             "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNDUvMzI5ODkucG5n/original/chjy%2BB.png"
+        },
+        {
+            "name": "Nitrome Jam",
+            "url": "http://www.nitrome.com/",
+            "start_date": "2014-06-02",
+            "end_date": "2014-06-06",
+            "description": "During that time the Nitrome staff will be splitting into teams of two and making games inspired by a chosen theme for 5 days. At the end of the 5 days all work will stop and we will let you all play the games we have made. You can all then vote on a winner.",
+            "local": true,
+            "tags": [
+                "nitrome", "nitrome-jam"
+            ],
+            "image": "http://cdn.nitrome.com/images/uploads/1073-1399911780-nitrome_jam_blog.png"
         }
     ]
 }
