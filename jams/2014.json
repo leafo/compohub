@@ -1207,6 +1207,18 @@
                 "procjam", "procedural-generation", "PCG"
             ],
             "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNTIvMzQxOTEucG5n/original/rAE%2Fn6.png"
+        },
+        {
+            "name": "The Arbitrary Gamejam #14",
+            "url": "http://tagjam14.snoutup.com/",
+            "start_date": "2014-09-06 10:00 +0300",
+            "end_date": "2014-09-09 10:00 +0300",
+            "description": "Monthly game jam with two random themes and one chosen by the host. Developer of best game (chosen by host) can host next TAGJam! Jam in September is hosted by SnoutUp!",
+            "local": false,
+            "tags": [
+                "tagjam14"
+            ],
+            "image": "http://tagjam14.snoutup.com/tag200.png"
         }
     ]
 }
