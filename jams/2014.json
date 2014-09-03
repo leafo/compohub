@@ -1195,6 +1195,18 @@
                 "nitrome", "nitrome-jam"
             ],
             "image": "http://cdn.nitrome.com/images/uploads/1073-1399911780-nitrome_jam_blog.png"
+        },
+        {
+            "name": "Procedural Generation Jam 2014",
+            "url": "http://itch.io/jam/procjam",
+            "start_date": "2014-11-08",
+            "end_date": "2014-11-17",
+            "description": "#procjam is a game jam about making stuff that makes other stuff. There are two ways to enter: make a game with procedural generation in it or make a tool that generates stuff to help game developers. Whatever you make, let us know what you're up to! Tweet with the hashtag #procjam and don't forget to submit your game to the jam using this page when you're done.",
+            "local": false,
+            "tags": [
+                "procjam", "procedural-generation", "PCG"
+            ],
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS8xNTIvMzQxOTEucG5n/original/rAE%2Fn6.png"
         }
     ]
 }
