@@ -1219,6 +1219,18 @@
                 "tagjam14"
             ],
             "image": "http://tagjam14.snoutup.com/tag200.png"
+        },
+        {
+            "name": "The 96 Jam with rules",
+            "url": "http://jams.gamejolt.io/The96h-Jam-withrules",
+            "start_date": "2014-11-29",
+            "end_date": "2014-12-3",
+            "description": "In this Jam it will be 3 rules and one theme. You must follow the rules and theme. Duration: 4 days (96 hours). Theme and rules suggestion: contact me.",
+            "local": false,
+            "tags": [
+                "jam-with-rules", "96haurs-jam"
+            ]
+            
         }
     ]
 }
