@@ -1219,6 +1219,15 @@
                 "tagjam14"
             ],
             "image": "http://tagjam14.snoutup.com/tag200.png"
+        },
+        {
+            "name": "2014 Georgia Fall Game Jam - Games for Health",
+            "url": "http://spsugames.blogspot.com/2014/08/2014-fall-game-jam-games-for-health.html",
+            "start_date": "2014-09-26 13:00 -0500",
+            "end_date": "2014-09-28 18:00 -0500",
+            "themes": ["Health", "HIV", "Disease Prevention"],
+            "tags": ["CDC", "Atlanta", "Georgia", "GA", "Fall"],
+            "description": "This year's game jam theme will again be 'games for health,' and we encourage participants to think outside the box with exergaming, mobile/spatial games, and games that utilize geolocation data to create innovative experiences.  Of course, you can also do a health-themed game on the traditional console/desktop.  We will judge games under multiple categories and select a top tier set of groups who will go on (beyond the jam weekend) to work towards a portion of $20,000 in development funding."
         }
     ]
 }
