@@ -1246,6 +1246,18 @@
             "tags": [
                 "jam-with-rules", "96haurs-jam"
             ]
+        },
+        {
+          "name": "The Barfcade Micro-game Gamejam",
+          "url": "http://itch.io/jam/barfcade",
+          "start_date": "2014-08-30 00:00 +0100",
+          "end_date": "2014-09-14 00:00 +0300",
+          "description": "MOn September 21st, Fantastic Arcade and Thu Tran will present this year's Starcade competition — a game show style event where two contestants will answer questions, face challenges, and play the games you create during this Gamemaking Frenzy, as Thu commands, until we crown the Champion of Barfcade! The event will be streamed live on Venus Patrol's Twitch channel.\n\ndevelopers around the world will have over two weeks to create short, two-player competitive games based on FOOD, COOKING, EATING or BARFING, which will then be selected and strung together for an ultimate BARFCADE showdown.",
+          "local": false,
+          "tags": [
+            "food", "micro-game"
+          ],
+          "image": "http://wileywiggins.com/barfcade_images/thu-barf.gif"
         }
     ]
 }
