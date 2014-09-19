@@ -1228,6 +1228,14 @@
             "themes": ["Health", "HIV", "Disease Prevention"],
             "tags": ["CDC", "Atlanta", "Georgia", "GA", "Fall"],
             "description": "This year's game jam theme will again be 'games for health,' and we encourage participants to think outside the box with exergaming, mobile/spatial games, and games that utilize geolocation data to create innovative experiences.  Of course, you can also do a health-themed game on the traditional console/desktop.  We will judge games under multiple categories and select a top tier set of groups who will go on (beyond the jam weekend) to work towards a portion of $20,000 in development funding."
+        },
+        {
+            "name": "The Neo Jam",
+            "url": "http://itch.io/jam/the-neo-jam",
+            "start_date": "2014-11-07 00:01",
+            "end_date": "2014-11-09 23:00",
+            "description": "The Neo Jam is a 72 hour game jam made to celebrate new and bizarre ideas. #neojam72"
         }
+
     ]
 }
