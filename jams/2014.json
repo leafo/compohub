@@ -1230,6 +1230,17 @@
             "description": "This year's game jam theme will again be 'games for health,' and we encourage participants to think outside the box with exergaming, mobile/spatial games, and games that utilize geolocation data to create innovative experiences.  Of course, you can also do a health-themed game on the traditional console/desktop.  We will judge games under multiple categories and select a top tier set of groups who will go on (beyond the jam weekend) to work towards a portion of $20,000 in development funding."
         },
         {
+            "name": "BaconGameJam 08",
+            "url": "https://bacongamejam.org/",
+            "start_date": "2014-10-17 22:00 +0000",
+            "end_date": "2014-10-19 22:00 +0000",
+            "local": false,
+            "tags": [
+                "bacon", "bacongamejam"
+            ],
+            "description": "Game jam for everyone. No strict restrictions."
+        },
+        {
             "name": "The Neo Jam",
             "url": "http://itch.io/jam/the-neo-jam",
             "start_date": "2014-11-07 00:01",
