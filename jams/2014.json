@@ -1269,6 +1269,28 @@
             "food", "micro-game"
           ],
           "image": "http://wileywiggins.com/barfcade_images/thu-barf.gif"
+        },
+        {
+          "name": "Paper Jam 0",
+          "url": "http://reddit.com/r/paperjam",
+          "start_date": "2014-10-03 18:00 -0700",
+          "end_date": "2014-10-05 23:59 -0700",
+          "description": "Make a paper game, quick! Optional theme and challenge. ~48 hours to make a printable paper game. This jam is a 'test run' for the Paper Jam 1.",
+          "local": false,
+          "tags": [
+            "paper jam", "paper", "board"
+          ]
+        },
+        {
+          "name": "Paper Jam 1",
+          "url": "http://reddit.com/r/paperjam",
+          "start_date": "2014-10-31 18:00 -0700",
+          "end_date": "2014-11-09 23:59 -0800",
+          "description": "Make a paper game, quick! Optional theme and challenge. ~10 days to make a printable paper game.",
+          "local": false,
+          "tags": [
+            "paper jam", "paper", "board"
+          ]
         }
     ]
 }
