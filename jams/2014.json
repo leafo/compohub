@@ -1,6 +1,18 @@
 {
     "jams": [
         {
+            "name": "Games 4 Doge",
+            "url": "http://www.games4doge.pw/",
+            "start_date": "2014-10-01 00:01",
+            "end_date": "2014-10-31 23:59",
+            "tags": [
+                "cyptocurrency",
+                "economics"
+            ],
+            "image": "http://games4doge.pw/images/games4doge.jpg",
+            "description": "Games 4 Doge is a month long Game Jam to experiment with integrating cryptocurrency, Dogecoin in particular, into games. Any game which uses Dogecoin as an in-game currency, a reward for winning/playing or other creative purpose is eligible."
+        },
+        {
             "name": "ALT CTRL Game Jam",
             "url": "http://www.altctrlgamejam.com/",
             "start_date": "2014-09-12 00:01",
