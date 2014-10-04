@@ -1303,6 +1303,17 @@
           "tags": [
             "paper jam", "paper", "board"
           ]
+        },
+        {
+          "name": "Asylum Jam",
+          "url": "http://www.asylumjam.com",
+          "start_date": "2014-10-31 19:00 +0100",
+          "end_date": "2014-11-02 23:59 +0100",
+          "description": "Asylum Jam is a 48 hour challenge where you've got to create a horror game without negative mental health stereotypes or tropes that paint the medical profession in a bad light. If you've ever wanted to make a horror game (on Halloween!), now's the time!",
+          "local": false,
+          "tags": [
+            "asylum jam", "horror"
+          ]
         }
     ]
 }
