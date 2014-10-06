@@ -1315,5 +1315,11 @@
             "asylum jam", "horror"
           ]
         }
+        {
+           "name": "Spooky Scary Skelejam",
+           "url":  "http://jams.gamejolt.io/spookyscaryskelejam",
+           "start_date": "2014-10-10 00:00 -05:00",
+           "end_date": "2014-10-31 23:59 -05:00"
+        }
     ]
 }
