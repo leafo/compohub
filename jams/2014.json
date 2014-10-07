@@ -1290,7 +1290,7 @@
           "description": "Make a paper game, quick! Optional theme and challenge. ~48 hours to make a printable paper game. This jam is a 'test run' for the Paper Jam 1.",
           "local": false,
           "tags": [
-            "paper jam", "paper", "board"
+            "paper-jam", "paper", "board"
           ]
         },
         {
@@ -1301,7 +1301,7 @@
           "description": "Make a paper game, quick! Optional theme and challenge. ~10 days to make a printable paper game.",
           "local": false,
           "tags": [
-            "paper jam", "paper", "board"
+            "paper-jam", "paper", "board"
           ]
         },
         {
@@ -1312,14 +1312,19 @@
           "description": "Asylum Jam is a 48 hour challenge where you've got to create a horror game without negative mental health stereotypes or tropes that paint the medical profession in a bad light. If you've ever wanted to make a horror game (on Halloween!), now's the time!",
           "local": false,
           "tags": [
-            "asylum jam", "horror"
+            "asylum-jam", "horror"
           ]
-        }
+        },
         {
            "name": "Spooky Scary Skelejam",
            "url":  "http://jams.gamejolt.io/spookyscaryskelejam",
+           "description": "It's October, which means it's time for horror! Whether it's spooky, scary skeletons or playing Outlast at 4:00AM, the internet is in full-on Halloween mode, and that means it's time for a game jam! A SPOOOOOOOOOOOKY game jam!",
+           "local": false,
            "start_date": "2014-10-10 00:00 -05:00",
-           "end_date": "2014-10-31 23:59 -05:00"
+           "end_date": "2014-10-31 23:59 -05:00",
+           "tags": [
+               "spooky-scary-skelejam", "spooky"
+            ]
         }
     ]
 }
