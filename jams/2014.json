@@ -1314,6 +1314,18 @@
           "tags": [
             "asylum jam", "horror"
           ]
+        },
+        {
+          "name": "InnoGames Game Jam #7",
+          "url": "http://gamejam.innogames.com",
+          "start_date": "2014-11-14 18:00 +0100",
+          "end_date": "2014-11-16 14:00 +0100",
+          "description": "A inhouse Game Jam in our headquarter in Hamburg, Germany. If you are interested in participating in our next Game Jam please send us an email to gamejam[at]innogames.com briefly introducing yourself.",
+          "local": true,
+          "tags": [
+            "germany", "hamburg", "innogames", "inhouse"
+          ],
+          "image": "http://blog.innogames.com/wp-content/uploads/2014/03/IMG_3143.jpg"
         }
     ]
 }
