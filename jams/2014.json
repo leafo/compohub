@@ -1326,6 +1326,18 @@
             "germany", "hamburg", "innogames", "inhouse"
           ],
           "image": "http://blog.innogames.com/wp-content/uploads/2014/03/IMG_3143.jpg"
+        },
+        {
+            "name": "7DFPS",
+            "url": "http://7dfps.com",
+            "description": "This is our plan: On November 8-15 2014, people from all around the world will make brand new first person shooters. We'll call it 7DFPS. We've done this before. In 2012 and 2013 7DFPS saw hundreds of participants, tens of thousands of players and an infinite amount of new ideas: games exploring realistic gun handling mechanics,  seven dimensional shooters, an fps with time running backwards, and even a couple of games without shooting ! With ideas that wild in 2012 and 2013, we can't wait to see what everybody comes up with this year.",
+            "start_date": "2014-11-08",
+            "end_date": "2014-11-15",
+            "local": false,
+            "tags": [
+                "7dfps", "fps"
+            ],
+            "image": "http://7dfps.com/shots/52055d956b055.png"
         }
     ]
 }
