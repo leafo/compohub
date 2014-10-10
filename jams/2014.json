@@ -1,6 +1,17 @@
 {
     "jams": [
         {
+            "name": "TAGjam 16",
+            "url": "http://jams.gamejolt.io/tagjam16",
+            "start_date": "2014-10-07",
+            "end_date": "2014-10-10",
+            "tags": [
+                "tagjam",
+                "arbitrary"
+            ],
+            "description": "The Arbitrary Gamejam (TAG) is a monthly gamejam with three random themes to challenge your creativity and a bonus theme chosen by the host to spice things up! Entries are judged by the host and winner gets an opportunity to host TAG jam next month."
+        },
+        {
             "name": "Games 4 Doge",
             "url": "http://www.games4doge.pw/",
             "start_date": "2014-10-01 00:01",
