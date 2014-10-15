@@ -1349,6 +1349,17 @@
                 "7dfps", "fps"
             ],
             "image": "http://7dfps.com/shots/52055d956b055.png"
+        },
+        {
+            "name": "Cardinal Game Jam",
+            "url": "http://thecardinalgamejam.com",
+            "description": "The Cardinal Game Jam is the first ever hackathon focused on mobile game development, hosted by the Stanford Alumni Association. Come make games with the best developers in the gaming industry! Our goal is to bring together people with all kinds of backgrounds to contribute to game development and creativity. It is an opportunity to push boundaries and collaborate on a fast-paced challenge.",
+            "start_date": "2014-11-01 12:00 -0700",
+            "end_date": "2014-11-02 14:00 -0600",
+            "tags": [
+              "mobile", "games", "stanford", "cardinal-game-jam"
+            ],
+            "image": "http://www.weebly.com/uploads/3/8/4/3/38431463/8797463_orig.png"
         }
     ]
 }
