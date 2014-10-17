@@ -235,6 +235,15 @@
             ],
             "image": "jams/images/2849173764e81fcee271a33.24238708.png"
         },
+	{
+	    "name": "Sonen GameJam, Oslo",
+	    "start_date": "2014-10-24 17:00:00 +0100",
+	    "end_date": "2014-10-26 17:00:00 +0100",
+	    "description": "A 48-hour gamejam in oslo, with voting and prizes!",
+	    "url": "http://sonengamejam.org",
+	    "tags": ["oslo", "sonengamejam", "UiO", "University of Oslo", "norway"],
+	    "image": "jams/images/sonengamejam.png"
+	},
         {
             "name": "One Game a Month",
             "start_date": "2014-11-01",
