@@ -1369,6 +1369,18 @@
               "mobile", "games", "stanford", "cardinal-game-jam"
             ],
             "image": "http://www.weebly.com/uploads/3/8/4/3/38431463/8797463_orig.png"
+        },
+        {
+            "name": "BYOG October 2014",
+            "url": "http://byog.gamedev.in",
+            "description": "The BYOG is an online sprint (even when it is happening at a physical location, people can participate remotely) so that participants from all parts of the country (even globally) can participate. Incentives to participate include: building a working game prototype, flexing your muscles, having a demonstrable game, and the chance to win one of our exciting prizes (though your real prize is the game you make). We begin the sprint by spreading the word about the sprint and inviting participation. We also open public voting for the final themes of the sprint. This goes on till the sprint actually begins.",
+            "start_date": "2014-10-17 05:30 +0530",
+            "end_date": "2014-10-20 10:00 +0530",
+            "themes": ["Intelligence", "Beauty", "Experiment", "Environment", "Travel", "Shell", "Preference", "Parenting", "Propaganda", "Corporation"],
+            "tags": [
+              "gamedev", "byog", "nasscom", "nasscom byog", "india"
+            ],
+            "image": "http://gtfo.in/data/byog_oct14.png"
         }
     ]
 }
