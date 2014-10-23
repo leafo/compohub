@@ -359,6 +359,20 @@
             ],
             "image": "jams/images/screenshot_1380914266.52_0.935968657593.png"
         },
+       {
+            "name": "At the hearth of matter",
+            "start_date": "2014-11-08 09:00:00 +0000",
+            "end_date": "2014-11-09 17:00:00 +0000",
+            "description": "Create a game based on matter organization and crystals",
+            "local": true,
+            "url": "http://gamelier.org/game-jam/",
+            "tags": [
+                "gamelier"
+            ],
+            "themes": [
+                "matter-and-crystallography"
+            ]
+        },
         {
             "name": "Flappy Jam",
             "start_date": "2014-02-09",
