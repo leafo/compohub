@@ -1,6 +1,11 @@
 moment = require "moment"
 ical = require "ical-generator"
 
+LIVERELOAD_PORT = 35729;
+lrSnippet = require("connect-livereload") { port: LIVERELOAD_PORT }
+mountFolder = (connect, dir) ->
+ return connect.static require("path").resolve dir
+
 {J} = require "./jamhub"
 
 module.exports = (grunt) ->
@@ -45,6 +50,8 @@ module.exports = (grunt) ->
         tasks: ['coffee']
         options: {
           spawn: false
+          interrupt: false,
+          debounceDelay: 250
         }
       }
 
@@ -53,7 +60,24 @@ module.exports = (grunt) ->
         tasks: ['sass']
         options: {
           spawn: false
+          interrupt: false,
+          debounceDelay: 250
         }
+      }
+
+      # BUG-LR-JSCSS: Livereload doesn't always refresh browser for jamhub.css and jamhub.js. index.html seems fine.
+      livereload: {
+        options: {
+          livereload: LIVERELOAD_PORT
+          spawn: false
+          interrupt: false,
+          debounceDelay: 250
+        }
+        files: [
+          "jamhub.js"
+          "jamhub.css"
+          "index.html"
+        ]
       }
     }
 
@@ -73,6 +97,29 @@ module.exports = (grunt) ->
       }
     }
 
+    connect: {
+      options: {
+        port: 9000
+        hostname: "localhost"
+      }
+      livereload: {
+        options: {
+          middleware: (connect) ->
+            return [
+              lrSnippet
+              mountFolder(connect, './')
+            ]
+        }
+      }
+    }
+
+    open: {
+      server: {
+        path: "http://<%= connect.options.hostname %>:<%= connect.options.port %>"
+      }
+    }
+
+
     assemble: assemble
   }
 
@@ -84,6 +131,14 @@ module.exports = (grunt) ->
     build_ical_feed assemble
 
   grunt.registerTask "default", ["coffee", "sass"]
+
+  grunt.registerTask "serve", [
+    "coffee"
+    "sass"
+    "connect:livereload"
+    "open"
+    "watch"
+  ]
 
 build_ical_feed = (params) ->
   calendar = ical()
@@ -231,4 +286,3 @@ build_jam_root_page = (params) ->
     b.year - a.year
 
   params.all_jams.options.jams_by_year = year_tuples
-
