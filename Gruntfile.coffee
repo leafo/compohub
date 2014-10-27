@@ -4,6 +4,8 @@ ical = require "ical-generator"
 {J} = require "./jamhub"
 
 module.exports = (grunt) ->
+  require("load-grunt-tasks")(grunt)
+
   jam_files = [
     "jams/2011.json"
     "jams/2012.json"
@@ -36,6 +38,24 @@ module.exports = (grunt) ->
 
   grunt.initConfig {
     pkg: grunt.file.readJSON "package.json"
+
+    watch: {
+      coffee: {
+        files: ['jamhub.coffee']
+        tasks: ['coffee']
+        options: {
+          spawn: false
+        }
+      }
+
+      sass: {
+        files: ['jamhub.scss']
+        tasks: ['sass']
+        options: {
+          spawn: false
+        }
+      }
+    }
 
     coffee: {
       compile: {
