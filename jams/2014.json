@@ -1,5 +1,15 @@
 {
     "jams": [
+    	{
+            "name": "0h game jam",
+            "url": "http://0hgame.eu/",
+            "start_date": "2014-11-03",
+            "end_date": "2014-11-03",
+            "tags": [
+                 "us-game-jam"
+            ],
+            "description": "A zero hour game jam brought to you by daylight savings time."
+    	},
         {
             "name": "TAGjam 16",
             "url": "http://jams.gamejolt.io/tagjam16",
