@@ -1405,6 +1405,17 @@
               "gamedev", "byog", "nasscom", "nasscom byog", "india"
             ],
             "image": "http://gtfo.in/data/byog_oct14.png"
+        },
+        {
+            "name": "Indies VS PewDiePie Game Jam",
+            "url": "http://jams.gamejolt.io/indiesvspewdiepie",
+            "description": "Famed videogame commentator PewDiePie has long been a staunch supporter of indie gaming and a fan of Game Jolt. He's introduced countless viewers to countable (but still a large number) of cool indie games. We are proud to partner with him to present the first ever Indies vs. PewDiePie Game Jam!",
+            "start_date": "2014-11-21 12:00 -0500",
+            "end_date": "2014-11-24 12:00 -0500",
+            "themes": ["Fun to play, fun to watch", "Laughter"],
+            "tags": [ "game-jolt", "pewdiepie", "youtube", "funny"],
+            "image": "http://i.imgur.com/xlJR0b2.png",
+            "local": false
         }
     ]
 }
