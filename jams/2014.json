@@ -1,5 +1,15 @@
 {
     "jams": [
+        {
+            "name": "Ludum Dare 31",
+            "url": "http://ludumdare.com/compo/",
+            "start_date": "2014-12-05",
+            "end_date": "2014-12-08",
+            "tags": [
+                "ludum-dare"
+            ],
+            "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
+        },
     	{
             "name": "0h game jam",
             "url": "http://0hgame.eu/",
