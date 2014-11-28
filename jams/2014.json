@@ -1,5 +1,15 @@
 {
     "jams": [
+    	{
+            "name": "igam4er gamejam",
+            "url": "http://igam4er.org/",
+            "start_date": "2014-12-12",
+            "end_date": "2014-12-14",
+            "tags": [
+                "igam4er-jamshaker-gamelier"
+            ],
+            "description": "Come to Paris to experiment stuff in the biggest science museum in Europe!"
+        },
         {
             "name": "Ludum Dare 31",
             "url": "http://ludumdare.com/compo/",
