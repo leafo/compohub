@@ -1,5 +1,15 @@
 {
     "jams": [
+    	{
+    	    "name": "MiniLD #55",
+    	    "url": "http://ludumdare.com/compo/2014/11/06/minild-55-preparation-29th30th-november/",
+    	    "start_date": 2014-11-29,
+    	    "end_date": 2014-11-30,
+    	    "tags": [
+    	    	"ludum-dare"
+    	    ],
+    	    "theme": "Preparation"
+    	}
         {
             "name": "Ludum Dare 31",
             "url": "http://ludumdare.com/compo/",
