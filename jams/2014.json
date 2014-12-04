@@ -1,5 +1,19 @@
 {
     "jams": [
+        {
+            "name": "Super Happy Funtimes Game Jam",
+            "url": "https://www.facebook.com/events/866954970023393/",
+            "start_date": "2014-12-04",
+            "end_date": "2014-12-06",
+            "tags": [
+                "games",
+                "multiplayer",
+                "html5",
+                "javascript",
+                "unity3d"
+            ],
+            "description": "Come make 20-50 player games and more!!"
+        },
     	{
             "name": "igam4er gamejam",
             "url": "http://igam4er.org/",
