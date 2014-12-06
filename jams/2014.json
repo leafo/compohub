@@ -1450,6 +1450,15 @@
             "tags": [ "game-jolt", "pewdiepie", "youtube", "funny"],
             "image": "http://i.imgur.com/xlJR0b2.png",
             "local": false
-        }
+        },
+        
+        {
+	     "name": "TAG Jam 17",
+	     "url": "http://jams.gamejolt.io/tagjam17",
+	     "start_date": "2014-12-12 00:00 -0500",
+	     "end_date": "2014-12-19 23:59 -0500",
+	     "tags": ["tag-jam", "tagjam"],
+	     "description": "The Arbitrary Game Jam #17 (Special Edition: Advent Jam). Pick between three random themes and optional advent themes released every day of the jam. Entries are judged by the host and winner gets an opportunity to host TAG jam next month."
+    	}
     ]
 }
