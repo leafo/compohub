@@ -1,0 +1,15 @@
+{
+    "jams": [
+        {
+            "name": "Global Game Jam Stockholm",
+            "url": "http://ggjsthlm.wordpress.com",
+            "start_date": "2015-01-23",
+            "end_date": "2015-01-25",
+            "tags": [
+                "games",
+                "GGJ"
+            ],
+            "description": "Participate in the words largest game jam!!"
+        }
+  ]
+}
