@@ -9,6 +9,7 @@ module.exports = (grunt) ->
     "jams/2012.json"
     "jams/2013.json"
     "jams/2014.json"
+    "jams/2015.json"
   ]
 
   assemble = {
