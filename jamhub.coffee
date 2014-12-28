@@ -122,21 +122,35 @@ class J.Jams
     for u in urls
       processItemsDeferred.push(@fetchOne(u, data))
     # process deferred items
-    $.when.apply($, processItemsDeferred).then ->
-      # all done, so combine all the jams into one big array
-      alljams = []
-      for d in data
-        alljams = alljams.concat d.jams
-      self.slugify_jams alljams
-      # callback
-      fn new J.Jams alljams
+    $.when.apply($, processItemsDeferred).then (
+      # all done
+      # success, process the loaded data
+      (res) ->
+        self.combineJams fn,data),
+      # failure, one of the JSON files failed to load, process the loaded data anyway
+      ((res) ->
+        self.combineJams fn,data)
+
+  @combineJams: (fn, data) ->
+    # combine all the jams into one big array
+    alljams = []
+    for d in data
+      alljams = alljams.concat d.jams
+    @slugify_jams alljams
+    # callback
+    fn new J.Jams alljams
 
   @fetchOne: (url, data) ->
-	# this will fail if file not found. Oops.
-    u = $.getJSON(url).then (res) ->
-      # console.log 'loaded ' + url
-      data.push res
-    u # return the promise
+    u = $.getJSON(url).then (
+      #success
+      (res) ->
+        console.log 'Loaded ' + url
+        data.push res ),
+      #failure
+      ((res) ->
+        console.log 'ERROR: Failed to load file ' + url)
+      # return the promise
+    u
 
   @slugify_jams: (jams, jams_by_slug={}) ->
     for jam in jams
