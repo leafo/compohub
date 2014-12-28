@@ -102,16 +102,41 @@ J.slugify = (str) ->
     .replace(/-$/, "")
 
 class J.Jams
-  @url: "jams/2014.json" # TODO: multiple urls
+  # First time I've ever written anything in coffeescript.
+  # Grumble mutter grumble why do I have to fix someone elses code grumble grumble.
+  @url: (fn) ->
+    today = moment().hours(0).minutes(0).seconds(0).milliseconds(0)
+    start_year = today.subtract("month", 1).toDate().getFullYear()
+    end_year = today.add("month", 2).toDate().getFullYear()
+    years = []
+    years.push( "jams/" + start_year + ".json")
+    if end_year > start_year
+        years.push( "jams/" + end_year + ".json")
+    years # there ya go, automatic multiple URLS, nice and future proof
 
   @fetch: (fn) ->
-    @_deferred ||= $.get(@url).then (res) =>
-      if typeof res == "string"
-        res = JSON.parse(res)
-      @slugify_jams res.jams
-      new J.Jams res
+    urls = @url()
+    processItemsDeferred = []
+    data = []
+    self = this
+    for u in urls
+      processItemsDeferred.push(@fetchOne(u, data))
+    # process deferred items
+    $.when.apply($, processItemsDeferred).then ->
+      # all done, so combine all the jams into one big array
+      alljams = []
+      for d in data
+        alljams = alljams.concat d.jams
+      self.slugify_jams alljams
+      # callback
+      fn new J.Jams alljams
 
-    @_deferred.done fn
+  @fetchOne: (url, data) ->
+	# this will fail if file not found. Oops.
+    u = $.getJSON(url).then (res) ->
+      # console.log 'loaded ' + url
+      data.push res
+    u # return the promise
 
   @slugify_jams: (jams, jams_by_slug={}) ->
     for jam in jams
@@ -140,7 +165,7 @@ class J.Jams
     jams_by_slug
 
   constructor: (data) ->
-    @jams = for jam_data in data.jams
+    @jams = for jam_data in data
       new J.Jam jam_data
 
   truncate: (time) ->
@@ -695,4 +720,3 @@ class J.SingleJam
     @jam = new J.Jam @el.find(".jam_box").data("jam")
     @el.find(".progress_outer").replaceWith @jam.render_time_data()
     J.Header.instance.update_share_links @jam
-
