@@ -102,16 +102,56 @@ J.slugify = (str) ->
     .replace(/-$/, "")
 
 class J.Jams
-  @url: "jams/2014.json" # TODO: multiple urls
+  # This generates the list of files to fetch, based on start and enddate
+  @url: (fn) ->
+    today = moment().hours(0).minutes(0).seconds(0).milliseconds(0)
+    start_year = today.subtract("month", 1).toDate().getFullYear()
+    end_year = today.add("month", 2).toDate().getFullYear()
+    years = []
+    years.push( "jams/" + start_year + ".json")
+    if end_year > start_year
+        years.push( "jams/" + end_year + ".json")
+    years
 
   @fetch: (fn) ->
-    @_deferred ||= $.get(@url).then (res) =>
-      if typeof res == "string"
-        res = JSON.parse(res)
-      @slugify_jams res.jams
-      new J.Jams res
+    # instead of fetching one hardcoded file, we now fetch one or more
+    # files based on the start and enddates years.
+    urls = @url()
+    processItemsDeferred = []
+    data = []
+    self = this
+    for u in urls
+      processItemsDeferred.push(@fetchOne(u, data))
+    # process deferred items
+    $.when.apply($, processItemsDeferred).then (
+      # all done
+      # success, process the loaded data
+      (res) ->
+        self.combineJams fn,data),
+      # failure, one of the JSON files failed to load, process the loaded data anyway
+      ((res) ->
+        self.combineJams fn,data)
 
-    @_deferred.done fn
+  @combineJams: (fn, data) ->
+    # combine all the jams into one big array
+    alljams = []
+    for d in data
+      alljams = alljams.concat d.jams
+    @slugify_jams alljams
+    # callback
+    fn new J.Jams alljams
+
+  @fetchOne: (url, data) ->
+    u = $.getJSON(url).then (
+      #success
+      (res) ->
+        console.log 'Loaded ' + url
+        data.push res ),
+      #failure
+      ((res) ->
+        console.log 'ERROR: Failed to load file ' + url)
+    # return the promise
+    u
 
   @slugify_jams: (jams, jams_by_slug={}) ->
     for jam in jams
@@ -140,7 +180,7 @@ class J.Jams
     jams_by_slug
 
   constructor: (data) ->
-    @jams = for jam_data in data.jams
+    @jams = for jam_data in data
       new J.Jam jam_data
 
   truncate: (time) ->
@@ -695,4 +735,3 @@ class J.SingleJam
     @jam = new J.Jam @el.find(".jam_box").data("jam")
     @el.find(".progress_outer").replaceWith @jam.render_time_data()
     J.Header.instance.update_share_links @jam
-
