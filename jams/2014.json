@@ -1459,6 +1459,18 @@
 	     "tags": ["tag-jam", "tagjam"],
 		 "themes": [ "elderly", "discovery", "selfishness" ],
 	     "description": "The Arbitrary Game Jam #17 (Special Edition: Advent Jam). Pick between three random themes and optional advent themes released every day of the jam. Entries are judged by the host and winner gets an opportunity to host TAG jam next month."
-    	}
+        },
+        {
+          "name": "Awesome Music Jam",
+          "url": "http://jams.gamejolt.io/awesomemusicjam",
+          "description": "Some games have gorgeous graphics, some have an amazing stories, others have innovative gameplay. In this jam, we only care about one thing: It must have awesome music!",
+          "start_date": "2014-12-20 12:00 -0800",
+          "end_date": "2015-01-20 12:00 -0800",
+          "tags": [
+            "music", "games", "songs", "awesomemusicjam"
+          ],
+          "image": "http://oi55.tinypic.com/111o2di.jpg"
+        }
+
     ]
 }
