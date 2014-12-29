@@ -102,8 +102,7 @@ J.slugify = (str) ->
     .replace(/-$/, "")
 
 class J.Jams
-  # First time I've ever written anything in coffeescript.
-  # Grumble mutter grumble why do I have to fix someone elses code grumble grumble.
+  # This generates the list of files to fetch, based on start and enddate
   @url: (fn) ->
     today = moment().hours(0).minutes(0).seconds(0).milliseconds(0)
     start_year = today.subtract("month", 1).toDate().getFullYear()
@@ -112,9 +111,11 @@ class J.Jams
     years.push( "jams/" + start_year + ".json")
     if end_year > start_year
         years.push( "jams/" + end_year + ".json")
-    years # there ya go, automatic multiple URLS, nice and future proof
+    years
 
   @fetch: (fn) ->
+    # instead of fetching one hardcoded file, we now fetch one or more
+    # files based on the start and enddates years.
     urls = @url()
     processItemsDeferred = []
     data = []
@@ -149,7 +150,7 @@ class J.Jams
       #failure
       ((res) ->
         console.log 'ERROR: Failed to load file ' + url)
-      # return the promise
+    # return the promise
     u
 
   @slugify_jams: (jams, jams_by_slug={}) ->
