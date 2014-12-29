@@ -10,6 +10,17 @@
       "local": false,
       "description": "The Arbitrary Game Jam #18 is a relaxed monthly gamejam with three random themes to challenge your creativity and two optional bonus themes chosen by the host. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
       "image": "http://i.imgur.com/Ij5nLdP.png"
+    },
+    {
+      "name": "Global Game Jam Stockholm",
+      "url": "http://ggjsthlm.wordpress.com",
+      "start_date": "2015-01-23",
+      "end_date": "2015-01-25",
+      "tags": [
+        "games",
+        "GGJ"
+      ],
+      "description": "Participate in the words largest game jam!!"
     }
   ]
 }
