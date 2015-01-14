@@ -1486,6 +1486,17 @@
           "url":  "http://jams.gamejolt.io/spookyscaryskelejam",
           "start_date": "2014-10-10 00:00 -05:00",
           "end_date": "2014-10-31 23:59 -05:00"
+        },
+        {
+          "name": "GMC Jam 17",
+          "url": "http://gmc.yoyogames.com/index.php?showtopic=650769",
+          "description": "So, it's January again and you know what that means? It's the Jam's anniversary!... The Sparkling GMC Jam #17 is here to bring in 4 years of the event!!! Time to create a 72 hour GameMaker masterpiece with which to scare away all the opposition and win the approval (or not!) of our peers. This time around the Jam will run from Saturday 24th of January through Monday 26th and will be 72 hours dedicated purely to game development. Are you ready?",
+          "start_date": "2015-01-24 00:00",
+          "end_date": "2015-01-26 23:59",
+          "tags": [
+            "gamemaker", "games", "gmc", "17"
+          ],
+          "image": "http://i118.photobucket.com/albums/o94/wormintheworks/GMCJam17Logo_zps08005b6a.png"
         }
     ]
 }
