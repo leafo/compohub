@@ -48,6 +48,28 @@
     "gamemaker", "games", "gmc", "17"
     ],
     "image": "http://i118.photobucket.com/albums/o94/wormintheworks/GMCJam17Logo_zps08005b6a.png"
+    },
+    {
+      "name": "Ludum Dare 32",
+      "url": "http://ludumdare.com/compo/",
+      "start_date": "2015-04-17",
+      "end_date": "2015-04-20",
+      "tags": [
+      "ludum-dare"
+      ],
+      "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
+    },
+    {
+      "name": "Mini Ludum Dare #56",
+      "start_date": "2015-01-31",
+      "end_date": "2015-02-02",
+      "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+      "local": false,
+      "url": "http://ludumdare.com/compo/2015/01/07/minild-56-pick-n-mix-2/",
+      "tags": [
+        "minild",
+        "ludum-dare"
+      ]
     }
   ]
 }
