@@ -115,10 +115,14 @@ class J.Jams
     urls
 
   @fetch: (fn) ->
-    @_deferred ||= $.when(($.get(url) for url in @jam_urls())...).then =>
+    urls = @jam_urls()
+    @_deferred ||= $.when(($.get(url) for url in urls)...).then =>
       all_jams = []
-      for res in arguments
-        all_jams = all_jams.concat res[0].jams
+      if urls.length > 1
+        for res in arguments
+          all_jams = all_jams.concat res[0].jams
+      else
+        all_jams = arguments[0].jams
 
       @slugify_jams all_jams
       new J.Jams all_jams
