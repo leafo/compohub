@@ -70,6 +70,18 @@
         "minild",
         "ludum-dare"
       ]
+    },
+    {
+      "name": "The Finish a Game Jam",
+      "start_date": "2015-02-04",
+      "end_date": "2015-02-14",
+      "description": "If you're currently working on a game but aren't motivated enough to finish it, NOW IS THE TIME. CRUNCH TIME! FINISH IT BEFORE THE DEADLINE, YOU SLACKER! If you don't have a current project, help people in the first category! Making a short motivational game for them.",
+      "local": false,
+      "url": "http://itch.io/jam/the-finish-a-game-jam",
+      "tags": [
+        "motivation",
+        "finish"
+      ]
     }
   ]
 }
