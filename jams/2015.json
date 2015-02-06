@@ -1,6 +1,15 @@
 {
   "jams": [
     {
+      "name": "HTML5 Game Jam Paris",
+      "url": "http://html5gamejam.org",
+      "start_date": "2015-04-10 19:00 +0100",
+      "end_date": "2015-04-12 18:00 +0100",
+      "tags": ["html5", "web", "game", "phaser", "babylon", "threejs"],
+      "description": "HTML5 Game Jam Paris is an international event open to professionnals, students and other web enthousiasts. During this event, teams of graphists and developers will battle to make the best game from scratch using the latest open web technologies. The event will last the whole weekend (10 11 12 april 2015) and we plan to organize small tech talks.",
+      "image": "http://i.imgur.com/4AvNLRh.png"
+    },
+    {
       "name": "JamForLeelah",
       "url": "http://itch.io/jam/jamforleelah",
       "start_date": "2015-01-17 01:00 -0000",
