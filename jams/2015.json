@@ -91,6 +91,18 @@
         "motivation",
         "finish"
       ]
+    },
+    {
+      "name": "Teacart 1K",
+      "start_date": "2015-02-20",
+      "end_date": "2015-02-22",
+      "description": "Make a Sharecart1000 game in 48 hours — then watch it mangle other games in an upcoming multi-game release.",
+      "local": false,
+      "url": "http://itch.io/jam/teacart-1k",
+      "tags": [
+        "sharecart",
+        "finish"
+      ]
     }
   ]
 }
