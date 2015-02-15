@@ -102,56 +102,32 @@ J.slugify = (str) ->
     .replace(/-$/, "")
 
 class J.Jams
-  # This generates the list of files to fetch, based on start and enddate
-  @url: (fn) ->
-    today = moment().hours(0).minutes(0).seconds(0).milliseconds(0)
-    start_year = today.subtract("month", 1).toDate().getFullYear()
-    end_year = today.add("month", 2).toDate().getFullYear()
-    years = []
-    years.push( "jams/" + start_year + ".json")
-    if end_year > start_year
-        years.push( "jams/" + end_year + ".json")
-    years
+  # get all active jam.json
+  @jam_urls: ->
+    today = moment()
+    start_year = today.subtract("month", 1).get "year"
+    end_year = today.add("month", 2).get "year"
+
+    urls = ["jams/" + start_year + ".json"]
+    if end_year != start_year
+      urls.push "jams/" + end_year + ".json"
+
+    urls
 
   @fetch: (fn) ->
-    # instead of fetching one hardcoded file, we now fetch one or more
-    # files based on the start and enddates years.
-    urls = @url()
-    processItemsDeferred = []
-    data = []
-    self = this
-    for u in urls
-      processItemsDeferred.push(@fetchOne(u, data))
-    # process deferred items
-    $.when.apply($, processItemsDeferred).then (
-      # all done
-      # success, process the loaded data
-      (res) ->
-        self.combineJams fn,data),
-      # failure, one of the JSON files failed to load, process the loaded data anyway
-      ((res) ->
-        self.combineJams fn,data)
+    urls = @jam_urls()
+    @_deferred ||= $.when(($.get(url) for url in urls)...).then =>
+      all_jams = []
+      if urls.length > 1
+        for res in arguments
+          all_jams = all_jams.concat res[0].jams
+      else
+        all_jams = arguments[0].jams
 
-  @combineJams: (fn, data) ->
-    # combine all the jams into one big array
-    alljams = []
-    for d in data
-      alljams = alljams.concat d.jams
-    @slugify_jams alljams
-    # callback
-    fn new J.Jams alljams
+      @slugify_jams all_jams
+      new J.Jams all_jams
 
-  @fetchOne: (url, data) ->
-    u = $.getJSON(url).then (
-      #success
-      (res) ->
-        console.log 'Loaded ' + url
-        data.push res ),
-      #failure
-      ((res) ->
-        console.log 'ERROR: Failed to load file ' + url)
-    # return the promise
-    u
+    @_deferred.done fn
 
   @slugify_jams: (jams, jams_by_slug={}) ->
     for jam in jams

@@ -1452,13 +1452,40 @@
             "local": false
         },
         {
-	     "name": "TAG Jam 17",
-	     "url": "http://jams.gamejolt.io/tagjam17",
-	     "start_date": "2014-12-12 00:00 -0500",
-	     "end_date": "2014-12-19 23:59 -0500",
-	     "tags": ["tag-jam", "tagjam"],
-		 "themes": [ "elderly", "discovery", "selfishness" ],
-	     "description": "The Arbitrary Game Jam #17 (Special Edition: Advent Jam). Pick between three random themes and optional advent themes released every day of the jam. Entries are judged by the host and winner gets an opportunity to host TAG jam next month."
-    	}
+          "name": "TAG Jam 17",
+          "url": "http://jams.gamejolt.io/tagjam17",
+          "start_date": "2014-12-12 00:00 -0500",
+          "end_date": "2014-12-19 23:59 -0500",
+          "tags": ["tag-jam", "tagjam"],
+          "themes": [ "elderly", "discovery", "selfishness" ],
+          "description": "The Arbitrary Game Jam #17 (Special Edition: Advent Jam). Pick between three random themes and optional advent themes released every day of the jam. Entries are judged by the host and winner gets an opportunity to host TAG jam next month."
+        },
+        {
+          "name": "Awesome Music Jam",
+          "url": "http://jams.gamejolt.io/awesomemusicjam",
+          "description": "Some games have gorgeous graphics, some have an amazing stories, others have innovative gameplay. In this jam, we only care about one thing: It must have awesome music!",
+          "start_date": "2014-12-20 12:00 -0800",
+          "end_date": "2015-01-20 12:00 -0800",
+          "tags": [
+            "music", "games", "songs", "awesomemusicjam"
+          ],
+          "image": "http://oi55.tinypic.com/111o2di.jpg"
+        },
+        {
+          "name": "MiniLD #55",
+          "url": "http://ludumdare.com/compo/2014/11/06/minild-55-preparation-29th30th-november/",
+          "start_date": "2014-11-29",
+          "end_date": "2014-11-30",
+          "tags": [
+            "ludum-dare"
+          ],
+          "theme": "Preparation"
+        },
+        {
+          "name": "Spooky Scary Skelejam",
+          "url":  "http://jams.gamejolt.io/spookyscaryskelejam",
+          "start_date": "2014-10-10 00:00 -05:00",
+          "end_date": "2014-10-31 23:59 -05:00"
+        }
     ]
 }

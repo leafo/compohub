@@ -3,7 +3,7 @@ Lato font family
 
 ================
 
-Version 2.007; Latin+Cyrillic+Greek+IPA opensource
+Version 2.010; Latin+Cyrillic+Greek+IPA opensource
 
 Created by: tyPoland Lukasz Dziedzic
 Creation year: 2014
@@ -17,25 +17,24 @@ License URL: http://scripts.sil.org/OFL
 
 ================
 
-Lato is a sanserif typeface family designed in the Summer 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). In December 2010 the Lato family was published under the open-source Open Font License by his foundry tyPoland, with support from Google. In 2013-2014, the family was greatly extended to cover 2300+ glyphs per style. It now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. In the process, the metrics and kerning of the family have been revised and four additional weights were created. 
-
-In the last ten or so years, during which Łukasz has been designing type, most of his projects were rooted in a particular design task that he needed to solve. With Lato, it was no different. Originally, the family was conceived as a set of corporate fonts for a large client — who in the end decided to go in different stylistic direction, so the family became available for a public release.
-
-When working on Lato, Łukasz tried to carefully balance some potentially conflicting priorities. He wanted to create a typeface that would seem quite “transparent” when used in body text but would display some original traits when used in larger sizes. He used classical proportions (particularly visible in the uppercase) to give the letterforms familiar harmony and elegance. At the same time, he created a sleek sanserif look, which makes evident the fact that Lato was designed in 2010 — even though it does not follow any current trend.
-
-The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness. “Male and female, serious but friendly. With the feeling of the Summer,” says Łukasz.
-
-Lato consists of nine weights (plus corresponding italics), including a beautiful hairline style.
+Lato is a sanserif typeface family designed in the Summer 2010 and extended in the Summer 2013 by Warsaw-based designer Lukasz Dziedzic ("Lato" means "Summer" in Polish). It tries to carefully balance some potentially conflicting priorities: it should seem quite "transparent" when used in body text but would display some original traits when used in larger sizes. The classical proportions, particularly visible in the uppercase, give the letterforms familiar harmony and elegance. At the same time, its sleek sanserif look makes evident the fact that Lato was designed in the 2010s, even though it does not follow any current trend. The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness. In 2013-2014, the family was greatly extended (with the help of Adam Twardoch and Botio Nikoltchev) to cover 3000+ glyphs over nine weights with italics. It now supports 100+ Latin-based languages, 50+ Cyrillic-based languages as well as Greek and IPA phonetics. The Lato fonts are available free of charge under the SIL Open Font License from http://www.latofonts.com/
 
 ================
 
 CONTENTS: 
 
-This folder contains two subfolders: Lato and LatoLatin. Inside these subfolders, you will find CSS-compatible webfont kits which you can install on your website via self-hosting. The Lato subfolder contains webfonts with the complete character set (250-700 KB per font) while the LatoLatin subfolder contains smaller versions that only include the most important glyphs for European Latin-based languages (75-200 KB per font). 
+This folder contains 18 font files in OpenType TT (.ttf) format. You can install these fonts on your computer and use in any desktop applications (such as Word, InDesign, Illustrator, Photoshop, Keynote or Pages). 
 
 ================
 
 REVISION LOG:
+
+# Version 2.010 (2014-09-01)
+Improved some contour bugs and diacritics positioning. 
+Improved outline quality.
+Revised OTL features so that they work in browsers (ot-sanitise).
+Autohinted using ttfautohint 1.1.
+Interpolated the Medium weight differently so it provides more visual difference from Regular.
 
 # Version 2.007 (2014-02-27)
 Greatly expanded character set, revised metrics, four additional weights.
