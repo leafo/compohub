@@ -104,7 +104,7 @@
         "finish"
       ]
     },
-	{
+    {
       "name": "TAG Jam 19",
       "url": "http://jams.gamejolt.io/tagjam19",
       "start_date": "2015-02-16 00:01 -0500",
@@ -114,6 +114,16 @@
       "local": false,
       "description": "The Arbitrary Game Jam #19 is a monthly gamejam to challenge your creativity. The theme of TAG Jam 19 is genre-mixing. In addition to the genres, 4 optional random themes will be provided. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
       "image": "http://i.imgur.com/3CviwNa.png"
+    },
+    {
+      "name": "MeatlyJam",
+      "url": "http://www.meatlyjam.com/",
+      "start_date": "2015-03-27 00:01",
+      "end_date": "2015-03-29 23:59",
+      "tags": ["meatly"],
+      "local": false,
+      "description": "You're invited to join MeatlyJam! Make your game and show your coolness! Submit something, maybe win something. Have lots of the fun-like stuff. :) And watch out for falling awesomeness as you work. (TheMeatly is not responsible for people hurt by falling awesomeness.)",
+      "image": "http://i.imgur.com/VWPYfZr.png"
     }
   ]
 }
