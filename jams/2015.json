@@ -116,6 +116,15 @@
       "image": "http://i.imgur.com/3CviwNa.png"
     },
     {
+      "name": "Mini LD 57",
+      "url": "http://ludumdare.com/compo/2015/02/15/mini-ld-57-reversed/",
+      "start_date": "2015-02-20 18:00 -0800",
+      "end_date": "2015-02-27 18:00 -0800",
+      "tags": ["minild", "ludum-dare"],
+      "themes": ["reversed", "chinese-zodiac"],
+      "local": false
+    },
+    {
       "name": "MeatlyJam",
       "url": "http://www.meatlyjam.com/",
       "start_date": "2015-03-27 00:01",
