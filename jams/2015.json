@@ -133,6 +133,14 @@
       "local": false,
       "description": "You're invited to join MeatlyJam! Make your game and show your coolness! Submit something, maybe win something. Have lots of the fun-like stuff. :) And watch out for falling awesomeness as you work. (TheMeatly is not responsible for people hurt by falling awesomeness.)",
       "image": "http://i.imgur.com/VWPYfZr.png"
-    }
+    },
+    {
+      "name": "Purple Monkey Game Jam",
+      "url": "http://purplemonkeygamejam.com/",
+      "start_date": "2015-03-28 09:00:00 -0500",
+      "end_date": "2015-03-29 16:00:00 -0500",
+      "description": "We're back! The 6th ever Purple Monkey Game Jam returns to Boston March 28th and 29th. Standard fare: full weekend, themed, non-competitive, free tickets, free food, good times! This time we'll be holding the event at General Assembly in downtown Boston, and we're very excited.",
+      "image": "http://purplemonkeygamejam.com/images/monkey.png"
+     }
   ]
 }
