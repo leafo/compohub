@@ -1,146 +1,186 @@
 {
-  "jams": [
-    {
-      "name": "HTML5 Game Jam Paris",
-      "url": "http://html5gamejam.org",
-      "start_date": "2015-04-10 19:00 +0100",
-      "end_date": "2015-04-12 18:00 +0100",
-      "tags": ["html5", "web", "game", "phaser", "babylon", "threejs"],
-      "description": "HTML5 Game Jam Paris is an international event open to professionnals, students and other web enthousiasts. During this event, teams of graphists and developers will battle to make the best game from scratch using the latest open web technologies. The event will last the whole weekend (10 11 12 april 2015) and we plan to organize small tech talks.",
-      "image": "http://i.imgur.com/4AvNLRh.png"
-    },
-    {
-      "name": "JamForLeelah",
-      "url": "http://itch.io/jam/jamforleelah",
-      "start_date": "2015-01-17 01:00 -0000",
-      "end_date": "2015-02-17 12:00 -0000",
-      "tags": ["jamForleelah", "lgbt", "trans" ],
-      "description": "#JamForLeelah is a month long trans positive game jam to raise awareness on LGBTIQ issues, specifically trans youth issues and Leelah's Law as well as an attempt to raise money for trans specific charities such as the Transgender Law Center, Camp Aranu'tiq, and the Sylvia Rivera Law Project. ",
-      "image": "http://i.imgur.com/ljeBaXH.png"
-    },
-    {
-      "name": "Controversial Jam",
-      "url": "https://sites.google.com/site/thecontroversialjam/",
-      "start_date": "2015-01-20 01:00 -0000",
-      "end_date": "2015-01-30 12:00 -0000",
-      "description": "you will get a subject from the website when the jam begins, it will be controversial. do with it what you may."
-    },
-    {
-      "name": "TAG Jam 18",
-      "url": "http://jams.gamejolt.io/tagjam18",
-      "start_date": "2015-01-16 00:00 -0500",
-      "end_date": "2015-01-18 23:59 -0500",
-      "tags": ["tag-jam", "tagjam", "tagjam18" ],
-      "themes": [],
-      "local": false,
-      "description": "The Arbitrary Game Jam #18 is a relaxed monthly gamejam with three random themes to challenge your creativity and two optional bonus themes chosen by the host. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
-      "image": "http://i.imgur.com/Ij5nLdP.png"
-    },
-    {
-      "name": "Global Game Jam Stockholm",
-      "url": "http://ggjsthlm.wordpress.com",
-      "start_date": "2015-01-23",
-      "end_date": "2015-01-25",
-      "tags": [
-        "games",
-        "GGJ"
-      ],
-      "description": "Participate in the words largest game jam!!"
-    },
-    {
-    "name": "GMC Jam 17",
-    "url": "http://gmc.yoyogames.com/index.php?showtopic=650769",
-    "description": "So, it's January again and you know what that means? It's the Jam's anniversary!... The Sparkling GMC Jam #17 is here to bring in 4 years of the event!!! Time to create a 72 hour GameMaker masterpiece with which to scare away all the opposition and win the approval (or not!) of our peers. This time around the Jam will run from Saturday 24th of January through Monday 26th and will be 72 hours dedicated purely to game development. Are you ready?",
-    "start_date": "2015-01-24 00:00",
-    "end_date": "2015-01-26 23:59",
-    "tags": [
-    "gamemaker", "games", "gmc", "17"
-    ],
-    "image": "http://i118.photobucket.com/albums/o94/wormintheworks/GMCJam17Logo_zps08005b6a.png"
-    },
-    {
-      "name": "Ludum Dare 32",
-      "url": "http://ludumdare.com/compo/",
-      "start_date": "2015-04-17",
-      "end_date": "2015-04-20",
-      "tags": [
-      "ludum-dare"
-      ],
-      "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
-    },
-    {
-      "name": "Mini Ludum Dare #56",
-      "start_date": "2015-01-31",
-      "end_date": "2015-02-02",
-      "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
-      "local": false,
-      "url": "http://ludumdare.com/compo/2015/01/07/minild-56-pick-n-mix-2/",
-      "tags": [
-        "minild",
-        "ludum-dare"
-      ]
-    },
-    {
-      "name": "The Finish a Game Jam",
-      "start_date": "2015-02-04",
-      "end_date": "2015-02-14",
-      "description": "If you're currently working on a game but aren't motivated enough to finish it, NOW IS THE TIME. CRUNCH TIME! FINISH IT BEFORE THE DEADLINE, YOU SLACKER! If you don't have a current project, help people in the first category! Making a short motivational game for them.",
-      "local": false,
-      "url": "http://itch.io/jam/the-finish-a-game-jam",
-      "tags": [
-        "motivation",
-        "finish"
-      ]
-    },
-    {
-      "name": "Teacart 1K",
-      "start_date": "2015-02-20",
-      "end_date": "2015-02-22",
-      "description": "Make a Sharecart1000 game in 48 hours — then watch it mangle other games in an upcoming multi-game release.",
-      "local": false,
-      "url": "http://itch.io/jam/teacart-1k",
-      "tags": [
-        "sharecart",
-        "finish"
-      ]
-    },
-    {
-      "name": "TAG Jam 19",
-      "url": "http://jams.gamejolt.io/tagjam19",
-      "start_date": "2015-02-16 00:01 -0500",
-      "end_date": "2015-02-19 23:59 -0500",
-      "tags": ["tag-jam", "tagjam", "tagjam19" ],
-      "themes": [ "genre-mixing" ],
-      "local": false,
-      "description": "The Arbitrary Game Jam #19 is a monthly gamejam to challenge your creativity. The theme of TAG Jam 19 is genre-mixing. In addition to the genres, 4 optional random themes will be provided. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
-      "image": "http://i.imgur.com/3CviwNa.png"
-    },
-    {
-      "name": "Mini LD 57",
-      "url": "http://ludumdare.com/compo/2015/02/15/mini-ld-57-reversed/",
-      "start_date": "2015-02-20 18:00 -0800",
-      "end_date": "2015-02-27 18:00 -0800",
-      "tags": ["minild", "ludum-dare"],
-      "themes": ["reversed", "chinese-zodiac"],
-      "local": false
-    },
-    {
-      "name": "MeatlyJam",
-      "url": "http://www.meatlyjam.com/",
-      "start_date": "2015-03-27 00:01",
-      "end_date": "2015-03-29 23:59",
-      "tags": ["meatly"],
-      "local": false,
-      "description": "You're invited to join MeatlyJam! Make your game and show your coolness! Submit something, maybe win something. Have lots of the fun-like stuff. :) And watch out for falling awesomeness as you work. (TheMeatly is not responsible for people hurt by falling awesomeness.)",
-      "image": "http://i.imgur.com/VWPYfZr.png"
-    },
-    {
-      "name": "Purple Monkey Game Jam",
-      "url": "http://purplemonkeygamejam.com/",
-      "start_date": "2015-03-28 09:00:00 -0500",
-      "end_date": "2015-03-29 16:00:00 -0500",
-      "description": "We're back! The 6th ever Purple Monkey Game Jam returns to Boston March 28th and 29th. Standard fare: full weekend, themed, non-competitive, free tickets, free food, good times! This time we'll be holding the event at General Assembly in downtown Boston, and we're very excited.",
-      "image": "http://purplemonkeygamejam.com/images/monkey.png"
-     }
-  ]
+    "jams": [
+        {
+            "name": "HTML5 Game Jam Paris",
+            "url": "http://html5gamejam.org",
+            "start_date": "2015-04-10 19:00 +0100",
+            "end_date": "2015-04-12 18:00 +0100",
+            "tags": [
+                "html5",
+                "web",
+                "game",
+                "phaser",
+                "babylon",
+                "threejs"
+            ],
+            "description": "HTML5 Game Jam Paris is an international event open to professionnals, students and other web enthousiasts. During this event, teams of graphists and developers will battle to make the best game from scratch using the latest open web technologies. The event will last the whole weekend (10 11 12 april 2015) and we plan to organize small tech talks.",
+            "image": "http://i.imgur.com/4AvNLRh.png"
+        },
+        {
+            "name": "JamForLeelah",
+            "url": "http://itch.io/jam/jamforleelah",
+            "start_date": "2015-01-17 01:00 -0000",
+            "end_date": "2015-02-17 12:00 -0000",
+            "tags": [
+                "jamForleelah",
+                "lgbt",
+                "trans"
+            ],
+            "description": "#JamForLeelah is a month long trans positive game jam to raise awareness on LGBTIQ issues, specifically trans youth issues and Leelah's Law as well as an attempt to raise money for trans specific charities such as the Transgender Law Center, Camp Aranu'tiq, and the Sylvia Rivera Law Project. ",
+            "image": "http://i.imgur.com/ljeBaXH.png"
+        },
+        {
+            "name": "Controversial Jam",
+            "url": "https://sites.google.com/site/thecontroversialjam/",
+            "start_date": "2015-01-20 01:00 -0000",
+            "end_date": "2015-01-30 12:00 -0000",
+            "description": "you will get a subject from the website when the jam begins, it will be controversial. do with it what you may."
+        },
+        {
+            "name": "TAG Jam 18",
+            "url": "http://jams.gamejolt.io/tagjam18",
+            "start_date": "2015-01-16 00:00 -0500",
+            "end_date": "2015-01-18 23:59 -0500",
+            "tags": [
+                "tag-jam",
+                "tagjam",
+                "tagjam18"
+            ],
+            "themes": [],
+            "local": false,
+            "description": "The Arbitrary Game Jam #18 is a relaxed monthly gamejam with three random themes to challenge your creativity and two optional bonus themes chosen by the host. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
+            "image": "http://i.imgur.com/Ij5nLdP.png"
+        },
+        {
+            "name": "Global Game Jam Stockholm",
+            "url": "http://ggjsthlm.wordpress.com",
+            "start_date": "2015-01-23",
+            "end_date": "2015-01-25",
+            "tags": [
+                "games",
+                "GGJ"
+            ],
+            "description": "Participate in the words largest game jam!!"
+        },
+        {
+            "name": "GMC Jam 17",
+            "url": "http://gmc.yoyogames.com/index.php?showtopic=650769",
+            "description": "So, it's January again and you know what that means? It's the Jam's anniversary!... The Sparkling GMC Jam #17 is here to bring in 4 years of the event!!! Time to create a 72 hour GameMaker masterpiece with which to scare away all the opposition and win the approval (or not!) of our peers. This time around the Jam will run from Saturday 24th of January through Monday 26th and will be 72 hours dedicated purely to game development. Are you ready?",
+            "start_date": "2015-01-24 00:00",
+            "end_date": "2015-01-26 23:59",
+            "tags": [
+                "gamemaker",
+                "games",
+                "gmc",
+                "17"
+            ],
+            "image": "http://i118.photobucket.com/albums/o94/wormintheworks/GMCJam17Logo_zps08005b6a.png"
+        },
+        {
+            "name": "Ludum Dare 32",
+            "url": "http://ludumdare.com/compo/",
+            "start_date": "2015-04-17",
+            "end_date": "2015-04-20",
+            "tags": [
+                "ludum-dare"
+            ],
+            "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
+        },
+        {
+            "name": "Mini Ludum Dare #56",
+            "start_date": "2015-01-31",
+            "end_date": "2015-02-02",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http://ludumdare.com/compo/2015/01/07/minild-56-pick-n-mix-2/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "The Finish a Game Jam",
+            "start_date": "2015-02-04",
+            "end_date": "2015-02-14",
+            "description": "If you're currently working on a game but aren't motivated enough to finish it, NOW IS THE TIME. CRUNCH TIME! FINISH IT BEFORE THE DEADLINE, YOU SLACKER! If you don't have a current project, help people in the first category! Making a short motivational game for them.",
+            "local": false,
+            "url": "http://itch.io/jam/the-finish-a-game-jam",
+            "tags": [
+                "motivation",
+                "finish"
+            ]
+        },
+        {
+            "name": "Teacart 1K",
+            "start_date": "2015-02-20",
+            "end_date": "2015-02-22",
+            "description": "Make a Sharecart1000 game in 48 hours — then watch it mangle other games in an upcoming multi-game release.",
+            "local": false,
+            "url": "http://itch.io/jam/teacart-1k",
+            "tags": [
+                "sharecart",
+                "finish"
+            ]
+        },
+        {
+            "name": "TAG Jam 19",
+            "url": "http://jams.gamejolt.io/tagjam19",
+            "start_date": "2015-02-16 00:01 -0500",
+            "end_date": "2015-02-19 23:59 -0500",
+            "tags": [
+                "tag-jam",
+                "tagjam",
+                "tagjam19"
+            ],
+            "themes": [
+                "genre-mixing"
+            ],
+            "local": false,
+            "description": "The Arbitrary Game Jam #19 is a monthly gamejam to challenge your creativity. The theme of TAG Jam 19 is genre-mixing. In addition to the genres, 4 optional random themes will be provided. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
+            "image": "http://i.imgur.com/3CviwNa.png"
+        },
+        {
+            "name": "Mini LD 57",
+            "url": "http://ludumdare.com/compo/2015/02/15/mini-ld-57-reversed/",
+            "start_date": "2015-02-20 18:00 -0800",
+            "end_date": "2015-02-27 18:00 -0800",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "reversed",
+                "chinese-zodiac"
+            ],
+            "local": false
+        },
+        {
+            "name": "MeatlyJam",
+            "url": "http://www.meatlyjam.com/",
+            "start_date": "2015-03-27 00:01",
+            "end_date": "2015-03-29 23:59",
+            "tags": [
+                "meatly"
+            ],
+            "local": false,
+            "description": "You're invited to join MeatlyJam! Make your game and show your coolness! Submit something, maybe win something. Have lots of the fun-like stuff. :) And watch out for falling awesomeness as you work. (TheMeatly is not responsible for people hurt by falling awesomeness.)",
+            "image": "http://i.imgur.com/VWPYfZr.png"
+        },
+        {
+            "name": "Purple Monkey Game Jam",
+            "url": "http://purplemonkeygamejam.com/",
+            "start_date": "2015-03-28 09:00:00 -0500",
+            "end_date": "2015-03-29 16:00:00 -0500",
+            "description": "We're back! The 6th ever Purple Monkey Game Jam returns to Boston March 28th and 29th. Standard fare: full weekend, themed, non-competitive, free tickets, free food, good times! This time we'll be holding the event at General Assembly in downtown Boston, and we're very excited.",
+            "image": "http://purplemonkeygamejam.com/images/monkey.png"
+        },
+        {
+            "name": "AI Game Jam",
+            "url": "http://ai-jam.com/",
+            "start_date": "2015-03-20 21:00:00",
+            "end_date": "2015-03-29 20:59:59",
+            "description": "AIJAM is a 9 day game jam March 21-29, 2015 focused on making games where artificial intelligence is the core mechanic. AIJAM is open to anyone and everyone interested in experimenting with AI in games.",
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS8zNzAvNzY4NDcucG5n/original/VPrYsq.png"
+        }
+    ]
 }
