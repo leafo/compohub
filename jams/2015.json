@@ -181,6 +181,17 @@
             "end_date": "2015-03-29 20:59:59",
             "description": "AIJAM is a 9 day game jam March 21-29, 2015 focused on making games where artificial intelligence is the core mechanic. AIJAM is open to anyone and everyone interested in experimenting with AI in games.",
             "image": "http://img.itch.io/aW1hZ2UyL2phbS8zNzAvNzY4NDcucG5n/original/VPrYsq.png"
+        },
+        {
+            "name": "The Public Domain Jam 2",
+            "url": "http://www.publicdomainjam.com",
+            "description": "Robin Hood, Zorro, Frankenstein, The Wizard of Oz, The Hunchback of Notre Dame... The list goes on forever, and these are all stories that are free to be remixed and remade by anyone. Whatever the reason, a lot of these stories aren't out there in games yet. Let's MAKE SOME!",
+            "start_date": "2015-05-15 09:00:00",
+            "end_date": "2015-05-25 10:00:00",
+            "tags": [
+                "public domain", "games", "cc0", "copyright", ""
+            ],
+            "image": "http://gritfish.net/pdj/images/Year2logo.png"
         }
     ]
 }
