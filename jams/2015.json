@@ -224,6 +224,44 @@
             "tags": [
                 "random", "name"
             ]
+        },
+        {
+            "name": "Pi Day Jam 2015",
+            "url": "http://itch.io/jam/pi-day-jam-2015",
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS80MTIvODA2NTAuanBn/original/kgjRPp.jpg",
+            "description": "The world is celebrating Pi Day; so we're having an informal Pi Day Jam! Come join us and celebrate the famously irrational number by making a game that elevates Pi! Pick your favorite genre or make a new circle-based one!",
+            "start_date": "2015-03-14 00:00:00",
+            "end_date": "2015-05-18 23:59:59",
+            "tags": [
+                "pi",
+                "pi-day"
+            ]
+        },
+        {
+            "name": "Intel Level Up 2015",
+            "url": "http://software.intel.com/levelup",
+            "image": "https://software.intel.com/sites/campaigns/levelup2015/images/banner01.jpg",
+            "description": "The contest is to encourage game developers from eligible countries to create innovative playable game demos and compete for the chance to win exciting cash prizes and achieve greater exposure in the gaming industry. Contest winners in the major prize categories may also be given the opportunity to turn their game demos into fully playable game titles and sign a Steam online gaming platform commercial distribution contract with Valve Corporation at Valve Corporation’s sole discretion.",
+            "start_date": "2015-03-02 00:00:00",
+            "end_date": "2015-05-13 23:59:59",
+            "tags": [
+                "intel",
+                "contest",
+                "level-up"
+            ]
+        },
+        {
+            "name": "Multijam Ultra 2015: Arcade Edition",
+            "url": "http://jams.gamejolt.io/multijamultra2015",
+            "image": "http://brooklyngamery.com/assets/img/events/multijam-logo.png",
+            "description": "Whether it’s on an arcade cabinet, on a couch or over the Internet, playing games with others is a great time. In order to create more games that bring people together and encourage interaction, we’re holding the Multijam Ultra 2015: Arcade Edition, a 48-hour game jam during which you can create a multiplayer game. Will the game be competitive, cooperative or creative? Will players fight, farm or make music? You decide!",
+            "start_date": "2015-04-24 00:00:00",
+            "end_date": "2015-04-26 23:59:59",
+            "tags": [
+                "Multijam-ultra",
+                "local-multiplayer",
+                "multiplayer"
+            ]
         }
     ]
 }
