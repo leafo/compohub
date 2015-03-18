@@ -214,6 +214,16 @@
                 "public domain", "games", "cc0", "copyright", ""
             ],
             "image": "http://gritfish.net/pdj/images/Year2logo.png"
+        },
+        {
+            "name": "Random Name Jam",
+            "url": "http://lnwdr.github.io/random-name-jam/",
+            "description": "Recently, http://videogamena.me made some buzz on Twitter. So @pstn_, @peterschueler and @lnwdr came up with the idea of making actual games out of the random names from that site. And of course, everyone is welcome to join us! Physical presence is not required and it's not a contest. We just want to build some fun side projects and set ourselves a deadline to actually get something done.",
+            "start_date": "2015-03-23 00:00:00",
+            "end_date": "2015-03-29 23:59:59",
+            "tags": [
+                "random", "name"
+            ]
         }
     ]
 }
