@@ -1,6 +1,15 @@
 {
     "jams": [
         {
+            "name": "Sonen GameJam, Oslo",
+            "start_date": "2015-04-10 17:00:00 +0100",
+            "end_date": "2015-04-12 17:00:00 +0100",
+            "description": "A 48-hour gamejam in oslo, with voting, pizza and prizes!",
+            "url": "http://sonengamejam.org",
+            "tags": ["oslo", "sonengamejam", "UiO", "University of Oslo", "norway", "ifi", "institute of informatics", "westerdalen", "NTH", "bitraf"],
+            "image": "jams/images/sonengamejam.png"
+        },
+        {
             "name": "HTML5 Game Jam Paris",
             "url": "http://html5gamejam.org",
             "start_date": "2015-04-10 19:00 +0100",
