@@ -164,6 +164,19 @@
             "local": false
         },
         {
+            "name": "Mini LD#58",
+            "url": "http://ludumdare.com/compo/2015/03/13/mini-ld-58-march-20-29/",
+            "start_date": "2015-03-20",
+            "end_date": "2015-03-29",
+            "description": "http://ludumdare.com/compo/2015/03/13/mini-ld-58-march-20-29/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "image": "http://ludumdare.com/compo/wp-content/uploads/2015/03/MINI.png"
+
+        },
+        {
             "name": "MeatlyJam",
             "url": "http://www.meatlyjam.com/",
             "start_date": "2015-03-27 00:01",
