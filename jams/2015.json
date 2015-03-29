@@ -262,6 +262,18 @@
                 "local-multiplayer",
                 "multiplayer"
             ]
+        },
+        {
+            "name": "Adventure Jam 2015",
+            "url": "http://www.adventurejam.org",
+            "image": "http://www.adventurejam.org/images/adventurejam_logo_v3.png",
+            "description": "Hi! We're Cassie Benter and Stacy Davidson and we love adventure! We want to create a small adventure game in 14 days, and we're inviting the whole world to join us with creations of your own! Whether you love point & click adventure, text adventure or exploring 3D environments, we want you to jump in and create a game that embodies the spirit of adventure, whatever that means for you! Adventure games have been around nearly as long as computers, and what began with words on a black screen has evolved into an amazing spectrum of gaming experiences. Let's celebrate the awesome legacy this genre has created with 14 days of pixels, puzzles, parody and pathos! So GET LAMP... GET SWORD... and GET READY... for AdventureJam!",
+            "start_date": "2015-04-03 21:00:00 -0400",
+            "end_date": "2015-04-17 21:00:00 -0400",
+            "tags": [
+                "adventure-jam",
+                "adventure-game"
+            ]
         }
     ]
 }
