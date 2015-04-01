@@ -238,6 +238,20 @@
             ]
         },
         {
+            "name": "GitHub Game Off 2015",
+            "url": "http://github.com/blog/1972-the-game-has-changed",
+            "description": "Github Game Off is back! This year's theme: 'The Game Has Changed'. Fork an existing game project and go wild! (Final game should be playable in-browser.)",
+            "start_date": "2015-03-13 13:37 -0700",
+            "end_date": "2015-04-13 13:37 -0700",
+            "tags": [
+                "github",
+                "github-game-off"
+            ],
+            "themes": [
+                "the-game-has-changed"
+            ]
+        },
+        {
             "name": "Intel Level Up 2015",
             "url": "http://software.intel.com/levelup",
             "image": "https://software.intel.com/sites/campaigns/levelup2015/images/banner01.jpg",
