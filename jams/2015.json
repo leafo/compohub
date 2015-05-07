@@ -1,5 +1,14 @@
 {
     "jams": [
+    	{
+    	    "name" : "MUDJAM",
+    	    "start_date" : "2015-05-11 07:00:00 +0900",
+    	    "end_date" : "2015-05-25 07:00:00 +0900",
+    	    "description" : "Create a text-based multi-user dungeon game",
+    	    "url" : "http://itch.io/jam/mudjam",
+    	    "tags" : ["mud"],
+    	    "image" : "http://img.itch.io/aW1hZ2UyL2phbS81MzAvMTAxODY0LmdpZg==/original/mExB4J.gif"
+    	},
         {
             "name": "Sonen GameJam, Oslo",
             "start_date": "2015-04-10 17:00:00 +0100",
