@@ -301,6 +301,18 @@
                 "cooking",
 		"food"
             ]
+        },
+        {
+            "name": "LA Board Game Jam",
+            "url": "http://laboardgamejam.com",
+            "description": "Jam for making board games, hosted at Gamex (Board Game Convention) in LA. Requires ticket to Gamex to enter and advance signup on website. First of its kind - come to support board game creation and future board game jams!",
+            "start_date": "2015-05-24 11:00:00 -0700",
+            "end_date": "2015-05-24 20:00:00 -0700",
+            "tags": [
+                "boardgames",
+                "gamex",
+		"LA"
+            ]
         }
     ]
 }
