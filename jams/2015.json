@@ -322,6 +322,18 @@
                 "gamex",
 		"LA"
             ]
+        },
+        {
+            "name": "Accessibility Jam 2015",
+            "url": "http://accessibilityjam.org",
+            "start_date": "2015-05-11 15:00:00 -0700",
+            "end_date": "2015-06-01 15:00:00 -0700",
+            "description": "The goal of this jam is to raise awareness, giving developers knowledge and experience of how to make mainstream video games accessible to gamers with disabilities, to provide good examples of what's possible, and move accessibility towards being widely accepted good practice in the game design process. Over 20% of gamers have some form of impairment that can affect gameplay. They're a huge group with very real spending power who can find life changing benefits from gaming, but they are often unnecessarily and unknowingly locked out by developers.",
+            "local": false,
+            "tags": [
+                "accessibilityjam"
+            ],
+            "image": "http://i.imgur.com/MCDc1br.png"
         }
     ]
 }
