@@ -334,6 +334,20 @@
                 "accessibilityjam"
             ],
             "image": "http://i.imgur.com/MCDc1br.png"
+        },
+        {
+            "name": "WAG Challenge 2015",
+            "url": "http://itch.io/jam/wag-challenge",
+            "start_date": "2015-06-01 00:00:00 -0400",
+            "end_date": "2015-07-01 00:00:00 -0400",
+            "description": "This jam is a special contest about game writing, with a jury of pro writers in the game industry.",
+            "local": false,
+            "tags": [
+                "wagchallenge"
+                "gamewriting"
+                "narrative"
+                "story"
+            ],
         }
     ]
 }
