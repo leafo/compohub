@@ -343,9 +343,9 @@
             "description": "This jam is a special contest about game writing, with a jury of pro writers in the game industry.",
             "local": false,
             "tags": [
-                "wagchallenge"
-                "gamewriting"
-                "narrative"
+                "wagchallenge",
+                "gamewriting",
+                "narrative",
                 "story"
             ]
         }
