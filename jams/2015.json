@@ -1,6 +1,15 @@
 {
     "jams": [
     	{
+    	    "name" : "Bacon Game Jam 09",
+    	    "start_date" : "2015-06-12 22:00:00 +0000",
+    	    "end_date" : "2015-06-14 22:00:00 +0000",
+    	    "description" : "48 hour community game jam, based around the /r/bacongamejam subreddit. Teams can be any size and winners are determined by voting. There are no prizes, just honor and glory!",
+    	    "url" : "https://bacongamejam.org",
+    	    "tags" : ["bacon","bacongamejam","reddit","09"],
+    	    "image" : "http://i.imgur.com/M8K7xCK.png"
+    	},
+    	{
     	    "name" : "MUDJAM",
     	    "start_date" : "2015-05-11 07:00:00 +0900",
     	    "end_date" : "2015-05-25 07:00:00 +0900",
