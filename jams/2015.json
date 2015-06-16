@@ -1,5 +1,18 @@
 {
     "jams": [
+    	 {
+            "name": "EPIC GAME JAM",
+            "url": "http://epicgamejam.com",
+            "start_date": "2015-07-03 20:00 +0100",
+            "end_date": "2015-07-03 17:00 +0100",
+            "tags": [
+                "wtf",
+                "epic",
+                "subthemes"
+            ],
+            "description": "45 hours to make a game, start with 1 main theme. A lot of new subthemes added along the way. Are you epic enough to get them all?",
+            "image": "http://www.epicgamejam.com/sites/all/themes/epicgamejam/build/svg/epicgamejam_logo.svg"
+        },
     	{
     	    "name" : "Bacon Game Jam 09",
     	    "start_date" : "2015-06-12 22:00:00 +0000",
