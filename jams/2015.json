@@ -18,10 +18,7 @@
             "url": "http://ludumdare.com/compo/2015/06/16/minild-60-lets-celebrate-ludum-dare/",
             "start_date": "2015-06-27 1:00 +0000",
             "end_date": "2015-07-03 1:00 +0000",
-            "tags": [
-                "Ludum Dare",
-                "epic"
-            ],
+            "tags": ["Ludum Dare"],
             "description": "Celebrate Ludum dare by making a game using any past Ludum Dare theme. Plus, you can make games and write posts about what Ludum Dare has meant to you.",
             "image": "http://ludumdare.com/compo/wp-content/uploads/2015/06/ludumlogo-550x172.png"
         },
