@@ -390,5 +390,19 @@
                 "story"
             ]
         }
+        {
+            "name": "BITBITJam",
+            "start_date": "2015-07-24 17:00:00 +0100",
+            "end_date": "2015-07-27 17:00:00 +0100",
+            "description": "BITBITJam is a RetroGame event where people around the world create a game for old hardware in a weekend. The goal is to share tools that helps make games for older platforms. The entries later could be used as working examples that make easy and accessible the first development contact.",
+            "url": "http://bitbitjam.com/",
+            "image": "http://bitbitjam.com/img/bitbitjam-200px.png",
+            "tags": [
+                "retro-game-jam",
+                "real-hardware",
+                "public domain",
+                "old-school-jam"
+            ]
+        },
     ]
 }
