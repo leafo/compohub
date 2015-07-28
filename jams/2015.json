@@ -403,6 +403,20 @@
                 "public domain",
                 "old-school-jam"
             ]
+        },
+        {
+            "name": "#CPCRetroDev 2015",
+            "url": "http://cpcretrodev.byterealms.com/contest-en/cpcretrodev-2015/",
+            "start_date": "2015-06-18 12:00 +0100",
+            "end_date": "2015-10-23 23:59 +0100",
+            "tags": [
+                "Amstrad CPC",
+                "retro",
+                "Cassette",
+                "64K"
+            ],
+            "description": "This contest aims to award the best and more creative developers from Amstrad retro scene, able to create the best games for Amstrad CPC 464. The compo features 2 main categories (PRO and BASIC), 900€ in prizes and the creation of a Physical Cassette tape with all presented games. Games will be judged by retro specialists and prizes will be given at a prize ceremony, the 31th of October, that will be broadcasted by streaming to the world.",
+            "image": "http://cpcretrodev.byterealms.com/wp-content/uploads/2015/06/cpcretrodev2014_min.gif"
         }
     ]
 }
