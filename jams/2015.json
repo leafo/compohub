@@ -431,6 +431,109 @@
             ],
             "description": "This contest aims to award the best and more creative developers from Amstrad retro scene, able to create the best games for Amstrad CPC 464. The compo features 2 main categories (PRO and BASIC), 900€ in prizes and the creation of a Physical Cassette tape with all presented games. Games will be judged by retro specialists and prizes will be given at a prize ceremony, the 31th of October, that will be broadcasted by streaming to the world.",
             "image": "http://cpcretrodev.byterealms.com/wp-content/uploads/2015/06/cpcretrodev2014_min.gif"
-        }
+        },
+		{
+			"name": "OrcaJam 6",
+			"url": "http://www.orcajam.com",
+			"start_date": "2015-09-11 00:00:00",
+			"end_date": "2015-09-13 23:59:59",
+			"tags": [
+				"orcajam", 
+				"victoria", 
+				"bc", 
+				"canada", 
+				"video_game", 
+				"board_game"
+			],
+			"description": "OrcaJam is Victoria BC's 48 hour Game Jam along the lines of the Global Game Jam and TIGJam.  It's an event where a bunch of aspiring and experienced game designers get together and work on what they love - making games - for 48 hours.  Programmers, artists, audio engineers, board game designers, and anyone else interested in game development should come. Team up with newfound friends and make something amazing!",
+            "themes": [
+                "secret"
+            ]
+		},
+		{
+			"name": "GBJAM 4",
+			"url": "http://gbjam.net",
+			"start_date": "2015-08-08",
+			"end_date": "2015-08-18",
+			"tags": [
+				"gameboy"
+			],
+			"description": " The GBJAM is a video game development JAM that developers will spend 10 days and develop a game based around the theme of GameBoy.",
+			"themes": [
+				"gameboy"
+			]
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-07-01",
+			"end_date": "2015-07-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-08-01",
+			"end_date": "2015-08-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-09-01",
+			"end_date": "2015-09-30",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-10-01",
+			"end_date": "2015-10-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-11-01",
+			"end_date": "2015-11-30",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-12-01",
+			"end_date": "2015-12-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		}
     ]
 }
