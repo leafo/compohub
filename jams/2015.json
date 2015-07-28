@@ -403,6 +403,20 @@
                 "public domain",
                 "old-school-jam"
             ]
-        }
+        },
+		{
+			"name": "A Game By Its Cover 2015",
+			"url": "http://itch.io/jam/a-game-by-its-cover-2015",
+			"description": "AGBIC is back! Based on the original TIGSource competition and inspired by Meteor's annual My Famicase Exhibition, A Game By Its Cover is a game jam where people turn fake video game cover art into real games! Organised by @Ludonaut and @zerstoerer. #AGBIC",
+			"start_date": "2015-06-20 00:00:00",
+			"end_date": "2015-08-16 23:59:59",
+			"tags": [
+				"agbic",
+				"famicase",
+				"a-game-by-its-cover",
+				"tigsource"
+			],
+			"image": "https://i.imgur.com/MVVER4y.png"
+		}
     ]
 }
