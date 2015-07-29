@@ -11,6 +11,19 @@
             "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
         },    	 
         {
+            "name": "js13kGames 2015",
+            "url": "http://2015.js13kgames.com/",
+            "start_date": "2015-08-13 13:00 +0200",
+            "end_date": "2015-09-13 13:00 +0200",
+            "tags": [
+                "js13k",
+                "js13kgames"
+            ],
+            "local": false,
+            "description": "Js13kGames is a JavaScript coding competition for HTML5 Game Developers. The fun part of the compo is the file size limit set to 13 kilobytes.",
+            "image": "http://js13kgames.com/img/avatar.png"
+        },
+        {
             "name": "EPIC GAME JAM",
             "url": "http://epicgamejam.com",
             "start_date": "2015-07-03 20:00 +0100",
