@@ -1,0 +1,552 @@
+{
+    "jams": [
+        {
+            "name": "Ludum Dare 33",
+            "url": "http://ludumdare.com/compo/",
+            "start_date": "2015-08-21",
+            "end_date": "2015-08-24",
+            "tags": [
+                "ludum-dare"
+            ],
+            "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
+        },    	 
+        {
+            "name": "js13kGames 2015",
+            "url": "http://2015.js13kgames.com/",
+            "start_date": "2015-08-13 13:00 +0200",
+            "end_date": "2015-09-13 13:00 +0200",
+            "tags": [
+                "js13k",
+                "js13kgames"
+            ],
+            "local": false,
+            "description": "Js13kGames is a JavaScript coding competition for HTML5 Game Developers. The fun part of the compo is the file size limit set to 13 kilobytes.",
+            "image": "http://js13kgames.com/img/avatar.png"
+        },
+        {
+            "name": "EPIC GAME JAM",
+            "url": "http://epicgamejam.com",
+            "start_date": "2015-07-03 20:00 +0100",
+            "end_date": "2015-07-05 17:00 +0100",
+            "tags": [
+                "wtf",
+                "epic",
+                "subthemes"
+            ],
+            "description": "45 hours to make a game, start with 1 main theme. A lot of new subthemes added along the way. Are you epic enough to get them all?",
+            "image": "http://www.epicgamejam.com/sites/all/themes/epicgamejam/build/svg/epicgamejam_logo.svg"
+        },
+        {
+            "name": "MiniLD #60",
+            "url": "http://ludumdare.com/compo/2015/06/16/minild-60-lets-celebrate-ludum-dare/",
+            "start_date": "2015-06-27 01:00 +0000",
+            "end_date": "2015-07-03 01:00 +0000",
+            "tags": ["Ludum Dare"],
+            "description": "Celebrate Ludum dare by making a game using any past Ludum Dare theme. Plus, you can make games and write posts about what Ludum Dare has meant to you.",
+            "image": "http://ludumdare.com/compo/wp-content/uploads/2015/06/ludumlogo-550x172.png"
+        },
+    	{
+    	    "name" : "Bacon Game Jam 09",
+    	    "start_date" : "2015-06-12 22:00:00 +0000",
+    	    "end_date" : "2015-06-14 22:00:00 +0000",
+    	    "description" : "48 hour community game jam, based around the /r/bacongamejam subreddit. Teams can be any size and winners are determined by voting. There are no prizes, just honor and glory!",
+    	    "url" : "https://bacongamejam.org",
+    	    "tags" : ["bacon","bacongamejam","reddit","09"],
+    	    "image" : "http://i.imgur.com/M8K7xCK.png"
+    	},
+    	{
+    	    "name" : "MUDJAM",
+    	    "start_date" : "2015-05-11 07:00:00 +0900",
+    	    "end_date" : "2015-05-25 07:00:00 +0900",
+    	    "description" : "Create a text-based multi-user dungeon game",
+    	    "url" : "http://itch.io/jam/mudjam",
+    	    "tags" : ["mud"],
+    	    "image" : "http://img.itch.io/aW1hZ2UyL2phbS81MzAvMTAxODY0LmdpZg==/original/mExB4J.gif"
+    	},
+        {
+            "name": "Sonen GameJam, Oslo",
+            "start_date": "2015-04-10 17:00:00 +0100",
+            "end_date": "2015-04-12 17:00:00 +0100",
+            "description": "A 48-hour gamejam in oslo, with voting, pizza and prizes!",
+            "url": "http://sonengamejam.org",
+            "tags": ["oslo", "sonengamejam", "UiO", "University of Oslo", "norway", "ifi", "institute of informatics", "westerdalen", "NTH", "bitraf"],
+            "image": "jams/images/sonengamejam.png"
+        },
+        {
+            "name": "HTML5 Game Jam Paris",
+            "url": "http://html5gamejam.org",
+            "start_date": "2015-04-10 19:00 +0100",
+            "end_date": "2015-04-12 18:00 +0100",
+            "tags": [
+                "html5",
+                "web",
+                "game",
+                "phaser",
+                "babylon",
+                "threejs"
+            ],
+            "description": "HTML5 Game Jam Paris is an international event open to professionnals, students and other web enthousiasts. During this event, teams of graphists and developers will battle to make the best game from scratch using the latest open web technologies. The event will last the whole weekend (10 11 12 april 2015) and we plan to organize small tech talks.",
+            "image": "http://i.imgur.com/4AvNLRh.png"
+        },
+        {
+            "name": "JamForLeelah",
+            "url": "http://itch.io/jam/jamforleelah",
+            "start_date": "2015-01-17 01:00 -0000",
+            "end_date": "2015-02-17 12:00 -0000",
+            "tags": [
+                "jamForleelah",
+                "lgbt",
+                "trans"
+            ],
+            "description": "#JamForLeelah is a month long trans positive game jam to raise awareness on LGBTIQ issues, specifically trans youth issues and Leelah's Law as well as an attempt to raise money for trans specific charities such as the Transgender Law Center, Camp Aranu'tiq, and the Sylvia Rivera Law Project. ",
+            "image": "http://i.imgur.com/ljeBaXH.png"
+        },
+        {
+            "name": "Controversial Jam",
+            "url": "https://sites.google.com/site/thecontroversialjam/",
+            "start_date": "2015-01-20 01:00 -0000",
+            "end_date": "2015-01-30 12:00 -0000",
+            "description": "you will get a subject from the website when the jam begins, it will be controversial. do with it what you may."
+        },
+        {
+            "name": "TAG Jam 18",
+            "url": "http://jams.gamejolt.io/tagjam18",
+            "start_date": "2015-01-16 00:00 -0500",
+            "end_date": "2015-01-18 23:59 -0500",
+            "tags": [
+                "tag-jam",
+                "tagjam",
+                "tagjam18"
+            ],
+            "themes": [],
+            "local": false,
+            "description": "The Arbitrary Game Jam #18 is a relaxed monthly gamejam with three random themes to challenge your creativity and two optional bonus themes chosen by the host. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
+            "image": "http://i.imgur.com/Ij5nLdP.png"
+        },
+        {
+            "name": "Global Game Jam Stockholm",
+            "url": "http://ggjsthlm.wordpress.com",
+            "start_date": "2015-01-23",
+            "end_date": "2015-01-25",
+            "tags": [
+                "games",
+                "GGJ"
+            ],
+            "description": "Participate in the words largest game jam!!"
+        },
+        {
+            "name": "GMC Jam 17",
+            "url": "http://gmc.yoyogames.com/index.php?showtopic=650769",
+            "description": "So, it's January again and you know what that means? It's the Jam's anniversary!... The Sparkling GMC Jam #17 is here to bring in 4 years of the event!!! Time to create a 72 hour GameMaker masterpiece with which to scare away all the opposition and win the approval (or not!) of our peers. This time around the Jam will run from Saturday 24th of January through Monday 26th and will be 72 hours dedicated purely to game development. Are you ready?",
+            "start_date": "2015-01-24 00:00",
+            "end_date": "2015-01-26 23:59",
+            "tags": [
+                "gamemaker",
+                "games",
+                "gmc",
+                "17"
+            ],
+            "image": "http://i118.photobucket.com/albums/o94/wormintheworks/GMCJam17Logo_zps08005b6a.png"
+        },
+        {
+            "name": "Ludum Dare 32",
+            "url": "http://ludumdare.com/compo/",
+            "start_date": "2015-04-17",
+            "end_date": "2015-04-20",
+            "tags": [
+                "ludum-dare"
+            ],
+            "description": "Choose between a solo 48 hour game compo or a 72 hour jam."
+        },
+        {
+            "name": "Mini Ludum Dare #56",
+            "start_date": "2015-01-31",
+            "end_date": "2015-02-02",
+            "description": "Mini Ludum Dares are here to fill the boring months without ordinary Ludum Dares. The host changes every time and so do the rules. It all depends on the host but MiniLDs are often relaxed compared to LDs.",
+            "local": false,
+            "url": "http://ludumdare.com/compo/2015/01/07/minild-56-pick-n-mix-2/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ]
+        },
+        {
+            "name": "The Finish a Game Jam",
+            "start_date": "2015-02-04",
+            "end_date": "2015-02-14",
+            "description": "If you're currently working on a game but aren't motivated enough to finish it, NOW IS THE TIME. CRUNCH TIME! FINISH IT BEFORE THE DEADLINE, YOU SLACKER! If you don't have a current project, help people in the first category! Making a short motivational game for them.",
+            "local": false,
+            "url": "http://itch.io/jam/the-finish-a-game-jam",
+            "tags": [
+                "motivation",
+                "finish"
+            ]
+        },
+        {
+            "name": "Teacart 1K",
+            "start_date": "2015-02-20",
+            "end_date": "2015-02-22",
+            "description": "Make a Sharecart1000 game in 48 hours — then watch it mangle other games in an upcoming multi-game release.",
+            "local": false,
+            "url": "http://itch.io/jam/teacart-1k",
+            "tags": [
+                "sharecart",
+                "finish"
+            ]
+        },
+        {
+            "name": "TAG Jam 19",
+            "url": "http://jams.gamejolt.io/tagjam19",
+            "start_date": "2015-02-16 00:01 -0500",
+            "end_date": "2015-02-19 23:59 -0500",
+            "tags": [
+                "tag-jam",
+                "tagjam",
+                "tagjam19"
+            ],
+            "themes": [
+                "genre-mixing"
+            ],
+            "local": false,
+            "description": "The Arbitrary Game Jam #19 is a monthly gamejam to challenge your creativity. The theme of TAG Jam 19 is genre-mixing. In addition to the genres, 4 optional random themes will be provided. Entries are judged by the host and the winner gets an opportunity to host TAG jam next month.",
+            "image": "http://i.imgur.com/3CviwNa.png"
+        },
+        {
+            "name": "Mini LD 57",
+            "url": "http://ludumdare.com/compo/2015/02/15/mini-ld-57-reversed/",
+            "start_date": "2015-02-20 18:00 -0800",
+            "end_date": "2015-02-27 18:00 -0800",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "themes": [
+                "reversed",
+                "chinese-zodiac"
+            ],
+            "local": false
+        },
+        {
+            "name": "Mini LD#58",
+            "url": "http://ludumdare.com/compo/2015/03/13/mini-ld-58-march-20-29/",
+            "start_date": "2015-03-20",
+            "end_date": "2015-03-29",
+            "description": "http://ludumdare.com/compo/2015/03/13/mini-ld-58-march-20-29/",
+            "tags": [
+                "minild",
+                "ludum-dare"
+            ],
+            "image": "http://ludumdare.com/compo/wp-content/uploads/2015/03/MINI.png"
+
+        },
+        {
+            "name": "MeatlyJam",
+            "url": "http://www.meatlyjam.com/",
+            "start_date": "2015-03-27 00:01",
+            "end_date": "2015-03-29 23:59",
+            "tags": [
+                "meatly"
+            ],
+            "local": false,
+            "description": "You're invited to join MeatlyJam! Make your game and show your coolness! Submit something, maybe win something. Have lots of the fun-like stuff. :) And watch out for falling awesomeness as you work. (TheMeatly is not responsible for people hurt by falling awesomeness.)",
+            "image": "http://i.imgur.com/VWPYfZr.png"
+        },
+        {
+            "name": "Purple Monkey Game Jam",
+            "url": "http://purplemonkeygamejam.com/",
+            "start_date": "2015-03-28 09:00:00 -0500",
+            "end_date": "2015-03-29 16:00:00 -0500",
+            "description": "We're back! The 6th ever Purple Monkey Game Jam returns to Boston March 28th and 29th. Standard fare: full weekend, themed, non-competitive, free tickets, free food, good times! This time we'll be holding the event at General Assembly in downtown Boston, and we're very excited.",
+            "image": "http://purplemonkeygamejam.com/images/monkey.png"
+        },
+        {
+            "name": "AI Game Jam",
+            "url": "http://ai-jam.com/",
+            "start_date": "2015-03-20 21:00:00",
+            "end_date": "2015-03-29 20:59:59",
+            "description": "AIJAM is a 9 day game jam March 21-29, 2015 focused on making games where artificial intelligence is the core mechanic. AIJAM is open to anyone and everyone interested in experimenting with AI in games.",
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS8zNzAvNzY4NDcucG5n/original/VPrYsq.png"
+        },
+        {
+            "name": "The Public Domain Jam 2",
+            "url": "http://www.publicdomainjam.com",
+            "description": "Robin Hood, Zorro, Frankenstein, The Wizard of Oz, The Hunchback of Notre Dame... The list goes on forever, and these are all stories that are free to be remixed and remade by anyone. Whatever the reason, a lot of these stories aren't out there in games yet. Let's MAKE SOME!",
+            "start_date": "2015-05-15 09:00:00",
+            "end_date": "2015-05-25 10:00:00",
+            "tags": [
+                "public domain", "games", "cc0", "copyright", ""
+            ],
+            "image": "http://gritfish.net/pdj/images/Year2logo.png"
+        },
+        {
+            "name": "Random Name Jam",
+            "url": "http://lnwdr.github.io/random-name-jam/",
+            "description": "Recently, http://videogamena.me made some buzz on Twitter. So @pstn_, @peterschueler and @lnwdr came up with the idea of making actual games out of the random names from that site. And of course, everyone is welcome to join us! Physical presence is not required and it's not a contest. We just want to build some fun side projects and set ourselves a deadline to actually get something done.",
+            "start_date": "2015-03-23 00:00:00",
+            "end_date": "2015-03-29 23:59:59",
+            "tags": [
+                "random", "name"
+            ]
+        },
+        {
+            "name": "Pi Day Jam 2015",
+            "url": "http://itch.io/jam/pi-day-jam-2015",
+            "image": "http://img.itch.io/aW1hZ2UyL2phbS80MTIvODA2NTAuanBn/original/kgjRPp.jpg",
+            "description": "The world is celebrating Pi Day; so we're having an informal Pi Day Jam! Come join us and celebrate the famously irrational number by making a game that elevates Pi! Pick your favorite genre or make a new circle-based one!",
+            "start_date": "2015-03-14 00:00:00",
+            "end_date": "2015-03-18 23:59:59",
+            "tags": [
+                "pi",
+                "pi-day"
+            ]
+        },
+        {
+            "name": "GitHub Game Off 2015",
+            "url": "http://github.com/blog/1972-the-game-has-changed",
+            "description": "Github Game Off is back! This year's theme: 'The Game Has Changed'. Fork an existing game project and go wild! (Final game should be playable in-browser.)",
+            "start_date": "2015-03-13 13:37 -0700",
+            "end_date": "2015-04-13 13:37 -0700",
+            "tags": [
+                "github",
+                "github-game-off"
+            ],
+            "themes": [
+                "the-game-has-changed"
+            ]
+        },
+        {
+            "name": "Intel Level Up 2015",
+            "url": "http://software.intel.com/levelup",
+            "image": "https://software.intel.com/sites/campaigns/levelup2015/images/banner01.jpg",
+            "description": "The contest is to encourage game developers from eligible countries to create innovative playable game demos and compete for the chance to win exciting cash prizes and achieve greater exposure in the gaming industry. Contest winners in the major prize categories may also be given the opportunity to turn their game demos into fully playable game titles and sign a Steam online gaming platform commercial distribution contract with Valve Corporation at Valve Corporation’s sole discretion.",
+            "start_date": "2015-03-02 00:00:00",
+            "end_date": "2015-05-13 23:59:59",
+            "tags": [
+                "intel",
+                "contest",
+                "level-up"
+            ]
+        },
+        {
+            "name": "Multijam Ultra 2015: Arcade Edition",
+            "url": "http://jams.gamejolt.io/multijamultra2015",
+            "image": "http://brooklyngamery.com/assets/img/events/multijam-logo.png",
+            "description": "Whether it’s on an arcade cabinet, on a couch or over the Internet, playing games with others is a great time. In order to create more games that bring people together and encourage interaction, we’re holding the Multijam Ultra 2015: Arcade Edition, a 48-hour game jam during which you can create a multiplayer game. Will the game be competitive, cooperative or creative? Will players fight, farm or make music? You decide!",
+            "start_date": "2015-04-24 00:00:00",
+            "end_date": "2015-04-26 23:59:59",
+            "tags": [
+                "Multijam-ultra",
+                "local-multiplayer",
+                "multiplayer"
+            ]
+        },
+        {
+            "name": "Adventure Jam 2015",
+            "url": "http://www.adventurejam.org",
+            "image": "http://www.adventurejam.org/images/adventurejam_logo_v3.png",
+            "description": "Hi! We're Cassie Benter and Stacy Davidson and we love adventure! We want to create a small adventure game in 14 days, and we're inviting the whole world to join us with creations of your own! Whether you love point & click adventure, text adventure or exploring 3D environments, we want you to jump in and create a game that embodies the spirit of adventure, whatever that means for you! Adventure games have been around nearly as long as computers, and what began with words on a black screen has evolved into an amazing spectrum of gaming experiences. Let's celebrate the awesome legacy this genre has created with 14 days of pixels, puzzles, parody and pathos! So GET LAMP... GET SWORD... and GET READY... for AdventureJam!",
+            "start_date": "2015-04-03 21:00:00 -0400",
+            "end_date": "2015-04-17 21:00:00 -0400",
+            "tags": [
+                "adventure-jam",
+                "adventure-game"
+            ]
+        },
+	{
+            "name": "Let's Cook Jam",
+            "url": "http://jams.gamejolt.io/letscookjam",
+            "image": "http://i.imgur.com/cloWvaV.png",
+            "description": "We need more Indie food related games! Come join us in making some awesome games involving food. Games entered do not have to include cooking, but must have food in them! Hosted by Jupiter Hadley. All submitted games will be covered on my YouTube channel.",
+            "start_date": "2015-04-24 00:00:00 -0400",
+            "end_date": "2015-05-03 00:00:00 -0400",
+            "tags": [
+                "letscookjam",
+                "cooking",
+		"food"
+            ]
+        },
+        {
+            "name": "LA Board Game Jam",
+            "url": "http://laboardgamejam.com",
+            "description": "Jam for making board games, hosted at Gamex (Board Game Convention) in LA. Requires ticket to Gamex to enter and advance signup on website. First of its kind - come to support board game creation and future board game jams!",
+            "start_date": "2015-05-24 11:00:00 -0700",
+            "end_date": "2015-05-24 20:00:00 -0700",
+            "tags": [
+                "boardgames",
+                "gamex",
+		"LA"
+            ]
+        },
+        {
+            "name": "Accessibility Jam 2015",
+            "url": "http://accessibilityjam.org",
+            "start_date": "2015-05-11 15:00:00 -0700",
+            "end_date": "2015-06-01 15:00:00 -0700",
+            "description": "The goal of this jam is to raise awareness, giving developers knowledge and experience of how to make mainstream video games accessible to gamers with disabilities, to provide good examples of what's possible, and move accessibility towards being widely accepted good practice in the game design process. Over 20% of gamers have some form of impairment that can affect gameplay. They're a huge group with very real spending power who can find life changing benefits from gaming, but they are often unnecessarily and unknowingly locked out by developers.",
+            "local": false,
+            "tags": [
+                "accessibilityjam"
+            ],
+            "image": "http://i.imgur.com/MCDc1br.png"
+        },
+        {
+            "name": "WAG Challenge 2015",
+            "url": "http://itch.io/jam/wag-challenge",
+            "start_date": "2015-06-01 00:00:00 -0400",
+            "end_date": "2015-07-01 00:00:00 -0400",
+            "description": "This jam is a special contest about game writing, with a jury of pro writers in the game industry.",
+            "local": false,
+            "tags": [
+                "wagchallenge",
+                "gamewriting",
+                "narrative",
+                "story"
+            ]
+        },
+        {
+            "name": "BITBITJam",
+            "start_date": "2015-07-24 17:00:00 +0100",
+            "end_date": "2015-07-27 17:00:00 +0100",
+            "description": "BITBITJam is a RetroGame event where people around the world create a game for old hardware in a weekend. The goal is to share tools that helps make games for older platforms. The entries later could be used as working examples that make easy and accessible the first development contact.",
+            "url": "http://bitbitjam.com/",
+            "image": "http://bitbitjam.com/img/bitbitjam-200px.png",
+            "tags": [
+                "retro-game-jam",
+                "real-hardware",
+                "public domain",
+                "old-school-jam"
+            ]
+        },
+		{
+			"name": "A Game By Its Cover 2015",
+			"url": "http://itch.io/jam/a-game-by-its-cover-2015",
+			"description": "AGBIC is back! Based on the original TIGSource competition and inspired by Meteor's annual My Famicase Exhibition, A Game By Its Cover is a game jam where people turn fake video game cover art into real games! Organised by @Ludonaut and @zerstoerer. #AGBIC",
+			"start_date": "2015-06-20 00:00:00",
+			"end_date": "2015-08-16 23:59:59",
+			"tags": [
+				"agbic",
+				"famicase",
+				"a-game-by-its-cover",
+				"tigsource"
+			],
+			"image": "https://i.imgur.com/MVVER4y.png"
+		},
+        {
+            "name": "#CPCRetroDev 2015",
+            "url": "http://cpcretrodev.byterealms.com/contest-en/cpcretrodev-2015/",
+            "start_date": "2015-06-18 12:00 +0100",
+            "end_date": "2015-10-23 23:59 +0100",
+            "tags": [
+                "Amstrad CPC",
+                "retro",
+                "Cassette",
+                "64K"
+            ],
+            "description": "This contest aims to award the best and more creative developers from Amstrad retro scene, able to create the best games for Amstrad CPC 464. The compo features 2 main categories (PRO and BASIC), 900€ in prizes and the creation of a Physical Cassette tape with all presented games. Games will be judged by retro specialists and prizes will be given at a prize ceremony, the 31th of October, that will be broadcasted by streaming to the world.",
+            "image": "http://cpcretrodev.byterealms.com/wp-content/uploads/2015/06/cpcretrodev2014_min.gif"
+        },
+		{
+			"name": "OrcaJam 6",
+			"url": "http://www.orcajam.com",
+			"start_date": "2015-09-11 00:00:00",
+			"end_date": "2015-09-13 23:59:59",
+			"tags": [
+				"orcajam", 
+				"victoria", 
+				"bc", 
+				"canada", 
+				"video_game", 
+				"board_game"
+			],
+			"description": "OrcaJam is Victoria BC's 48 hour Game Jam along the lines of the Global Game Jam and TIGJam.  It's an event where a bunch of aspiring and experienced game designers get together and work on what they love - making games - for 48 hours.  Programmers, artists, audio engineers, board game designers, and anyone else interested in game development should come. Team up with newfound friends and make something amazing!",
+            "themes": [
+                "secret"
+            ]
+		},
+		{
+			"name": "GBJAM 4",
+			"url": "http://gbjam.net",
+			"start_date": "2015-08-08",
+			"end_date": "2015-08-18",
+			"tags": [
+				"gameboy"
+			],
+			"description": " The GBJAM is a video game development JAM that developers will spend 10 days and develop a game based around the theme of GameBoy.",
+			"themes": [
+				"gameboy"
+			]
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-07-01",
+			"end_date": "2015-07-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-08-01",
+			"end_date": "2015-08-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-09-01",
+			"end_date": "2015-09-30",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-10-01",
+			"end_date": "2015-10-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-11-01",
+			"end_date": "2015-11-30",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "One Game A Month",
+			"url": "http://www.onegameamonth.com",
+			"start_date": "2015-12-01",
+			"end_date": "2015-12-31",
+			"tags": [
+				"1GAM",
+				"monthly",
+				"one-game-a-month"
+			],
+			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		}
+    ]
+}

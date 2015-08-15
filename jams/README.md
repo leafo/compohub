@@ -1,26 +1,26 @@
 # How to add a new jam
 
-To add a new jam you can submit a pull request with the jam's
-information added to one of the `json` files in this directory. Once accepted
+To add a new jam you can submit a pull request with the information of the jam
+added to one of the `json` files in this directory. Once accepted
 the page will be updated and your jam will be visible.
 
-If you're not familiar with creating a pull request then you can also open an
+If you're not familiar with creating a pull request then alternatively you can also open an
 issue on the [issues tracker](https://github.com/leafo/compohub/issues) with
-the jam you want added.
+the jam you want to submit.
 
-If you don't want to use GitHub at all you can use this Google Form to submit a jam and an admin will review it and create the change for you: <https://docs.google.com/forms/d/1c2UrXfRdJm723fv7kJY0BG7eOCg8nC9eNp-fARe6aqE/viewform>
+If you don't want to use GitHub at all then you can use this Google Form to submit a jam and an administrator will review your submission and create the change for you: <https://docs.google.com/forms/d/1c2UrXfRdJm723fv7kJY0BG7eOCg8nC9eNp-fARe6aqE/viewform>
 
 Jams are organized by their starting year. Choose the `json` file that
 corresponds to the year when your jam starts, if the file doesn't exist yet
 then you can create it.
 
-For example let's create a new jam that starts *May 4th, 2014 at 12pm* and
+For example, let's create a new jam that starts *May 4th, 2014 at 12pm* and
 lasts 10 days.
 
 You'll need to create a new object in the `jams` array, the position doesn't
 matter but for simplicity keep things in ascending order of start date.
 
-If you are specifying a time in addition to date for your start and end then
+If you are specifying a time in addition to the date for your start and end then
 you should provide a timezone (otherwise it defaults to UTC). More information
 on times and dates below.
 
@@ -67,7 +67,7 @@ Here's a more complete version of the above example:
 
 ### Tags and themes
 
-Tags and themes can be used to classify your jam. If your jam is part of a
+Tags and themes can be used to categorise your jam. If your jam is part of a
 series then definitely make a tag for that series (even if it's the first one
 of the series). Re-use existing tags whenever possible.
 

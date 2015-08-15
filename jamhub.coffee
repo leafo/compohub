@@ -102,14 +102,30 @@ J.slugify = (str) ->
     .replace(/-$/, "")
 
 class J.Jams
-  @url: "jams/2014.json" # TODO: multiple urls
+  # get all active jam.json
+  @jam_urls: ->
+    today = moment()
+    start_year = today.subtract("month", 1).get "year"
+    end_year = today.add("month", 2).get "year"
+
+    urls = ["jams/" + start_year + ".json"]
+    if end_year != start_year
+      urls.push "jams/" + end_year + ".json"
+
+    urls
 
   @fetch: (fn) ->
-    @_deferred ||= $.get(@url).then (res) =>
-      if typeof res == "string"
-        res = JSON.parse(res)
-      @slugify_jams res.jams
-      new J.Jams res
+    urls = @jam_urls()
+    @_deferred ||= $.when(($.get(url) for url in urls)...).then =>
+      all_jams = []
+      if urls.length > 1
+        for res in arguments
+          all_jams = all_jams.concat res[0].jams
+      else
+        all_jams = arguments[0].jams
+
+      @slugify_jams all_jams
+      new J.Jams all_jams
 
     @_deferred.done fn
 
@@ -140,7 +156,7 @@ class J.Jams
     jams_by_slug
 
   constructor: (data) ->
-    @jams = for jam_data in data.jams
+    @jams = for jam_data in data
       new J.Jam jam_data
 
   truncate: (time) ->
@@ -695,4 +711,3 @@ class J.SingleJam
     @jam = new J.Jam @el.find(".jam_box").data("jam")
     @el.find(".progress_outer").replaceWith @jam.render_time_data()
     J.Header.instance.update_share_links @jam
-
