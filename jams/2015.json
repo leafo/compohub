@@ -539,6 +539,19 @@
 			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
 		},
 		{
+			"name": "Nuit Blanche Empathique",
+			"url": "https://www.facebook.com/events/1630336777227239/",
+			"start_date": "2015-10-02",
+			"end_date": "2015-10-04",
+			"themes": ["empathy"],
+			"tags": [
+				"nuit blanche",
+				"empathetic",
+				"paris"
+			],
+			"description": "Let's make fun games installations and exhibit them during paris nuit blanche"
+		},
+		{
 			"name": "One Game A Month",
 			"url": "http://www.onegameamonth.com",
 			"start_date": "2015-11-01",
