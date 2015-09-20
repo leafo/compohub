@@ -527,6 +527,21 @@
 			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
 		},
 		{
+			"name": "Komiks Game Jam 2",
+			"url": "http://komiksjam-en.confetti.events",
+			"description": "A 48h game jam taking place during the International Festival of Comics and Games in Lodz, Poland. The participants are jamming games live in the middle of the festival showfloor, completely open to the rest of the event visitors. The jam's theme will be related to comics and the culture that surrounds that medium.",
+			"start_date": "2015-10-02 16:00:00",
+			"end_date": "2015-10-04 16:00:00",
+			"tags": [
+				"komiks-game-jam",
+				"comics",
+				"lodz",
+				"poland",
+				"mfkig"
+			],
+			"image": "http://i.imgur.com/rMJS6a7.jpg"
+		},
+		{
 			"name": "One Game A Month",
 			"url": "http://www.onegameamonth.com",
 			"start_date": "2015-10-01",
