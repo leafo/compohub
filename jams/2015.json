@@ -589,6 +589,15 @@
 				"one-game-a-month"
 			],
 			"description": "Gamification aded to game development. Try to release a new game every month and earn experience points."
+		},
+		{
+			"name": "Sonen GameJam, Oslo",
+			"url": "http://sonengamejam.org",
+			"start_date": "2015-10-23 17:00:00 +0100",
+			"end_date": "2015-10-25 17:00:00 +0100",
+			"tags": ["oslo", "sonengamejam", "UiO", "University of Oslo", "norway", "ifi", "institute of informatics", "westerdalen", "NTH", "bitraf"],
+			"description": "A 48-hour gamejam in oslo, with voting, pizza and prizes!",
+			"image": "jams/images/sonengamejam.png"
 		}
     ]
 }
