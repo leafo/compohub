@@ -607,6 +607,15 @@
             "tags": ["libgdx"],
             "description": "Make a game using Libgdx during this month long game jam. Don't worry if you have a full time job or a busy schedule, plenty of time to submit a cool game. Come over, we've got prizes!",
             "image": "http://i.imgur.com/1RtGhYD.png"
+        },
+        {
+            "name": "Nerp Jam",
+            "url": "http://jams.gamejolt.io/nerpjam",
+            "start_date": "2015-12-18 00:00 -0800",
+            "end_date": "2016-01-04 00:00 -0800",
+            "tags": ["nerpjam"],
+            "description": "If you like to make games over the holidays here's your chance! So join in on the fun!",
+            "image": "http://codenerps.com/wp-content/uploads/2014/10/Code-Nerps-Logo-250x250.png"
         }
     ]
 }
