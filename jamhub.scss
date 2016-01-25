@@ -3,7 +3,7 @@ $primary_color: #5DCC92;
 $link_color: #5CCCC4;
 $cell_height: 40px;
 $label_height: 40px;
-$site_width: 640px;
+$site_width: 100%;
 
 @mixin transition($args...) {
     -webkit-transition: $args;
@@ -52,6 +52,12 @@ a {
 
     &:hover {
         color: $link_color;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .header_tools {
+        display: none;
     }
 }
 
