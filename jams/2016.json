@@ -5,6 +5,15 @@
       "url": "https://www.facebook.com/events/1117401494948921/",
       "start_date": "2016-01-29 18:00 -0700",
       "end_date": "2016-01-31 23:59 -0700"
+    },
+    {
+      "name": "#CPCRetroDev 2016: International Game Development Contest for Amstrad CPC",
+      "url": "http://cpcretrodev.byterealms.com/contest-en/cpcretrodev-2016/",
+      "start_date": "2014-05-18 00:00 -0100",
+      "end_date": "2014-10-26 23:59 -0100",
+      "themes": ["any", "Camelot Warriors"],
+      "tags": ["Amstrad", "Retro", "64K", "8bits", "casete"],
+      "description": "This contest awards the best and most creative developers of the retro scene, able to develop the best games for Amstrad CPC 464. Prizes (1050€). PRO Category: 1) 300€, 2) 150€, 3) 75€. BASIC Category: 1) 100€, 2) 50€. Special Mentions: 125€ Gominolas best music, 125€ Jon Ritman best technical development, 125€ Dinamic most innovative playability."
     }
   ]
 }
