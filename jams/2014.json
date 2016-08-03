@@ -498,6 +498,18 @@
             ]
         },
         {
+            "name": "Toronto Independent Game Jam",
+            "start_date": "2014-04-25 10:00:00 -0400",
+            "end_date": "2014-04-27 23:00:00 -0400",
+            "description": "The Toronto Independent Game Jam (TOJam) is a free, annual, open-to-the-public event that attracts a mix of hobbyists, students, and professionals. For some, it's an opportunity to try new ideas, for others it's a chance to focus. For everyone, it's a grand old time!",
+            "local": true,
+            "url": "http:\/\/www.tojam.ca\/",
+            "tags": [
+                "tojam",
+                "toronto"
+            ]
+        },
+        {
             "name": "FGL Game Jam",
             "start_date": "2014-03-01 12:00:00 +0000",
             "end_date": "2014-03-03 12:00:00 +0000",
