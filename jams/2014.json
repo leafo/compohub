@@ -1487,5 +1487,15 @@
           "start_date": "2014-10-10 00:00 -05:00",
           "end_date": "2014-10-31 23:59 -05:00"
         }
+        {
+            "name": "L.I.V Game Jam",
+            "url": "http://liv.ggjsantafe.com.ar/",
+            "image": "https://www.dropbox.com/s/5pntnpbtx6ka49e/promo.jpg",
+            "start_date": "2014-07-07 00:00 -0000",
+            "end_date": "2014-07-14 01:00 -0000",
+            "local": false,
+            "tags": ["LIV", "LIVGAMEJAM"],
+            "description": "this is the hardest jam - for creative people"
+        }
     ]
 }
