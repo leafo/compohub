@@ -1,3 +1,11 @@
 {
-	"jams": []
+	"jams": [
+    {
+      "name": "Ocean Game Jam",
+      "url": "http://oceangamejam.de",
+      "start_date": "2017-05-20 10:00 +0200",
+      "end_date": "2017-05-21 17:00 +0200"
+      "description": "This Game Jam is special, because it focuses on an urgent environmental topic. We want to create a bridge between scientific approaches and the creative work of game developing. In the end it is about how to communicate serious topics in a playful way."
+    }
+	]
 }
